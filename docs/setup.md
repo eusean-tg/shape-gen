@@ -217,7 +217,8 @@ the same service access to each holder; there are no per-user scopes or isolated
 
 ### Persistent user service
 
-`config/shape-gen-api.service` describes the original machine. For a new installation,
+`config/shape-gen-api.service` is an ignored local unit for the original machine;
+it is not included in a clone. For a new installation,
 copy `config/shape-gen-api.service.example` to
 `~/.config/systemd/user/shape-gen-api.service` and replace **every** `/ABSOLUTE/SHAPE_GEN`
 with this checkout's absolute path. Change the bind address only if remote access
@@ -271,8 +272,10 @@ regenerating it from current guides is not a repair. See
 
 ## Browser preview
 
-The reusable preview is static Three.js source. Git excludes the local vendor
-symlink; recreate it in a fresh checkout if missing:
+The reusable preview is local static Three.js source under `assets/`, whose contents
+are excluded from Git. These instructions require restoring `assets/preview/` and
+`assets/peasant-hymotion/vendor/` from an existing workspace or backup first; a
+fresh clone does not include the viewer. Recreate the vendor symlink only if missing:
 
 ```sh
 ln -s ../peasant-hymotion/vendor assets/preview/vendor
@@ -281,7 +284,7 @@ python3 -m http.server 5173 --bind 127.0.0.1 --directory assets
 
 Open `http://127.0.0.1:5173/preview/` and use **Open GLB** or drop a self-contained
 GLB into the page. Run `ln` only if `assets/preview/vendor` is absent. Vendored Three.js
-source is included; no Bun, Vite or npm build is needed. The saved example menu
+source must be restored alongside the viewer; no Bun, Vite or npm build is needed. The saved example menu
 references historical binary assets excluded from Git; opening one can fail until
 those assets are restored. Your own GLB can still be loaded and played/looped.
 

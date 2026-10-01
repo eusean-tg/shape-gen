@@ -131,12 +131,16 @@ when to read each file. Rebuild it with `python3 scripts/build_docs_index.py`.
 
 - `scripts/`: setup, model runners, review helpers and standard-library API client.
 - `shape_api/`, `tests/`: service implementation and contract tests.
-- `config/`: pinned environments, upstream source revisions and model download catalog.
+- `config/`: pinned environments, upstream source revisions and model download catalog;
+  generated UniRig configs and the machine-local service unit are ignored.
 - `docs/`: maintained setup/reference guides and dated research.
-- `assets/`: preview and experiment source; generated binaries are ignored.
+- `assets/`: local generated outputs and experiment/preview files; everything is
+  ignored except `.gitkeep`. A fresh clone contains only the empty directory.
 - `models/`, `third_party/`, `.venv*/`, `.toolchain/`: downloaded dependencies,
   ignored by Git. Setup helpers recreate these; they are not part of a clone.
 - `var/api/`: private queue, uploads and results, also ignored.
+- `exports/`: generated handoffs are ignored except the maintained API client/docs
+  distribution and immutable Blender helper releases.
 
 `scripts/setup_sources.py --list` lists pinned upstream code. From the core
 environment, `scripts/setup_models.py --list` lists model groups and download sizes;
@@ -144,7 +148,8 @@ environment, `scripts/setup_models.py --list` lists model groups and download si
 creates the metadata sidecars required by the runners. Separate downloaders cover
 BPT and animation. See the setup guides for all commands.
 
-The browser preview accepts your own GLB, including textures and animation clips;
-see [preview setup](docs/setup.md#browser-preview). Historic examples, accepted
-character bundles and model weights are not distributed in Git. Generated outputs
+The local browser preview accepts your own GLB, including textures and animation clips;
+see [preview setup](docs/setup.md#browser-preview). Preview files, experiment reports,
+historic examples, accepted character bundles and model weights are not distributed
+in Git. Generated outputs
 and any irreplaceable references need separate backups.

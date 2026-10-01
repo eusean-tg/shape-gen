@@ -1,7 +1,0 @@
-{
-  "operation": "trimesh.repair.fix_normals(multibody=True); no vertex movement or face removal",
-  "triangles": 476943,
-  "winding_consistent": false,
-  "boundary_edges": 35989,
-  "nonmanifold_edges": 0
-}

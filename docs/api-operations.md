@@ -22,7 +22,8 @@ loaded in the HTTP process. SSE clients read persisted events and cannot cancel
 a job by disconnecting.
 
 - Address: `http://100.66.127.115:8765`, bound to the Tailscale IP only.
-- Unit: `config/shape-gen-api.service`, installed as a user systemd service.
+- Local unit: `config/shape-gen-api.service` (ignored by Git), installed as a user
+  systemd service. The tracked portable template is `config/shape-gen-api.service.example`.
 - Agent contract: [api-agent.md](api-agent.md), also authenticated `/docs/agent.md`.
 - Credential: `~/.config/shape-gen/api-token`, mode 0600; never checked in.
 - State: `var/api/jobs.sqlite3`, `var/api/assets/`, `var/api/objects/`, `var/api/profile/`, `var/api/jobs/`.
@@ -35,7 +36,10 @@ journalctl --user -u shape-gen-api.service -n 50
 .venv-api/bin/python scripts/shape_api_client.py health
 ```
 
-To install on this machine after a fresh checkout:
+To reinstall this machine's service using its existing local unit, use the commands
+below. A fresh checkout has no `config/shape-gen-api.service`: first create and
+customize a local unit from the tracked `.service.example` as described in
+[API setup](setup.md#persistent-user-service), then install it.
 
 ```sh
 uv venv .venv-api --python 3.11

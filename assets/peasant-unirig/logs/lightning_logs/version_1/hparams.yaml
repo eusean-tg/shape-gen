@@ -1,8 +1,0 @@
-steps_per_epoch: 1
-output_path: tmp_skin
-record_res: true
-val_interval: 1
-val_start_from: 1
-scheduler_config: null
-optimizer_config: null
-loss_config: null

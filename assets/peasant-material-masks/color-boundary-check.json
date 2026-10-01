@@ -1,6 +1,0 @@
-{
-  "definition": "Warm ochre: R > .4, R > 1.6 B, G > 1.4 B (sRGB); restricted to reviewed trouser mask above Z -.32. Color heuristic, not semantic segmentation.",
-  "upper_trouser_texels": 206420,
-  "ochre_texels_before": 66572,
-  "ochre_texels_after": 0
-}

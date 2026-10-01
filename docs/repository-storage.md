@@ -14,8 +14,8 @@ and its documentation; it is not a backup of all generated assets on this machin
 ## What belongs in Git
 
 - Python runners, API implementation, tests, configuration and dependency locks.
-- Preview/React source, experiment scripts and small JSON/text reports under
-  `assets/`; source and metadata under `exports/`.
+- The maintained `exports/shape-gen-api/` consumer handoff and `assets/.gitkeep`
+  as an empty-directory placeholder.
 - Small immutable `exports/blender-helpers/<version>/bundle.zip` source/doc bundles,
   together with their `manifest.json` and `release.json`. This narrow ZIP exception
   keeps helper downloads available in a fresh clone.
@@ -28,20 +28,24 @@ and its documentation; it is not a backup of all generated assets on this machin
 - `third_party/`: separate upstream checkouts and their build products.
 - `.venv*/`, `.toolchain/`, caches and installed packages.
 - `var/`: API database, uploaded inputs, job output and runtime state.
-- Generated meshes (including `assets/**/*-mesh.json` and `assets/**/mesh.json`
-  geometry arrays), Blender projects, textures, recordings and PDFs. Other archives
-  remain ignored; only the small helper source bundles above are included.
+- `config/unirig/`: generated inference YAMLs; recreate with
+  `scripts/configure_unirig.py`. The API creates its own per-job configs.
+- `config/shape-gen-api.service`: this machine's local unit; the portable
+  `config/shape-gen-api.service.example` stays tracked.
+- Generated export packages, including `exports/character-v1/`. Back up accepted
+  character handoffs separately, including their consumer snippets and reports.
+- All of `assets/` except `.gitkeep`: generated meshes, previews, experiment
+  scripts, reports and supporting vendor files stay local.
+- Generated Blender projects, textures, recordings, PDFs and other archives
+  elsewhere also remain ignored; only the small helper source bundles above are included.
 - Auth tokens, private keys and `.env` files. The service token is managed outside
   this repository, under `~/.config/shape-gen/`.
 
-The `.gitignore` uses source allowlists inside `assets/` and `exports/` so new
-binary formats in those folders are ignored by default. Small reports can still
-contain machine-specific paths, input descriptions and identifiers; this is not
-an anonymized public release. JSON exclusion is filename-based, not content-aware:
-name new geometry dumps `*-mesh.json` or `mesh.json`; a differently named JSON can
-still contain large arrays. The release check recursively scans Git-eligible asset
-JSON for dictionaries containing both a `vertices` list and a `faces` list. It does
-not detect every possible geometry encoding, renamed keys or other large arrays.
+The `.gitignore` excludes the entire contents of `assets/` apart from `.gitkeep`.
+Only the explicitly listed API handoff files and helper release files are allowed
+inside `exports/`; new export directories are ignored by default. Removing files
+from Git's index keeps the existing local files; it does not delete them from disk. A fresh clone
+needs any wanted previews, reports and authored assets restored separately.
 Review the staged diff before publishing.
 
 ## Working with a fresh clone

@@ -6,40 +6,28 @@
 /models/
 /var/
 
-# Preserve source, documentation and small reports inside experiment/handoff
-# folders. Everything else in these folders (including future binaries) is ignored.
-/assets/**
-/exports/**
-!/assets/**/
-!/exports/**/
-!/assets/**/*.py
-!/assets/**/*.js
-!/assets/**/*.mjs
-!/assets/**/*.jsx
-!/assets/**/*.ts
-!/assets/**/*.tsx
-!/assets/**/*.html
-!/assets/**/*.css
-!/assets/**/*.md
-!/assets/**/*.json
-!/assets/**/*.yaml
-!/assets/**/*.yml
-!/assets/**/*.txt
-!/assets/**/LICENSE*
-!/assets/**/NOTICE*
-!/exports/**/*.py
-!/exports/**/*.js
-!/exports/**/*.mjs
-!/exports/**/*.jsx
-!/exports/**/*.ts
-!/exports/**/*.tsx
-!/exports/**/*.md
-!/exports/**/*.json
-!/exports/**/SHA256SUMS
+# Local generated assets; retain only the directory placeholder.
+/assets/*
+!/assets/.gitkeep
 
-# Generated geometry arrays are meshes even when serialized as JSON.
-/assets/**/*-mesh.json
-/assets/**/mesh.json
+# Machine-local generated configuration and deployment unit.
+/config/unirig/
+/config/shape-gen-api.service
+
+# Generated exports stay local. Retain the two maintained consumer distributions.
+/exports/**
+!/exports/blender-helpers/
+!/exports/blender-helpers/*/
+!/exports/blender-helpers/*/manifest.json
+!/exports/blender-helpers/*/release.json
+!/exports/shape-gen-api/
+!/exports/shape-gen-api/README.md
+!/exports/shape-gen-api/agent.md
+!/exports/shape-gen-api/blender-handoff.md
+!/exports/shape-gen-api/geometry-experiments.md
+!/exports/shape-gen-api/motion-diagnostics.md
+!/exports/shape-gen-api/shape_api_client.py
+!/exports/shape-gen-api/SHA256SUMS
 
 # Generated binary assets, checkpoints, archives and downloaded papers anywhere.
 *.safetensors

@@ -64,27 +64,20 @@ def test_every_advertised_helper_is_git_eligible_and_verifiable(tmp_path):
         assert report['verified_files'] >= 8
 
 
-def has_geometry(value):
-    if isinstance(value, dict):
-        if isinstance(value.get('vertices'), list) and isinstance(value.get('faces'), list):
-            return True
-        return any(has_geometry(v) for v in value.values())
-    if isinstance(value, list):
-        return any(has_geometry(v) for v in value)
-    return False
-
-
-def test_generated_geometry_is_ignored_but_reports_remain_eligible():
-    assert ignored('assets/example/source-mesh.json')
-    assert ignored('assets/example/mesh.json')
-    assert ignored('assets/example/01-dense.glb')
-    assert ignored('assets/example/archive.zip')
-    assert not ignored('assets/example/generation.json')
-    eligible = subprocess.check_output(['git', 'ls-files', '--cached', '--others', '--exclude-standard', '-z'],
-                                       cwd=ROOT, text=True).split('\0')
-    for name in eligible:
-        if name.startswith('assets/') and name.endswith('.json'):
-            assert not has_geometry(json.loads((ROOT / name).read_text())), name
+def test_assets_are_ignored_except_placeholder():
+    for name in ('source-mesh.json', 'mesh.json', '01-dense.glb', 'archive.zip',
+                 'generation.json', 'review.html', 'runner.py', 'README.md'):
+        assert ignored('assets/example/' + name)
+    assert not ignored('assets/.gitkeep')
+    assert ignored('config/unirig/skeleton.yaml')
+    assert ignored('config/shape-gen-api.service')
+    assert ignored('exports/character-v1/README.md')
+    assert ignored('exports/future-character/report.json')
+    assert not ignored('config/shape-gen-api.service.example')
+    assert not ignored('exports/shape-gen-api/README.md')
+    tracked = subprocess.check_output(['git', 'ls-files', '-z', '--', 'assets/'],
+                                      cwd=ROOT, text=True).split('\0')
+    assert [name for name in tracked if name] == ['assets/.gitkeep']
 
 
 def test_diagnostic_description_update_preserves_calculations():

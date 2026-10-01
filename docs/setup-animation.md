@@ -63,6 +63,10 @@ and `faces`, in the coordinate convention described by the
 input data and per-job inference configurations, runs skeleton/skin stages and
 returns `rig-data.npz`. Mesh validation uses the core `.venv` as well.
 
+The default direct-CLI configuration directory, `config/unirig/`, is generated
+and ignored by Git. Direct CLI workflows must first run `scripts/configure_unirig.py`
+with their asset/config paths; the API generates these configurations per job.
+
 Character-specific scripts such as `prepare_unirig_peasant.py` are historical
 reference helpers. They are not generic arbitrary-character CLI entry points.
 Do not reuse a previous character's bone mapping or weight corrections blindly.
