@@ -1,0 +1,53 @@
+generate_kwargs: !!python/object/new:box.box.Box
+  dictitems:
+    assign_cls: articulationxl
+    do_sample: true
+    max_new_tokens: 2048
+    no_cls: false
+    num_beams: 3
+    num_return_sequences: 1
+    repetition_penalty: 3.0
+    temperature: 1.5
+    top_k: 5
+    top_p: 0.95
+    use_dir_cls: false
+  state:
+    _box_config:
+      __created: true
+      __safe_keys:
+        assign_cls: assign_cls
+        do_sample: do_sample
+        max_new_tokens: max_new_tokens
+        no_cls: no_cls
+        num_beams: num_beams
+        num_return_sequences: num_return_sequences
+        repetition_penalty: repetition_penalty
+        temperature: temperature
+        top_k: top_k
+        top_p: top_p
+        use_dir_cls: use_dir_cls
+      box_class: &id001 !!python/name:box.box.Box ''
+      box_dots: false
+      box_dots_exclude: null
+      box_duplicates: ignore
+      box_intact_types: !!python/tuple []
+      box_namespace: !!python/tuple []
+      box_recast: null
+      box_safe_prefix: x
+      camel_killer_box: false
+      conversion_box: true
+      default_box: false
+      default_box_attr: *id001
+      default_box_create_on_get: true
+      default_box_none_transform: true
+      frozen_box: false
+      modify_tuples_box: false
+loss_config: null
+optimizer_config: null
+output_path: null
+record_res: false
+scheduler_config: null
+steps_per_epoch: 1
+val_interval: 1
+val_start_from: null
+validate_cast: bfloat16

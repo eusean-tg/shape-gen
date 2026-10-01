@@ -1,0 +1,26 @@
+{
+  "Idle_Breathe": {
+    "min": 63,
+    "median": 63.0,
+    "max": 63,
+    "samples": 61
+  },
+  "Idle_LookAround": {
+    "min": 58,
+    "median": 59.0,
+    "max": 68,
+    "samples": 61
+  },
+  "Idle_WeightShift": {
+    "min": 63,
+    "median": 65.0,
+    "max": 70,
+    "samples": 61
+  },
+  "Idle_HandCheck": {
+    "min": 36,
+    "median": 57.0,
+    "max": 104,
+    "samples": 61
+  }
+}

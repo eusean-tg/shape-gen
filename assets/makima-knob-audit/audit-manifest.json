@@ -1,0 +1,19 @@
+{
+  "gpu": "NVIDIA GeForce RTX 3050, 8192 MiB",
+  "scripts": {
+    "bpt_trial.py": "9658df7e6b89320d8a9e00361773f4e75da25331590418e9337e9ffd80701590",
+    "build_review.py": "688db36a4aaf7cfec74b913e1af8f4d90358dd79cf344a29eccdac895d30f0b9",
+    "hierarchical_decoder.py": "0e623a3cc0fcd5fd7fa8e29f5a73c9ab4b7f7023e72c9dd0f6df3de61cc92e33",
+    "make_clouds.py": "28cbeabfbcb21e992958939f7fbd54717033b5c7e87cf1b87b0f73559f41db66",
+    "render_details.py": "78f196cc15ddfc0d7e7974a5cb1ba84eed0ee37f67b2df1274427ec3189f0d3a",
+    "render_trials.py": "13070e7b7eba880f0befd7913d9a56db803b9c2e6b1e5234e07c155428535e24",
+    "shape_trial.py": "b69da2c92681d2cc70fc60efedbb7dc92e44b5794196ad09fbc811374381a7c6",
+    "summarize_trials.py": "103227e98c08e22ca6948b8b17f2508e579f86719aaeae06dcfe96ab5f96aae1"
+  },
+  "upstream_commits": {
+    "Hunyuan3D-2": "f8db63096c8282cb27354314d896feba5ba6ff8a",
+    "bpt": "4e6510e7ebaac6d21f558252ad7eb573aed0234a"
+  },
+  "scope": "isolated experiments; production runners and API defaults unchanged",
+  "script_snapshot_note": "Final review scripts; the two initial failed extractions predate the documented experimental decoder fix."
+}

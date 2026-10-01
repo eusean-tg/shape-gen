@@ -1,0 +1,32 @@
+sampler_config: &id003
+  method: mix
+  num_samples: 32768
+  vertex_samples: 8192
+tail_config: &id001
+  copy_joint_to_tail: false
+  connect_tail_to_unique_son: true
+order_config: &id002
+  skeleton_path:
+    vroid: ./configs/skeleton/vroid.yaml
+    mixamo: ./configs/skeleton/mixamo.yaml
+predict_transform_config:
+  augment_config:
+    augment_affine_config:
+      normalize_into:
+      - -1.0
+      - 1.0
+  tail_config: *id001
+  order_config: *id002
+  vertex_group_config:
+    names:
+    - voxel_skin
+    kwargs:
+      voxel_skin:
+        grid: 196
+        alpha: 0.5
+        link_dis: 1.0e-05
+        grid_query: 7
+        vertex_query: 1
+        grid_weight: 3.0
+        backend: open3d
+  sampler_config: *id003

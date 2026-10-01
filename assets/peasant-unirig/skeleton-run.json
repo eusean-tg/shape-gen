@@ -1,0 +1,10 @@
+{
+  "stage": "skeleton",
+  "seed": 12345,
+  "status": "complete",
+  "output": "/home/sean/workspace/shape-gen/assets/peasant-unirig/data/peasant/predict_skeleton.npz",
+  "seconds": 11.081337362993509,
+  "peak_cuda_allocated_mib": 2443.01513671875,
+  "peak_cuda_reserved_mib": 2658.0,
+  "peak_process_rss_mib": 4143.234375
+}

@@ -1,0 +1,15 @@
+{
+  "topology-review.blend": {
+    "rest_positions_faces_uvs_transforms_match_source": true,
+    "packed_texture_bytes_match_source": true,
+    "diagnostic_shape_keys": 0,
+    "all_probes_saved_at_zero": true
+  },
+  "poses/bend-probes.blend": {
+    "rest_positions_faces_uvs_transforms_match_source": true,
+    "packed_texture_bytes_match_source": true,
+    "diagnostic_shape_keys": 10,
+    "all_probes_saved_at_zero": true
+  },
+  "source_blend_unchanged": true
+}

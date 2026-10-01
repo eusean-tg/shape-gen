@@ -1,0 +1,50 @@
+{
+  "source": "/home/sean/workspace/shape-gen/assets/teal-peasant/collar-fix/final/peasant-walk.blend",
+  "source_sha256": "f3f967fe51f3eecccee3035643c5db6838f55c2ca22802b4a285c5d7d4f8007c",
+  "fps": 60,
+  "clips": {
+    "Idle_Breathe": {
+      "duration": 4,
+      "frames": 241,
+      "source": "/home/sean/workspace/shape-gen/assets/teal-peasant/idle-set/generated/breathe/motion.npz",
+      "endpoint_vertex_error": 0.0,
+      "sole_drift": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    "Idle_LookAround": {
+      "duration": 4,
+      "frames": 241,
+      "source": "/home/sean/workspace/shape-gen/assets/teal-peasant/idle-set/generated/look-around/motion.npz",
+      "endpoint_vertex_error": 0.0,
+      "sole_drift": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    "Idle_WeightShift": {
+      "duration": 4,
+      "frames": 241,
+      "source": "/home/sean/workspace/shape-gen/assets/teal-peasant/idle-set/generated/weight-shift/motion.npz",
+      "endpoint_vertex_error": 0.0,
+      "sole_drift": {
+        "L": 0.00031347799091622423,
+        "R": 0.0002996759614523534
+      }
+    },
+    "Idle_HandCheck": {
+      "duration": 4,
+      "frames": 241,
+      "source": "/home/sean/workspace/shape-gen/assets/teal-peasant/idle-set/generated/adjust-sleeve/motion.npz",
+      "endpoint_vertex_error": 0.0,
+      "sole_drift": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    }
+  },
+  "walk_preserved": true,
+  "geometry_weights_uvs_textures_changed": false,
+  "cleanup": "Periodic breathing fit; authored common standing stance, stable leg IK, .75/.85s accent entry/exit envelopes; weight-shift pelvis sway authored."
+}

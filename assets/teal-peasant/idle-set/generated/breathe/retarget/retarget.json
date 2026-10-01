@@ -1,0 +1,63 @@
+{
+  "source_blend": "/home/sean/workspace/shape-gen/assets/teal-peasant/collar-fix/rest/rigged.blend",
+  "source_sha256": "ad70dc15c44b0b2170c0a784c2d6da049d43c9c5b239b4f03d6915a25323a6a2",
+  "frames": 120,
+  "fps": 30,
+  "motion_source": "assets/teal-peasant/idle-set/generated/breathe/motion.npz",
+  "mapping": {
+    "pelvis": 0,
+    "spine": 3,
+    "chest": 6,
+    "upper_chest": 9,
+    "neck": 12,
+    "head": 15,
+    "clavicle.L": 13,
+    "upper_arm.L": 16,
+    "forearm.L": 18,
+    "hand.L": 20,
+    "clavicle.R": 14,
+    "upper_arm.R": 17,
+    "forearm.R": 19,
+    "hand.R": 21,
+    "thigh.L": 1,
+    "shin.L": 4,
+    "foot.L": 7,
+    "toe.L": 10,
+    "thigh.R": 2,
+    "shin.R": 5,
+    "foot.R": 8,
+    "toe.R": 11
+  },
+  "leg_length_scale": 1.1496420652527901,
+  "ground_offset": -0.0030246609821915627,
+  "method": "World rotation transfer with per-bone rest-direction correction; Y-up to Z-up; leg-scaled root displacement.",
+  "horizontal_root_motion_preserved": true,
+  "arm_clearance_degrees": 5.0,
+  "level_foot_rest": true,
+  "foot_rest_corrections": {
+    "foot.L": {
+      "previous_rest_forward_pitch_degrees": 16.210832726573866,
+      "new_rest_forward_pitch_degrees": 0.0
+    },
+    "toe.L": {
+      "previous_rest_forward_pitch_degrees": 16.21082178100231,
+      "new_rest_forward_pitch_degrees": 0.0
+    },
+    "foot.R": {
+      "previous_rest_forward_pitch_degrees": 16.206419060636353,
+      "new_rest_forward_pitch_degrees": 0.0
+    },
+    "toe.R": {
+      "previous_rest_forward_pitch_degrees": 16.206406516979275,
+      "new_rest_forward_pitch_degrees": 0.0
+    }
+  },
+  "ground_height_corrections": [],
+  "foot_ik": false,
+  "looped": false,
+  "geometry_and_weights_changed": false,
+  "minimum_foot_height_range": [
+    -3.6518031265586615e-08,
+    0.002520296024158597
+  ]
+}

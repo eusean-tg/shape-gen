@@ -1,0 +1,38 @@
+{
+  "source": "/home/sean/workspace/shape-gen/assets/peasant-bpt-staged/02-bpt.glb",
+  "source_sha256": "2604782c9a682b2b4100cecfb7b118e2204a747634d962be636fdcafdc16dcb3",
+  "triangles": 2279,
+  "texture_size": 2048,
+  "tile_size": 768,
+  "views": [
+    {
+      "elevation": 0,
+      "azimuth": 0
+    },
+    {
+      "elevation": 0,
+      "azimuth": 180
+    },
+    {
+      "elevation": 0,
+      "azimuth": 90
+    },
+    {
+      "elevation": 0,
+      "azimuth": 270
+    }
+  ],
+  "sheet_layout": "2x2 row-major",
+  "unwrapped_sha256": "4415c6b8eda470abd4984c94bbf66c9be3787748c09b46159c894669160061c0",
+  "painted_sheet": "/home/sean/workspace/shape-gen/assets/peasant-bpt-staged/imagegen-paint/painted-sheet.png",
+  "painted_sheet_sha256": "09ec15a902fd2cd3e5c8309c15a68bb9b55db66cab0ab1f7c8fd2e6121642757",
+  "output": "/home/sean/workspace/shape-gen/assets/peasant-bpt-staged/imagegen-paint/final/03-imagegen-textured.glb",
+  "output_sha256": "bdd9349028dfcb23864cad2eefc3c32d9cd565716d6d8d8e69fe7f2d9a56f2bc",
+  "output_triangles": 2279,
+  "bake_seconds": 5.0,
+  "synthesis": "built-in imagegen; no Hunyuan Paint inference",
+  "extra_sheet": "/home/sean/workspace/shape-gen/assets/peasant-bpt-staged/imagegen-paint/tilted/painted-sheet.png",
+  "extra_sheet_sha256": "ab8cbbaf12e4c1dcb5fa2e9778e74a3371aeaadcec4580c9cb977114383ba355",
+  "view_count": 8,
+  "projection": "angle-weighted multiview projection with geometry-aware UV filling"
+}

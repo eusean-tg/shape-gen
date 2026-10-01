@@ -1,0 +1,129 @@
+{
+  "status": "complete",
+  "model": "Original TRELLIS-image-large (not TRELLIS.2)",
+  "args": {
+    "views": [
+      "front",
+      "left",
+      "back",
+      "right"
+    ],
+    "steps": 25,
+    "seed": 12345,
+    "mode": "stochastic",
+    "output_dir": "assets/makima-trellis/multiview",
+    "resume_shape": null
+  },
+  "upstream_commit": "442aa1e1afb9014e80681d3bf604e8d728a86ee7",
+  "input_hashes": {
+    "front": "d79527af60556b014ddd8ee4be51c40b24836e972d0febfb7733524a22bd47be",
+    "left": "2164e2afa6439f91f56c2da84abb554e4d8257310aa0db101049ae7ed970864f",
+    "back": "04574d55e0b67d79ec6fe567ac17b3a13245b0a2220071cc21af3da3f27be56b",
+    "right": "398e4c440deb2bb24b407639d308f863f0113784e45a07329715663ae9113802"
+  },
+  "stages": [
+    {
+      "name": "image_features",
+      "seconds": 1.11,
+      "peak_allocated_mib": 1247.4,
+      "peak_reserved_mib": 1264.0
+    },
+    {
+      "name": "sparse_structure",
+      "seconds": 17.86,
+      "peak_allocated_mib": 1368.3,
+      "peak_reserved_mib": 1414.0
+    },
+    {
+      "name": "shape_latent",
+      "seconds": 4.91,
+      "peak_allocated_mib": 1273.8,
+      "peak_reserved_mib": 1302.0
+    },
+    {
+      "name": "mesh_decode_cpu_extraction",
+      "seconds": 5.81,
+      "peak_allocated_mib": 842.4,
+      "peak_reserved_mib": 884.0
+    }
+  ],
+  "memory_strategy": "GPU stage offload; original dense-grid FlexiCubes extraction on CPU",
+  "postprocessing": "axis conversion only; no hole filling, smoothing, or wrapping",
+  "checkpoint_manifest": {
+    "microsoft/TRELLIS-image-large": {
+      "revision": "25e0d31ffbebe4b5a97464dd851910efc3002d96",
+      "files": {
+        "ckpts/slat_dec_mesh_swin8_B_64l8m256c_fp16.json": {
+          "sha256": "293900795cb69cc972d1a20a4940ee12f7e007952c2ae92d128dda91b96ac317",
+          "bytes": 372,
+          "path": "/home/sean/workspace/shape-gen/models/trellis/TRELLIS-image-large/ckpts/slat_dec_mesh_swin8_B_64l8m256c_fp16.json"
+        },
+        "ckpts/slat_dec_mesh_swin8_B_64l8m256c_fp16.safetensors": {
+          "sha256": "3e87aba94b5786407eb06d0502c1ed0885a0027a3f2b8537bfe15b0a92c01859",
+          "bytes": 181903412,
+          "path": "/home/sean/workspace/shape-gen/models/trellis/TRELLIS-image-large/ckpts/slat_dec_mesh_swin8_B_64l8m256c_fp16.safetensors"
+        },
+        "ckpts/slat_flow_img_dit_L_64l8p2_fp16.json": {
+          "sha256": "c0a9bd57227f55cf75ff02562c27bb05c50174f06955f56a79dea2982fd7a8f9",
+          "bytes": 442,
+          "path": "/home/sean/workspace/shape-gen/models/trellis/TRELLIS-image-large/ckpts/slat_flow_img_dit_L_64l8p2_fp16.json"
+        },
+        "ckpts/slat_flow_img_dit_L_64l8p2_fp16.safetensors": {
+          "sha256": "693fb2a58ad497bd222007301eeec49d14d60f8c12d2f2f00c221fa747b4c66c",
+          "bytes": 1203755136,
+          "path": "/home/sean/workspace/shape-gen/models/trellis/TRELLIS-image-large/ckpts/slat_flow_img_dit_L_64l8p2_fp16.safetensors"
+        },
+        "ckpts/ss_dec_conv3d_16l8_fp16.json": {
+          "sha256": "646781293f1cda74720de85d1cef50a957fb4aebd9a4bd014e454e32f2330ac5",
+          "bytes": 245,
+          "path": "/home/sean/workspace/shape-gen/models/trellis/TRELLIS-image-large/ckpts/ss_dec_conv3d_16l8_fp16.json"
+        },
+        "ckpts/ss_dec_conv3d_16l8_fp16.safetensors": {
+          "sha256": "1c76d4a40519aa2d711cc263a8404105231ac26db31d946bed48b84fee79009a",
+          "bytes": 147591972,
+          "path": "/home/sean/workspace/shape-gen/models/trellis/TRELLIS-image-large/ckpts/ss_dec_conv3d_16l8_fp16.safetensors"
+        },
+        "ckpts/ss_flow_img_dit_L_16l8_fp16.json": {
+          "sha256": "bf69161da7ece9a87394dd4441f0cfa6d4261696a214a8f68388c81fa9a6b5b7",
+          "bytes": 385,
+          "path": "/home/sean/workspace/shape-gen/models/trellis/TRELLIS-image-large/ckpts/ss_flow_img_dit_L_16l8_fp16.json"
+        },
+        "ckpts/ss_flow_img_dit_L_16l8_fp16.safetensors": {
+          "sha256": "96dc6bfd4136fd950af564dd16b4ae533c9ba6af8f26c670646b2a9f2789b1db",
+          "bytes": 1130770840,
+          "path": "/home/sean/workspace/shape-gen/models/trellis/TRELLIS-image-large/ckpts/ss_flow_img_dit_L_16l8_fp16.safetensors"
+        },
+        "pipeline.json": {
+          "sha256": "2686b6c9b3b0a100b544d5f9dc7b3ecb15c9d98be9852d68e8731bd8dbe52a42",
+          "bytes": 1987,
+          "path": "/home/sean/workspace/shape-gen/models/trellis/TRELLIS-image-large/pipeline.json"
+        }
+      }
+    }
+  },
+  "gpu": "NVIDIA GeForce RTX 3050",
+  "torch": "2.6.0+cu124",
+  "sparse_tokens": 3836,
+  "mesh": {
+    "vertices": 81394,
+    "triangles": 162784,
+    "bounds": [
+      [
+        -0.4446544051170349,
+        -0.5001136064529419,
+        -0.10269215703010559
+      ],
+      [
+        0.44409769773483276,
+        0.5000970959663391,
+        0.10934389382600784
+      ]
+    ],
+    "watertight": false,
+    "winding_consistent": true,
+    "boundary_edges": 12,
+    "nonmanifold_edges": 0,
+    "sha256": "890a30ee89c286c2c73f553a59cca38e74d62eaaa42b2d608ef470f34e86df70"
+  },
+  "elapsed_seconds": 44.84
+}

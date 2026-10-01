@@ -1,0 +1,11 @@
+{
+  "input": "/home/sean/workspace/shape-gen/assets/makima-trellis2/front1024/01-dense-remesh-clean.glb",
+  "input_sha256": "9fbe1e5b81407202fc4c166d98d2f69a42a1ecdf066cf4ba95f1d58ad072e1ba",
+  "output": "/home/sean/workspace/shape-gen/assets/makima-trellis/decimated-clean.glb",
+  "method": "Blender collapse decimation, triangulate enabled; no extra cleanup",
+  "input_triangles": 189699,
+  "requested_triangles": 2409,
+  "output_triangles": 2353,
+  "blender": "5.2.1 LTS",
+  "sha256": "3417d84a805ada987a5107d1c9f9d76adc299a6f14fd8a10d8f2d956db9fb74a"
+}

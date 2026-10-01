@@ -1,0 +1,932 @@
+{
+  "full": {
+    "files": [
+      {
+        "repo": "tencent/Hunyuan3D-2",
+        "revision": "9cd649ba6913f7a852e3286bad86bfa9a2d83dcf",
+        "filename": "hunyuan3d-dit-v2-0/config.yaml",
+        "target": "models/hunyuan3d-2/hunyuan3d-dit-v2-0/config.yaml",
+        "bytes": 1604,
+        "sha256": "70bbfcdd18b9686ee56fe011c3a059b222eae1f5450f904577c50f0e107a8a53"
+      },
+      {
+        "repo": "tencent/Hunyuan3D-2",
+        "revision": "9cd649ba6913f7a852e3286bad86bfa9a2d83dcf",
+        "filename": "hunyuan3d-dit-v2-0/model.fp16.safetensors",
+        "target": "models/hunyuan3d-2/hunyuan3d-dit-v2-0/model.fp16.safetensors",
+        "bytes": 4928151562,
+        "sha256": "360bc281fc956d4acac0c3d36d5ec0ebf8cdddbf4b8892e894d12419388d479b"
+      }
+    ],
+    "metadata": [
+      {
+        "path": "models/hunyuan3d-2/hunyuan3d-dit-v2-0/model-info.json",
+        "content": {
+          "revision": "9cd649ba6913f7a852e3286bad86bfa9a2d83dcf",
+          "file": {
+            "rfilename": "hunyuan3d-dit-v2-0/model.fp16.safetensors",
+            "blobId": "ed321fb49e6d2e0310e48a547f4c29f1a9027c43",
+            "size": 4928151562,
+            "lfs": {
+              "sha256": "360bc281fc956d4acac0c3d36d5ec0ebf8cdddbf4b8892e894d12419388d479b",
+              "size": 4928151562,
+              "pointerSize": 135
+            }
+          },
+          "repo_id": "tencent/Hunyuan3D-2",
+          "subfolder": "hunyuan3d-dit-v2-0",
+          "sha256": "360bc281fc956d4acac0c3d36d5ec0ebf8cdddbf4b8892e894d12419388d479b",
+          "config_url": "https://huggingface.co/tencent/Hunyuan3D-2/resolve/9cd649ba6913f7a852e3286bad86bfa9a2d83dcf/hunyuan3d-dit-v2-0/config.yaml",
+          "config_sha256": "70bbfcdd18b9686ee56fe011c3a059b222eae1f5450f904577c50f0e107a8a53"
+        }
+      }
+    ]
+  },
+  "mini": {
+    "files": [
+      {
+        "repo": "tencent/Hunyuan3D-2mini",
+        "revision": "f90a0f7df7d5e6f71109cf333f6a95a0ae3194a6",
+        "filename": "hunyuan3d-dit-v2-mini/config.yaml",
+        "target": "models/hunyuan3d-2mini/hunyuan3d-dit-v2-mini/config.yaml",
+        "bytes": 1628,
+        "sha256": "cabcba7f6115752c8fe5b370e12bf714936f70377a8a80f151872f76c2d64609"
+      },
+      {
+        "repo": "tencent/Hunyuan3D-2mini",
+        "revision": "f90a0f7df7d5e6f71109cf333f6a95a0ae3194a6",
+        "filename": "hunyuan3d-dit-v2-mini/model.fp16.safetensors",
+        "target": "models/hunyuan3d-2mini/hunyuan3d-dit-v2-mini/model.fp16.safetensors",
+        "bytes": 3819958234,
+        "sha256": "3cc66f3bea33e4062b7dbc875ffe1d70c4888914aec3e91b60f94e9bd01b522b"
+      }
+    ],
+    "metadata": [
+      {
+        "path": "models/hunyuan3d-2mini/hunyuan3d-dit-v2-mini/model-info.json",
+        "content": {
+          "repo_id": "tencent/Hunyuan3D-2mini",
+          "revision": "f90a0f7df7d5e6f71109cf333f6a95a0ae3194a6",
+          "subfolder": "hunyuan3d-dit-v2-mini",
+          "sha256": "3cc66f3bea33e4062b7dbc875ffe1d70c4888914aec3e91b60f94e9bd01b522b",
+          "file": {
+            "rfilename": "hunyuan3d-dit-v2-mini/model.fp16.safetensors",
+            "blobId": "2ed3a2bf741fd6574e85fe007ea7b63e7e22d97f",
+            "size": 3819958234,
+            "lfs": {
+              "sha256": "3cc66f3bea33e4062b7dbc875ffe1d70c4888914aec3e91b60f94e9bd01b522b",
+              "size": 3819958234,
+              "pointerSize": 135
+            }
+          },
+          "config_url": "https://huggingface.co/tencent/Hunyuan3D-2mini/resolve/f90a0f7df7d5e6f71109cf333f6a95a0ae3194a6/hunyuan3d-dit-v2-mini/config.yaml",
+          "config_sha256": "cabcba7f6115752c8fe5b370e12bf714936f70377a8a80f151872f76c2d64609"
+        }
+      }
+    ]
+  },
+  "mv": {
+    "files": [
+      {
+        "repo": "tencent/Hunyuan3D-2mv",
+        "revision": "3a761b539b29fe4ff64714813aa9560fd66f5de0",
+        "filename": "hunyuan3d-dit-v2-mv/config.yaml",
+        "target": "models/hunyuan3d-2mv/hunyuan3d-dit-v2-mv/config.yaml",
+        "bytes": 1608,
+        "sha256": "315fd5bf601d1d103130b9fda202f1bd28eda495e68ed1621bc823d5519c5e5b"
+      },
+      {
+        "repo": "tencent/Hunyuan3D-2mv",
+        "revision": "3a761b539b29fe4ff64714813aa9560fd66f5de0",
+        "filename": "hunyuan3d-dit-v2-mv/model.fp16.safetensors",
+        "target": "models/hunyuan3d-2mv/hunyuan3d-dit-v2-mv/model.fp16.safetensors",
+        "bytes": 4928151562,
+        "sha256": "d36f5881bcdc56726b73e517cd444c13c60732431622da7268145355c8d38e9c"
+      }
+    ],
+    "metadata": [
+      {
+        "path": "models/hunyuan3d-2mv/hunyuan3d-dit-v2-mv/model-info.json",
+        "content": {
+          "repo_id": "tencent/Hunyuan3D-2mv",
+          "revision": "3a761b539b29fe4ff64714813aa9560fd66f5de0",
+          "subfolder": "hunyuan3d-dit-v2-mv",
+          "sha256": "d36f5881bcdc56726b73e517cd444c13c60732431622da7268145355c8d38e9c",
+          "file": {
+            "rfilename": "hunyuan3d-dit-v2-mv/model.fp16.safetensors",
+            "size": 4928151562,
+            "lfs": {
+              "sha256": "d36f5881bcdc56726b73e517cd444c13c60732431622da7268145355c8d38e9c",
+              "size": 4928151562
+            }
+          },
+          "config_url": "https://huggingface.co/tencent/Hunyuan3D-2mv/resolve/3a761b539b29fe4ff64714813aa9560fd66f5de0/hunyuan3d-dit-v2-mv/config.yaml",
+          "config_sha256": "315fd5bf601d1d103130b9fda202f1bd28eda495e68ed1621bc823d5519c5e5b"
+        }
+      }
+    ]
+  },
+  "paint": {
+    "files": [
+      {
+        "repo": "tencent/Hunyuan3D-2",
+        "revision": "9cd649ba6913f7a852e3286bad86bfa9a2d83dcf",
+        "filename": "hunyuan3d-delight-v2-0/feature_extractor/preprocessor_config.json",
+        "target": "models/hunyuan3d-2/hunyuan3d-delight-v2-0/feature_extractor/preprocessor_config.json",
+        "bytes": 466,
+        "sha256": "205d45875859846dc1ca211b9a19f5db72f47e953b396954ee34d48d8e95c3c6"
+      },
+      {
+        "repo": "tencent/Hunyuan3D-2",
+        "revision": "9cd649ba6913f7a852e3286bad86bfa9a2d83dcf",
+        "filename": "hunyuan3d-delight-v2-0/model_index.json",
+        "target": "models/hunyuan3d-2/hunyuan3d-delight-v2-0/model_index.json",
+        "bytes": 621,
+        "sha256": "13a10da7af47b30e4da0e76ab44902d8826457afaa431024f7033a369a2572c0"
+      },
+      {
+        "repo": "tencent/Hunyuan3D-2",
+        "revision": "9cd649ba6913f7a852e3286bad86bfa9a2d83dcf",
+        "filename": "hunyuan3d-delight-v2-0/scheduler/scheduler_config.json",
+        "target": "models/hunyuan3d-2/hunyuan3d-delight-v2-0/scheduler/scheduler_config.json",
+        "bytes": 533,
+        "sha256": "ba61cbc02207f4a6276fd7cd3a76b96ac12ed6d847aad48d65e54cd9be928b69"
+      },
+      {
+        "repo": "tencent/Hunyuan3D-2",
+        "revision": "9cd649ba6913f7a852e3286bad86bfa9a2d83dcf",
+        "filename": "hunyuan3d-delight-v2-0/text_encoder/config.json",
+        "target": "models/hunyuan3d-2/hunyuan3d-delight-v2-0/text_encoder/config.json",
+        "bytes": 583,
+        "sha256": "55c23f6c5b5a2dc5aea935ad82eb6e13a9fa839cf3acd3608fac419a4efd893d"
+      },
+      {
+        "repo": "tencent/Hunyuan3D-2",
+        "revision": "9cd649ba6913f7a852e3286bad86bfa9a2d83dcf",
+        "filename": "hunyuan3d-delight-v2-0/text_encoder/model.safetensors",
+        "target": "models/hunyuan3d-2/hunyuan3d-delight-v2-0/text_encoder/model.safetensors",
+        "bytes": 680820392,
+        "sha256": "bc1827c465450322616f06dea41596eac7d493f4e95904dcb51f0fc745c4e13f"
+      },
+      {
+        "repo": "tencent/Hunyuan3D-2",
+        "revision": "9cd649ba6913f7a852e3286bad86bfa9a2d83dcf",
+        "filename": "hunyuan3d-delight-v2-0/tokenizer/merges.txt",
+        "target": "models/hunyuan3d-2/hunyuan3d-delight-v2-0/tokenizer/merges.txt",
+        "bytes": 524619,
+        "sha256": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a"
+      },
+      {
+        "repo": "tencent/Hunyuan3D-2",
+        "revision": "9cd649ba6913f7a852e3286bad86bfa9a2d83dcf",
+        "filename": "hunyuan3d-delight-v2-0/tokenizer/special_tokens_map.json",
+        "target": "models/hunyuan3d-2/hunyuan3d-delight-v2-0/tokenizer/special_tokens_map.json",
+        "bytes": 574,
+        "sha256": "c2d0fb8b86ad86b1f46134d4a5f93fd1e688c932a78efc8d149087c33a53ad06"
+      },
+      {
+        "repo": "tencent/Hunyuan3D-2",
+        "revision": "9cd649ba6913f7a852e3286bad86bfa9a2d83dcf",
+        "filename": "hunyuan3d-delight-v2-0/tokenizer/tokenizer_config.json",
+        "target": "models/hunyuan3d-2/hunyuan3d-delight-v2-0/tokenizer/tokenizer_config.json",
+        "bytes": 855,
+        "sha256": "516314ccab66918d7cb647480ac27abd3520d14e1e5825aac99f50c851c16071"
+      },
+      {
+        "repo": "tencent/Hunyuan3D-2",
+        "revision": "9cd649ba6913f7a852e3286bad86bfa9a2d83dcf",
+        "filename": "hunyuan3d-delight-v2-0/tokenizer/vocab.json",
+        "target": "models/hunyuan3d-2/hunyuan3d-delight-v2-0/tokenizer/vocab.json",
+        "bytes": 1059962,
+        "sha256": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349"
+      },
+      {
+        "repo": "tencent/Hunyuan3D-2",
+        "revision": "9cd649ba6913f7a852e3286bad86bfa9a2d83dcf",
+        "filename": "hunyuan3d-delight-v2-0/unet/config.json",
+        "target": "models/hunyuan3d-2/hunyuan3d-delight-v2-0/unet/config.json",
+        "bytes": 1835,
+        "sha256": "ba51cb0cff8c8404dd028dc9b55a4dc706114fca2e0feb6a844f54ae981d2d2a"
+      },
+      {
+        "repo": "tencent/Hunyuan3D-2",
+        "revision": "9cd649ba6913f7a852e3286bad86bfa9a2d83dcf",
+        "filename": "hunyuan3d-delight-v2-0/unet/diffusion_pytorch_model.safetensors",
+        "target": "models/hunyuan3d-2/hunyuan3d-delight-v2-0/unet/diffusion_pytorch_model.safetensors",
+        "bytes": 3463772592,
+        "sha256": "0ce61d15a43d11ba19079ab8f24dfce78b876d3f5291470079ef64b17e08ca58"
+      },
+      {
+        "repo": "tencent/Hunyuan3D-2",
+        "revision": "9cd649ba6913f7a852e3286bad86bfa9a2d83dcf",
+        "filename": "hunyuan3d-delight-v2-0/vae/config.json",
+        "target": "models/hunyuan3d-2/hunyuan3d-delight-v2-0/vae/config.json",
+        "bytes": 787,
+        "sha256": "f4aa821fb7a627f93e17b83face435b9d38e34f45c37dae91925e2a6c81f497f"
+      },
+      {
+        "repo": "tencent/Hunyuan3D-2",
+        "revision": "9cd649ba6913f7a852e3286bad86bfa9a2d83dcf",
+        "filename": "hunyuan3d-delight-v2-0/vae/diffusion_pytorch_model.safetensors",
+        "target": "models/hunyuan3d-2/hunyuan3d-delight-v2-0/vae/diffusion_pytorch_model.safetensors",
+        "bytes": 167335342,
+        "sha256": "3e4c08995484ee61270175e9e7a072b66a6e4eeb5f0c266667fe1f45b90daf9a"
+      },
+      {
+        "repo": "tencent/Hunyuan3D-2",
+        "revision": "9cd649ba6913f7a852e3286bad86bfa9a2d83dcf",
+        "filename": "hunyuan3d-paint-v2-0/.gitattributes",
+        "target": "models/hunyuan3d-2/hunyuan3d-paint-v2-0/.gitattributes",
+        "bytes": 1519,
+        "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361"
+      },
+      {
+        "repo": "tencent/Hunyuan3D-2",
+        "revision": "9cd649ba6913f7a852e3286bad86bfa9a2d83dcf",
+        "filename": "hunyuan3d-paint-v2-0/feature_extractor/preprocessor_config.json",
+        "target": "models/hunyuan3d-2/hunyuan3d-paint-v2-0/feature_extractor/preprocessor_config.json",
+        "bytes": 342,
+        "sha256": "2a1da83b5e1032aaeef397552ddb408dca0d8cd1dc58f61bf6abf38d6f33a0a2"
+      },
+      {
+        "repo": "tencent/Hunyuan3D-2",
+        "revision": "9cd649ba6913f7a852e3286bad86bfa9a2d83dcf",
+        "filename": "hunyuan3d-paint-v2-0/model_index.json",
+        "target": "models/hunyuan3d-2/hunyuan3d-paint-v2-0/model_index.json",
+        "bytes": 538,
+        "sha256": "2100e8bedefbe893024e744419070f888bcb076c6655a5a3b8cb1769f4d001a2"
+      },
+      {
+        "repo": "tencent/Hunyuan3D-2",
+        "revision": "9cd649ba6913f7a852e3286bad86bfa9a2d83dcf",
+        "filename": "hunyuan3d-paint-v2-0/scheduler/scheduler_config.json",
+        "target": "models/hunyuan3d-2/hunyuan3d-paint-v2-0/scheduler/scheduler_config.json",
+        "bytes": 387,
+        "sha256": "9a6a7268e4d7c1bc5000450927070e338dc57a51f4530078627c88f5828e792d"
+      },
+      {
+        "repo": "tencent/Hunyuan3D-2",
+        "revision": "9cd649ba6913f7a852e3286bad86bfa9a2d83dcf",
+        "filename": "hunyuan3d-paint-v2-0/text_encoder/config.json",
+        "target": "models/hunyuan3d-2/hunyuan3d-paint-v2-0/text_encoder/config.json",
+        "bytes": 613,
+        "sha256": "7e33bfc475f6cf76e69b28b101993ca834d1f22ff4d35caefde32d63d4f42fba"
+      },
+      {
+        "repo": "tencent/Hunyuan3D-2",
+        "revision": "9cd649ba6913f7a852e3286bad86bfa9a2d83dcf",
+        "filename": "hunyuan3d-paint-v2-0/text_encoder/pytorch_model.bin",
+        "target": "models/hunyuan3d-2/hunyuan3d-paint-v2-0/text_encoder/pytorch_model.bin",
+        "bytes": 1361671895,
+        "sha256": "c3e254d7b61353497ea0be2c4013df4ea8f739ee88cffa0ba58cd085459ed565"
+      },
+      {
+        "repo": "tencent/Hunyuan3D-2",
+        "revision": "9cd649ba6913f7a852e3286bad86bfa9a2d83dcf",
+        "filename": "hunyuan3d-paint-v2-0/tokenizer/merges.txt",
+        "target": "models/hunyuan3d-2/hunyuan3d-paint-v2-0/tokenizer/merges.txt",
+        "bytes": 524619,
+        "sha256": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a"
+      },
+      {
+        "repo": "tencent/Hunyuan3D-2",
+        "revision": "9cd649ba6913f7a852e3286bad86bfa9a2d83dcf",
+        "filename": "hunyuan3d-paint-v2-0/tokenizer/special_tokens_map.json",
+        "target": "models/hunyuan3d-2/hunyuan3d-paint-v2-0/tokenizer/special_tokens_map.json",
+        "bytes": 460,
+        "sha256": "f118ab3a983206e4f32583448de6bd6aae4ee21869135cef1f5848a753cdaab6"
+      },
+      {
+        "repo": "tencent/Hunyuan3D-2",
+        "revision": "9cd649ba6913f7a852e3286bad86bfa9a2d83dcf",
+        "filename": "hunyuan3d-paint-v2-0/tokenizer/tokenizer_config.json",
+        "target": "models/hunyuan3d-2/hunyuan3d-paint-v2-0/tokenizer/tokenizer_config.json",
+        "bytes": 807,
+        "sha256": "d562b18a0c6d32a168fce3d7a342fce64579ebacffb98fb71b0affc494fc32d8"
+      },
+      {
+        "repo": "tencent/Hunyuan3D-2",
+        "revision": "9cd649ba6913f7a852e3286bad86bfa9a2d83dcf",
+        "filename": "hunyuan3d-paint-v2-0/tokenizer/vocab.json",
+        "target": "models/hunyuan3d-2/hunyuan3d-paint-v2-0/tokenizer/vocab.json",
+        "bytes": 1059962,
+        "sha256": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349"
+      },
+      {
+        "repo": "tencent/Hunyuan3D-2",
+        "revision": "9cd649ba6913f7a852e3286bad86bfa9a2d83dcf",
+        "filename": "hunyuan3d-paint-v2-0/unet/config.json",
+        "target": "models/hunyuan3d-2/hunyuan3d-paint-v2-0/unet/config.json",
+        "bytes": 911,
+        "sha256": "ce0c6d379e3b1d3e1f79338de70c80a1e36f17a6372439a8249b6fb0dfa1b608"
+      },
+      {
+        "repo": "tencent/Hunyuan3D-2",
+        "revision": "9cd649ba6913f7a852e3286bad86bfa9a2d83dcf",
+        "filename": "hunyuan3d-paint-v2-0/unet/diffusion_pytorch_model.bin",
+        "target": "models/hunyuan3d-2/hunyuan3d-paint-v2-0/unet/diffusion_pytorch_model.bin",
+        "bytes": 3663114747,
+        "sha256": "2efb4438e649e1ce152822dde082defe062cdd320bb9f1a27b9a4715d9c56e1a"
+      },
+      {
+        "repo": "tencent/Hunyuan3D-2",
+        "revision": "9cd649ba6913f7a852e3286bad86bfa9a2d83dcf",
+        "filename": "hunyuan3d-paint-v2-0/unet/diffusion_pytorch_model.safetensors",
+        "target": "models/hunyuan3d-2/hunyuan3d-paint-v2-0/unet/diffusion_pytorch_model.safetensors",
+        "bytes": 3662636472,
+        "sha256": "1c5ce434ba976b30bbb51a080917ecd39f8d8761691887b5df3be765ef4bd9e9"
+      },
+      {
+        "repo": "tencent/Hunyuan3D-2",
+        "revision": "9cd649ba6913f7a852e3286bad86bfa9a2d83dcf",
+        "filename": "hunyuan3d-paint-v2-0/unet/modules.py",
+        "target": "models/hunyuan3d-2/hunyuan3d-paint-v2-0/unet/modules.py",
+        "bytes": 18900,
+        "sha256": "c27b687216e74497e2c41bb71cff779673bc4963bb58abc67f9f1b1f0853d86d"
+      },
+      {
+        "repo": "tencent/Hunyuan3D-2",
+        "revision": "9cd649ba6913f7a852e3286bad86bfa9a2d83dcf",
+        "filename": "hunyuan3d-paint-v2-0/vae/config.json",
+        "target": "models/hunyuan3d-2/hunyuan3d-paint-v2-0/vae/config.json",
+        "bytes": 553,
+        "sha256": "424117cb534ce03497c41305ed868980123917b2b6abba4bbaa615e968772903"
+      },
+      {
+        "repo": "tencent/Hunyuan3D-2",
+        "revision": "9cd649ba6913f7a852e3286bad86bfa9a2d83dcf",
+        "filename": "hunyuan3d-paint-v2-0/vae/diffusion_pytorch_model.bin",
+        "target": "models/hunyuan3d-2/hunyuan3d-paint-v2-0/vae/diffusion_pytorch_model.bin",
+        "bytes": 334707217,
+        "sha256": "1b4889b6b1d4ce7ae320a02dedaeff1780ad77d415ea0d744b476155c6377ddc"
+      },
+      {
+        "repo": "tencent/Hunyuan3D-2",
+        "revision": "9cd649ba6913f7a852e3286bad86bfa9a2d83dcf",
+        "filename": "hunyuan3d-paint-v2-0/vae/diffusion_pytorch_model.safetensors",
+        "target": "models/hunyuan3d-2/hunyuan3d-paint-v2-0/vae/diffusion_pytorch_model.safetensors",
+        "bytes": 167335310,
+        "sha256": "abcec86e499e1ce9f05d1630725d386dc533b61fe0947ab034f07f89042e7a61"
+      }
+    ],
+    "metadata": [
+      {
+        "path": "models/hunyuan3d-2/paint-model-info.json",
+        "content": {
+          "repo_id": "tencent/Hunyuan3D-2",
+          "revision": "9cd649ba6913f7a852e3286bad86bfa9a2d83dcf",
+          "files": [
+            {
+              "path": "hunyuan3d-delight-v2-0/feature_extractor/preprocessor_config.json",
+              "size": 466,
+              "sha256": "205d45875859846dc1ca211b9a19f5db72f47e953b396954ee34d48d8e95c3c6"
+            },
+            {
+              "path": "hunyuan3d-delight-v2-0/model_index.json",
+              "size": 621,
+              "sha256": "13a10da7af47b30e4da0e76ab44902d8826457afaa431024f7033a369a2572c0"
+            },
+            {
+              "path": "hunyuan3d-delight-v2-0/scheduler/scheduler_config.json",
+              "size": 533,
+              "sha256": "ba61cbc02207f4a6276fd7cd3a76b96ac12ed6d847aad48d65e54cd9be928b69"
+            },
+            {
+              "path": "hunyuan3d-delight-v2-0/text_encoder/config.json",
+              "size": 583,
+              "sha256": "55c23f6c5b5a2dc5aea935ad82eb6e13a9fa839cf3acd3608fac419a4efd893d"
+            },
+            {
+              "path": "hunyuan3d-delight-v2-0/text_encoder/model.safetensors",
+              "size": 680820392,
+              "sha256": "bc1827c465450322616f06dea41596eac7d493f4e95904dcb51f0fc745c4e13f"
+            },
+            {
+              "path": "hunyuan3d-delight-v2-0/tokenizer/merges.txt",
+              "size": 524619,
+              "sha256": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a"
+            },
+            {
+              "path": "hunyuan3d-delight-v2-0/tokenizer/special_tokens_map.json",
+              "size": 574,
+              "sha256": "c2d0fb8b86ad86b1f46134d4a5f93fd1e688c932a78efc8d149087c33a53ad06"
+            },
+            {
+              "path": "hunyuan3d-delight-v2-0/tokenizer/tokenizer_config.json",
+              "size": 855,
+              "sha256": "516314ccab66918d7cb647480ac27abd3520d14e1e5825aac99f50c851c16071"
+            },
+            {
+              "path": "hunyuan3d-delight-v2-0/tokenizer/vocab.json",
+              "size": 1059962,
+              "sha256": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349"
+            },
+            {
+              "path": "hunyuan3d-delight-v2-0/unet/config.json",
+              "size": 1835,
+              "sha256": "ba51cb0cff8c8404dd028dc9b55a4dc706114fca2e0feb6a844f54ae981d2d2a"
+            },
+            {
+              "path": "hunyuan3d-delight-v2-0/unet/diffusion_pytorch_model.safetensors",
+              "size": 3463772592,
+              "sha256": "0ce61d15a43d11ba19079ab8f24dfce78b876d3f5291470079ef64b17e08ca58"
+            },
+            {
+              "path": "hunyuan3d-delight-v2-0/vae/config.json",
+              "size": 787,
+              "sha256": "f4aa821fb7a627f93e17b83face435b9d38e34f45c37dae91925e2a6c81f497f"
+            },
+            {
+              "path": "hunyuan3d-delight-v2-0/vae/diffusion_pytorch_model.safetensors",
+              "size": 167335342,
+              "sha256": "3e4c08995484ee61270175e9e7a072b66a6e4eeb5f0c266667fe1f45b90daf9a"
+            },
+            {
+              "path": "hunyuan3d-paint-v2-0/.gitattributes",
+              "size": 1519,
+              "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361"
+            },
+            {
+              "path": "hunyuan3d-paint-v2-0/feature_extractor/preprocessor_config.json",
+              "size": 342,
+              "sha256": "2a1da83b5e1032aaeef397552ddb408dca0d8cd1dc58f61bf6abf38d6f33a0a2"
+            },
+            {
+              "path": "hunyuan3d-paint-v2-0/model_index.json",
+              "size": 538,
+              "sha256": "2100e8bedefbe893024e744419070f888bcb076c6655a5a3b8cb1769f4d001a2"
+            },
+            {
+              "path": "hunyuan3d-paint-v2-0/scheduler/scheduler_config.json",
+              "size": 387,
+              "sha256": "9a6a7268e4d7c1bc5000450927070e338dc57a51f4530078627c88f5828e792d"
+            },
+            {
+              "path": "hunyuan3d-paint-v2-0/text_encoder/config.json",
+              "size": 613,
+              "sha256": "7e33bfc475f6cf76e69b28b101993ca834d1f22ff4d35caefde32d63d4f42fba"
+            },
+            {
+              "path": "hunyuan3d-paint-v2-0/text_encoder/pytorch_model.bin",
+              "size": 1361671895,
+              "sha256": "c3e254d7b61353497ea0be2c4013df4ea8f739ee88cffa0ba58cd085459ed565"
+            },
+            {
+              "path": "hunyuan3d-paint-v2-0/tokenizer/merges.txt",
+              "size": 524619,
+              "sha256": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a"
+            },
+            {
+              "path": "hunyuan3d-paint-v2-0/tokenizer/special_tokens_map.json",
+              "size": 460,
+              "sha256": "f118ab3a983206e4f32583448de6bd6aae4ee21869135cef1f5848a753cdaab6"
+            },
+            {
+              "path": "hunyuan3d-paint-v2-0/tokenizer/tokenizer_config.json",
+              "size": 807,
+              "sha256": "d562b18a0c6d32a168fce3d7a342fce64579ebacffb98fb71b0affc494fc32d8"
+            },
+            {
+              "path": "hunyuan3d-paint-v2-0/tokenizer/vocab.json",
+              "size": 1059962,
+              "sha256": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349"
+            },
+            {
+              "path": "hunyuan3d-paint-v2-0/unet/config.json",
+              "size": 911,
+              "sha256": "ce0c6d379e3b1d3e1f79338de70c80a1e36f17a6372439a8249b6fb0dfa1b608"
+            },
+            {
+              "path": "hunyuan3d-paint-v2-0/unet/diffusion_pytorch_model.bin",
+              "size": 3663114747,
+              "sha256": "2efb4438e649e1ce152822dde082defe062cdd320bb9f1a27b9a4715d9c56e1a"
+            },
+            {
+              "path": "hunyuan3d-paint-v2-0/unet/diffusion_pytorch_model.safetensors",
+              "size": 3662636472,
+              "sha256": "1c5ce434ba976b30bbb51a080917ecd39f8d8761691887b5df3be765ef4bd9e9"
+            },
+            {
+              "path": "hunyuan3d-paint-v2-0/unet/modules.py",
+              "size": 18900,
+              "sha256": "c27b687216e74497e2c41bb71cff779673bc4963bb58abc67f9f1b1f0853d86d"
+            },
+            {
+              "path": "hunyuan3d-paint-v2-0/vae/config.json",
+              "size": 553,
+              "sha256": "424117cb534ce03497c41305ed868980123917b2b6abba4bbaa615e968772903"
+            },
+            {
+              "path": "hunyuan3d-paint-v2-0/vae/diffusion_pytorch_model.bin",
+              "size": 334707217,
+              "sha256": "1b4889b6b1d4ce7ae320a02dedaeff1780ad77d415ea0d744b476155c6377ddc"
+            },
+            {
+              "path": "hunyuan3d-paint-v2-0/vae/diffusion_pytorch_model.safetensors",
+              "size": 167335310,
+              "sha256": "abcec86e499e1ce9f05d1630725d386dc533b61fe0947ab034f07f89042e7a61"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "deepmesh": {
+    "files": [
+      {
+        "repo": "zzzrw/DeepMesh",
+        "revision": "a19a1bff1018eed1cf3506298f8da8d27ae3f678",
+        "filename": "pytorch_model.bin",
+        "target": "models/deepmesh/pytorch_model.bin",
+        "bytes": 3632680698,
+        "sha256": "09431d6e2db64fac3bff77d469e89cd7731e2829c4bb88845d8ed013e1feba4e"
+      }
+    ],
+    "metadata": [
+      {
+        "path": "models/deepmesh/manifest.json",
+        "content": {
+          "repo": "zzzrw/DeepMesh",
+          "revision": "a19a1bff1018eed1cf3506298f8da8d27ae3f678",
+          "path": "models/deepmesh/pytorch_model.bin",
+          "sha256": "09431d6e2db64fac3bff77d469e89cd7731e2829c4bb88845d8ed013e1feba4e",
+          "bytes": 3632680698
+        }
+      }
+    ]
+  },
+  "lato2": {
+    "files": [
+      {
+        "repo": "0x4c48/LATO.2",
+        "revision": "a91090e8077b9318ab87ac08fd9eb905903d4515",
+        "filename": "voxel_encoder.pt",
+        "target": "third_party/LATO.2/ckpt/voxel_encoder.pt",
+        "bytes": 61373424,
+        "sha256": "c304e36651f2a8c63d5b30d0716a4a8ab4ef505fe39311d060e04e5ab253d4ce"
+      },
+      {
+        "repo": "0x4c48/LATO.2",
+        "revision": "a91090e8077b9318ab87ac08fd9eb905903d4515",
+        "filename": "vdf_encoder.pt",
+        "target": "third_party/LATO.2/ckpt/vdf_encoder.pt",
+        "bytes": 6673155,
+        "sha256": "79c461652bc9307126ef02e5ada4a4e6c6434bc00b9d6c05043fe39a9f0819ce"
+      },
+      {
+        "repo": "0x4c48/LATO.2",
+        "revision": "a91090e8077b9318ab87ac08fd9eb905903d4515",
+        "filename": "vflow.pt",
+        "target": "third_party/LATO.2/ckpt/vflow.pt",
+        "bytes": 649153594,
+        "sha256": "a5c660601af9ce9909feb5157cfd456d81b0498835d7ba4129a7d4267a8927d3"
+      },
+      {
+        "repo": "0x4c48/LATO.2",
+        "revision": "a91090e8077b9318ab87ac08fd9eb905903d4515",
+        "filename": "offset_head.pt",
+        "target": "third_party/LATO.2/ckpt/offset_head.pt",
+        "bytes": 4229424,
+        "sha256": "b9ab60321ffa1026813b4cb79eba7a9d224ccd77e01e6b2c84fd29cad301c9df"
+      },
+      {
+        "repo": "0x4c48/LATO.2",
+        "revision": "a91090e8077b9318ab87ac08fd9eb905903d4515",
+        "filename": "vvae.pt",
+        "target": "third_party/LATO.2/ckpt/vvae.pt",
+        "bytes": 1261420852,
+        "sha256": "b1192e3e6301dee5ee3dac37d411f82141ee1a8764707f0ea5b7746052342d44"
+      },
+      {
+        "repo": "0x4c48/LATO.2",
+        "revision": "a91090e8077b9318ab87ac08fd9eb905903d4515",
+        "filename": "tflow.pt",
+        "target": "third_party/LATO.2/ckpt/tflow.pt",
+        "bytes": 882821662,
+        "sha256": "5ac0033544b813ec046f00d5f12d3b488a91a98c1bfef0560948fb4c6b52c6ad"
+      },
+      {
+        "repo": "0x4c48/LATO.2",
+        "revision": "a91090e8077b9318ab87ac08fd9eb905903d4515",
+        "filename": "tvae.pt",
+        "target": "third_party/LATO.2/ckpt/tvae.pt",
+        "bytes": 713397214,
+        "sha256": "b109bcf2bc42abea89a3563e3fefa9509f9cd523501d5c62d78108380a3db17c"
+      }
+    ],
+    "metadata": []
+  },
+  "trellis": {
+    "files": [
+      {
+        "repo": "microsoft/TRELLIS-image-large",
+        "revision": "25e0d31ffbebe4b5a97464dd851910efc3002d96",
+        "filename": "ckpts/slat_dec_mesh_swin8_B_64l8m256c_fp16.json",
+        "target": "models/trellis/TRELLIS-image-large/ckpts/slat_dec_mesh_swin8_B_64l8m256c_fp16.json",
+        "bytes": 372,
+        "sha256": "293900795cb69cc972d1a20a4940ee12f7e007952c2ae92d128dda91b96ac317"
+      },
+      {
+        "repo": "microsoft/TRELLIS-image-large",
+        "revision": "25e0d31ffbebe4b5a97464dd851910efc3002d96",
+        "filename": "ckpts/slat_dec_mesh_swin8_B_64l8m256c_fp16.safetensors",
+        "target": "models/trellis/TRELLIS-image-large/ckpts/slat_dec_mesh_swin8_B_64l8m256c_fp16.safetensors",
+        "bytes": 181903412,
+        "sha256": "3e87aba94b5786407eb06d0502c1ed0885a0027a3f2b8537bfe15b0a92c01859"
+      },
+      {
+        "repo": "microsoft/TRELLIS-image-large",
+        "revision": "25e0d31ffbebe4b5a97464dd851910efc3002d96",
+        "filename": "ckpts/slat_flow_img_dit_L_64l8p2_fp16.json",
+        "target": "models/trellis/TRELLIS-image-large/ckpts/slat_flow_img_dit_L_64l8p2_fp16.json",
+        "bytes": 442,
+        "sha256": "c0a9bd57227f55cf75ff02562c27bb05c50174f06955f56a79dea2982fd7a8f9"
+      },
+      {
+        "repo": "microsoft/TRELLIS-image-large",
+        "revision": "25e0d31ffbebe4b5a97464dd851910efc3002d96",
+        "filename": "ckpts/slat_flow_img_dit_L_64l8p2_fp16.safetensors",
+        "target": "models/trellis/TRELLIS-image-large/ckpts/slat_flow_img_dit_L_64l8p2_fp16.safetensors",
+        "bytes": 1203755136,
+        "sha256": "693fb2a58ad497bd222007301eeec49d14d60f8c12d2f2f00c221fa747b4c66c"
+      },
+      {
+        "repo": "microsoft/TRELLIS-image-large",
+        "revision": "25e0d31ffbebe4b5a97464dd851910efc3002d96",
+        "filename": "ckpts/ss_dec_conv3d_16l8_fp16.json",
+        "target": "models/trellis/TRELLIS-image-large/ckpts/ss_dec_conv3d_16l8_fp16.json",
+        "bytes": 245,
+        "sha256": "646781293f1cda74720de85d1cef50a957fb4aebd9a4bd014e454e32f2330ac5"
+      },
+      {
+        "repo": "microsoft/TRELLIS-image-large",
+        "revision": "25e0d31ffbebe4b5a97464dd851910efc3002d96",
+        "filename": "ckpts/ss_dec_conv3d_16l8_fp16.safetensors",
+        "target": "models/trellis/TRELLIS-image-large/ckpts/ss_dec_conv3d_16l8_fp16.safetensors",
+        "bytes": 147591972,
+        "sha256": "1c76d4a40519aa2d711cc263a8404105231ac26db31d946bed48b84fee79009a"
+      },
+      {
+        "repo": "microsoft/TRELLIS-image-large",
+        "revision": "25e0d31ffbebe4b5a97464dd851910efc3002d96",
+        "filename": "ckpts/ss_flow_img_dit_L_16l8_fp16.json",
+        "target": "models/trellis/TRELLIS-image-large/ckpts/ss_flow_img_dit_L_16l8_fp16.json",
+        "bytes": 385,
+        "sha256": "bf69161da7ece9a87394dd4441f0cfa6d4261696a214a8f68388c81fa9a6b5b7"
+      },
+      {
+        "repo": "microsoft/TRELLIS-image-large",
+        "revision": "25e0d31ffbebe4b5a97464dd851910efc3002d96",
+        "filename": "ckpts/ss_flow_img_dit_L_16l8_fp16.safetensors",
+        "target": "models/trellis/TRELLIS-image-large/ckpts/ss_flow_img_dit_L_16l8_fp16.safetensors",
+        "bytes": 1130770840,
+        "sha256": "96dc6bfd4136fd950af564dd16b4ae533c9ba6af8f26c670646b2a9f2789b1db"
+      },
+      {
+        "repo": "microsoft/TRELLIS-image-large",
+        "revision": "25e0d31ffbebe4b5a97464dd851910efc3002d96",
+        "filename": "pipeline.json",
+        "target": "models/trellis/TRELLIS-image-large/pipeline.json",
+        "bytes": 1987,
+        "sha256": "2686b6c9b3b0a100b544d5f9dc7b3ecb15c9d98be9852d68e8731bd8dbe52a42"
+      }
+    ],
+    "metadata": [
+      {
+        "path": "models/trellis/download-manifest.json",
+        "content": {
+          "microsoft/TRELLIS-image-large": {
+            "revision": "25e0d31ffbebe4b5a97464dd851910efc3002d96",
+            "files": {
+              "ckpts/slat_dec_mesh_swin8_B_64l8m256c_fp16.json": {
+                "sha256": "293900795cb69cc972d1a20a4940ee12f7e007952c2ae92d128dda91b96ac317",
+                "bytes": 372,
+                "path": "models/trellis/TRELLIS-image-large/ckpts/slat_dec_mesh_swin8_B_64l8m256c_fp16.json"
+              },
+              "ckpts/slat_dec_mesh_swin8_B_64l8m256c_fp16.safetensors": {
+                "sha256": "3e87aba94b5786407eb06d0502c1ed0885a0027a3f2b8537bfe15b0a92c01859",
+                "bytes": 181903412,
+                "path": "models/trellis/TRELLIS-image-large/ckpts/slat_dec_mesh_swin8_B_64l8m256c_fp16.safetensors"
+              },
+              "ckpts/slat_flow_img_dit_L_64l8p2_fp16.json": {
+                "sha256": "c0a9bd57227f55cf75ff02562c27bb05c50174f06955f56a79dea2982fd7a8f9",
+                "bytes": 442,
+                "path": "models/trellis/TRELLIS-image-large/ckpts/slat_flow_img_dit_L_64l8p2_fp16.json"
+              },
+              "ckpts/slat_flow_img_dit_L_64l8p2_fp16.safetensors": {
+                "sha256": "693fb2a58ad497bd222007301eeec49d14d60f8c12d2f2f00c221fa747b4c66c",
+                "bytes": 1203755136,
+                "path": "models/trellis/TRELLIS-image-large/ckpts/slat_flow_img_dit_L_64l8p2_fp16.safetensors"
+              },
+              "ckpts/ss_dec_conv3d_16l8_fp16.json": {
+                "sha256": "646781293f1cda74720de85d1cef50a957fb4aebd9a4bd014e454e32f2330ac5",
+                "bytes": 245,
+                "path": "models/trellis/TRELLIS-image-large/ckpts/ss_dec_conv3d_16l8_fp16.json"
+              },
+              "ckpts/ss_dec_conv3d_16l8_fp16.safetensors": {
+                "sha256": "1c76d4a40519aa2d711cc263a8404105231ac26db31d946bed48b84fee79009a",
+                "bytes": 147591972,
+                "path": "models/trellis/TRELLIS-image-large/ckpts/ss_dec_conv3d_16l8_fp16.safetensors"
+              },
+              "ckpts/ss_flow_img_dit_L_16l8_fp16.json": {
+                "sha256": "bf69161da7ece9a87394dd4441f0cfa6d4261696a214a8f68388c81fa9a6b5b7",
+                "bytes": 385,
+                "path": "models/trellis/TRELLIS-image-large/ckpts/ss_flow_img_dit_L_16l8_fp16.json"
+              },
+              "ckpts/ss_flow_img_dit_L_16l8_fp16.safetensors": {
+                "sha256": "96dc6bfd4136fd950af564dd16b4ae533c9ba6af8f26c670646b2a9f2789b1db",
+                "bytes": 1130770840,
+                "path": "models/trellis/TRELLIS-image-large/ckpts/ss_flow_img_dit_L_16l8_fp16.safetensors"
+              },
+              "pipeline.json": {
+                "sha256": "2686b6c9b3b0a100b544d5f9dc7b3ecb15c9d98be9852d68e8731bd8dbe52a42",
+                "bytes": 1987,
+                "path": "models/trellis/TRELLIS-image-large/pipeline.json"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "trellis2": {
+    "files": [
+      {
+        "repo": "microsoft/TRELLIS.2-4B",
+        "revision": "af44b45f2e35a493886929c6d786e563ec68364d",
+        "filename": "ckpts/shape_dec_next_dc_f16c32_fp16.json",
+        "target": "models/trellis2/TRELLIS.2-4B/ckpts/shape_dec_next_dc_f16c32_fp16.json",
+        "bytes": 678,
+        "sha256": "5f1b856dffce79466fb18f5f0eefc08f08c673b24b3c05b20359c0b6d318a209"
+      },
+      {
+        "repo": "microsoft/TRELLIS.2-4B",
+        "revision": "af44b45f2e35a493886929c6d786e563ec68364d",
+        "filename": "ckpts/shape_dec_next_dc_f16c32_fp16.safetensors",
+        "target": "models/trellis2/TRELLIS.2-4B/ckpts/shape_dec_next_dc_f16c32_fp16.safetensors",
+        "bytes": 948490494,
+        "sha256": "e3b718d3e43e4f8780e9a24ac6fff231811a67e3b058e336e10fe654c911d581"
+      },
+      {
+        "repo": "microsoft/TRELLIS.2-4B",
+        "revision": "af44b45f2e35a493886929c6d786e563ec68364d",
+        "filename": "ckpts/slat_flow_img2shape_dit_1_3B_512_bf16.json",
+        "target": "models/trellis2/TRELLIS.2-4B/ckpts/slat_flow_img2shape_dit_1_3B_512_bf16.json",
+        "bytes": 458,
+        "sha256": "ddbd7a1d34ce9a8e7af2f6ef9ae686d9ab49f69e62dacb98d8409b511cdbd5e2"
+      },
+      {
+        "repo": "microsoft/TRELLIS.2-4B",
+        "revision": "af44b45f2e35a493886929c6d786e563ec68364d",
+        "filename": "ckpts/slat_flow_img2shape_dit_1_3B_512_bf16.safetensors",
+        "target": "models/trellis2/TRELLIS.2-4B/ckpts/slat_flow_img2shape_dit_1_3B_512_bf16.safetensors",
+        "bytes": 2584574424,
+        "sha256": "ec5e0917ef9b7e25ad51dffc7d19687a42019871f94239f2fa7f86264c55b70f"
+      },
+      {
+        "repo": "microsoft/TRELLIS.2-4B",
+        "revision": "af44b45f2e35a493886929c6d786e563ec68364d",
+        "filename": "ckpts/ss_flow_img_dit_1_3B_64_bf16.json",
+        "target": "models/trellis2/TRELLIS.2-4B/ckpts/ss_flow_img_dit_1_3B_64_bf16.json",
+        "bytes": 467,
+        "sha256": "6cdfb636854f60ffcadd8c49244169cd449f34c5ccdb55b5ff7c04678f9c399e"
+      },
+      {
+        "repo": "microsoft/TRELLIS.2-4B",
+        "revision": "af44b45f2e35a493886929c6d786e563ec68364d",
+        "filename": "ckpts/ss_flow_img_dit_1_3B_64_bf16.safetensors",
+        "target": "models/trellis2/TRELLIS.2-4B/ckpts/ss_flow_img_dit_1_3B_64_bf16.safetensors",
+        "bytes": 2584426920,
+        "sha256": "ca01377c485bec418076d38ee80166d32dc776d744f2553b835cba1e97a7abf6"
+      },
+      {
+        "repo": "microsoft/TRELLIS.2-4B",
+        "revision": "af44b45f2e35a493886929c6d786e563ec68364d",
+        "filename": "pipeline.json",
+        "target": "models/trellis2/TRELLIS.2-4B/pipeline.json",
+        "bytes": 4186,
+        "sha256": "222c359ab1ed9bc6735a640a34f95d47f8681b9bc4aaa101bfb80274676253c6"
+      },
+      {
+        "repo": "microsoft/TRELLIS.2-4B",
+        "revision": "af44b45f2e35a493886929c6d786e563ec68364d",
+        "filename": "ckpts/slat_flow_img2shape_dit_1_3B_1024_bf16.json",
+        "target": "models/trellis2/TRELLIS.2-4B/ckpts/slat_flow_img2shape_dit_1_3B_1024_bf16.json",
+        "bytes": 458,
+        "sha256": "7ebd6d367393f52fee9e92c2b3d727a9026a338549c6a6fa84c7ea122140ffdd"
+      },
+      {
+        "repo": "microsoft/TRELLIS.2-4B",
+        "revision": "af44b45f2e35a493886929c6d786e563ec68364d",
+        "filename": "ckpts/slat_flow_img2shape_dit_1_3B_1024_bf16.safetensors",
+        "target": "models/trellis2/TRELLIS.2-4B/ckpts/slat_flow_img2shape_dit_1_3B_1024_bf16.safetensors",
+        "bytes": 2584574424,
+        "sha256": "07cd0596f634c5adc1890023d16023afc5eed02fb84b22bb23aff5bf0030fbbd"
+      },
+      {
+        "repo": "microsoft/TRELLIS-image-large",
+        "revision": "25e0d31ffbebe4b5a97464dd851910efc3002d96",
+        "filename": "ckpts/ss_dec_conv3d_16l8_fp16.json",
+        "target": "models/trellis2/TRELLIS-image-large/ckpts/ss_dec_conv3d_16l8_fp16.json",
+        "bytes": 245,
+        "sha256": "646781293f1cda74720de85d1cef50a957fb4aebd9a4bd014e454e32f2330ac5"
+      },
+      {
+        "repo": "microsoft/TRELLIS-image-large",
+        "revision": "25e0d31ffbebe4b5a97464dd851910efc3002d96",
+        "filename": "ckpts/ss_dec_conv3d_16l8_fp16.safetensors",
+        "target": "models/trellis2/TRELLIS-image-large/ckpts/ss_dec_conv3d_16l8_fp16.safetensors",
+        "bytes": 147591972,
+        "sha256": "1c76d4a40519aa2d711cc263a8404105231ac26db31d946bed48b84fee79009a"
+      },
+      {
+        "repo": "facebook/dinov3-vitl16-pretrain-lvd1689m",
+        "revision": "ea8dc2863c51be0a264bab82070e3e8836b02d51",
+        "filename": "config.json",
+        "target": "models/trellis2/dinov3-vitl16/config.json",
+        "bytes": 745,
+        "sha256": "135ecd23e34a70b6fbed8b083fdecb319b7e3a54e3d849258bbe4ddcf1783bb5"
+      },
+      {
+        "repo": "facebook/dinov3-vitl16-pretrain-lvd1689m",
+        "revision": "ea8dc2863c51be0a264bab82070e3e8836b02d51",
+        "filename": "model.safetensors",
+        "target": "models/trellis2/dinov3-vitl16/model.safetensors",
+        "bytes": 1212559808,
+        "sha256": "dcb2e45127cccbf1601e5f42fef165eea275c8e5213197e8dcf3f48822718179"
+      }
+    ],
+    "metadata": [
+      {
+        "path": "models/trellis2/download-manifest.json",
+        "content": {
+          "microsoft/TRELLIS.2-4B": {
+            "revision": "af44b45f2e35a493886929c6d786e563ec68364d",
+            "files": {
+              "ckpts/shape_dec_next_dc_f16c32_fp16.json": {
+                "sha256": "5f1b856dffce79466fb18f5f0eefc08f08c673b24b3c05b20359c0b6d318a209",
+                "bytes": 678,
+                "path": "models/trellis2/TRELLIS.2-4B/ckpts/shape_dec_next_dc_f16c32_fp16.json"
+              },
+              "ckpts/shape_dec_next_dc_f16c32_fp16.safetensors": {
+                "sha256": "e3b718d3e43e4f8780e9a24ac6fff231811a67e3b058e336e10fe654c911d581",
+                "bytes": 948490494,
+                "path": "models/trellis2/TRELLIS.2-4B/ckpts/shape_dec_next_dc_f16c32_fp16.safetensors"
+              },
+              "ckpts/slat_flow_img2shape_dit_1_3B_512_bf16.json": {
+                "sha256": "ddbd7a1d34ce9a8e7af2f6ef9ae686d9ab49f69e62dacb98d8409b511cdbd5e2",
+                "bytes": 458,
+                "path": "models/trellis2/TRELLIS.2-4B/ckpts/slat_flow_img2shape_dit_1_3B_512_bf16.json"
+              },
+              "ckpts/slat_flow_img2shape_dit_1_3B_512_bf16.safetensors": {
+                "sha256": "ec5e0917ef9b7e25ad51dffc7d19687a42019871f94239f2fa7f86264c55b70f",
+                "bytes": 2584574424,
+                "path": "models/trellis2/TRELLIS.2-4B/ckpts/slat_flow_img2shape_dit_1_3B_512_bf16.safetensors"
+              },
+              "ckpts/ss_flow_img_dit_1_3B_64_bf16.json": {
+                "sha256": "6cdfb636854f60ffcadd8c49244169cd449f34c5ccdb55b5ff7c04678f9c399e",
+                "bytes": 467,
+                "path": "models/trellis2/TRELLIS.2-4B/ckpts/ss_flow_img_dit_1_3B_64_bf16.json"
+              },
+              "ckpts/ss_flow_img_dit_1_3B_64_bf16.safetensors": {
+                "sha256": "ca01377c485bec418076d38ee80166d32dc776d744f2553b835cba1e97a7abf6",
+                "bytes": 2584426920,
+                "path": "models/trellis2/TRELLIS.2-4B/ckpts/ss_flow_img_dit_1_3B_64_bf16.safetensors"
+              },
+              "pipeline.json": {
+                "sha256": "222c359ab1ed9bc6735a640a34f95d47f8681b9bc4aaa101bfb80274676253c6",
+                "bytes": 4186,
+                "path": "models/trellis2/TRELLIS.2-4B/pipeline.json"
+              },
+              "ckpts/slat_flow_img2shape_dit_1_3B_1024_bf16.json": {
+                "sha256": "7ebd6d367393f52fee9e92c2b3d727a9026a338549c6a6fa84c7ea122140ffdd",
+                "bytes": 458,
+                "path": "models/trellis2/TRELLIS.2-4B/ckpts/slat_flow_img2shape_dit_1_3B_1024_bf16.json"
+              },
+              "ckpts/slat_flow_img2shape_dit_1_3B_1024_bf16.safetensors": {
+                "sha256": "07cd0596f634c5adc1890023d16023afc5eed02fb84b22bb23aff5bf0030fbbd",
+                "bytes": 2584574424,
+                "path": "models/trellis2/TRELLIS.2-4B/ckpts/slat_flow_img2shape_dit_1_3B_1024_bf16.safetensors"
+              }
+            }
+          },
+          "microsoft/TRELLIS-image-large": {
+            "revision": "25e0d31ffbebe4b5a97464dd851910efc3002d96",
+            "files": {
+              "ckpts/ss_dec_conv3d_16l8_fp16.json": {
+                "sha256": "646781293f1cda74720de85d1cef50a957fb4aebd9a4bd014e454e32f2330ac5",
+                "bytes": 245,
+                "path": "models/trellis2/TRELLIS-image-large/ckpts/ss_dec_conv3d_16l8_fp16.json"
+              },
+              "ckpts/ss_dec_conv3d_16l8_fp16.safetensors": {
+                "sha256": "1c76d4a40519aa2d711cc263a8404105231ac26db31d946bed48b84fee79009a",
+                "bytes": 147591972,
+                "path": "models/trellis2/TRELLIS-image-large/ckpts/ss_dec_conv3d_16l8_fp16.safetensors"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

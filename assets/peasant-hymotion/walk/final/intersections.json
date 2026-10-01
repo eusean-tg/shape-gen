@@ -1,0 +1,1902 @@
+{
+  "1": {
+    "body_intersecting_faces": 15,
+    "face_indices": [
+      1267,
+      1268,
+      1310,
+      1311,
+      1312,
+      1313,
+      1367,
+      1368,
+      1391,
+      1392,
+      1424,
+      1425,
+      1426,
+      1427,
+      1428
+    ],
+    "foot_min_height": 0.0
+  },
+  "2": {
+    "body_intersecting_faces": 23,
+    "face_indices": [
+      1267,
+      1268,
+      1306,
+      1307,
+      1310,
+      1311,
+      1312,
+      1313,
+      1334,
+      1367,
+      1368,
+      1391,
+      1392,
+      1397,
+      1424,
+      1425,
+      1426,
+      1427,
+      1428,
+      1441,
+      1442,
+      1443,
+      1444
+    ],
+    "foot_min_height": 1.1920928955078125e-07
+  },
+  "3": {
+    "body_intersecting_faces": 21,
+    "face_indices": [
+      1268,
+      1306,
+      1307,
+      1312,
+      1313,
+      1334,
+      1367,
+      1368,
+      1391,
+      1392,
+      1393,
+      1397,
+      1425,
+      1426,
+      1427,
+      1428,
+      1441,
+      1442,
+      1443,
+      1444,
+      1448
+    ],
+    "foot_min_height": 0.0
+  },
+  "4": {
+    "body_intersecting_faces": 24,
+    "face_indices": [
+      1058,
+      1059,
+      1060,
+      1134,
+      1306,
+      1307,
+      1312,
+      1313,
+      1334,
+      1367,
+      1368,
+      1391,
+      1393,
+      1394,
+      1395,
+      1396,
+      1397,
+      1426,
+      1427,
+      1428,
+      1441,
+      1443,
+      1444,
+      1448
+    ],
+    "foot_min_height": 1.1920928955078125e-07
+  },
+  "5": {
+    "body_intersecting_faces": 24,
+    "face_indices": [
+      1058,
+      1059,
+      1060,
+      1134,
+      1306,
+      1307,
+      1312,
+      1313,
+      1334,
+      1367,
+      1368,
+      1391,
+      1393,
+      1394,
+      1395,
+      1396,
+      1397,
+      1426,
+      1427,
+      1428,
+      1441,
+      1443,
+      1444,
+      1448
+    ],
+    "foot_min_height": 1.1920928955078125e-07
+  },
+  "6": {
+    "body_intersecting_faces": 24,
+    "face_indices": [
+      1058,
+      1059,
+      1060,
+      1134,
+      1306,
+      1307,
+      1312,
+      1313,
+      1334,
+      1367,
+      1368,
+      1391,
+      1393,
+      1394,
+      1395,
+      1396,
+      1397,
+      1426,
+      1427,
+      1428,
+      1441,
+      1443,
+      1444,
+      1448
+    ],
+    "foot_min_height": 0.0
+  },
+  "7": {
+    "body_intersecting_faces": 24,
+    "face_indices": [
+      1058,
+      1059,
+      1060,
+      1134,
+      1306,
+      1307,
+      1312,
+      1313,
+      1334,
+      1367,
+      1368,
+      1391,
+      1393,
+      1394,
+      1395,
+      1396,
+      1397,
+      1426,
+      1427,
+      1428,
+      1441,
+      1443,
+      1444,
+      1448
+    ],
+    "foot_min_height": 1.1920928955078125e-07
+  },
+  "8": {
+    "body_intersecting_faces": 24,
+    "face_indices": [
+      1058,
+      1059,
+      1060,
+      1134,
+      1306,
+      1307,
+      1312,
+      1313,
+      1334,
+      1367,
+      1368,
+      1391,
+      1393,
+      1394,
+      1395,
+      1396,
+      1397,
+      1426,
+      1427,
+      1428,
+      1441,
+      1443,
+      1444,
+      1448
+    ],
+    "foot_min_height": 0.0
+  },
+  "9": {
+    "body_intersecting_faces": 24,
+    "face_indices": [
+      1058,
+      1059,
+      1060,
+      1134,
+      1306,
+      1307,
+      1312,
+      1313,
+      1334,
+      1367,
+      1368,
+      1391,
+      1393,
+      1394,
+      1395,
+      1396,
+      1397,
+      1426,
+      1427,
+      1428,
+      1441,
+      1443,
+      1444,
+      1448
+    ],
+    "foot_min_height": 0.0
+  },
+  "10": {
+    "body_intersecting_faces": 22,
+    "face_indices": [
+      1058,
+      1059,
+      1060,
+      1134,
+      1306,
+      1307,
+      1312,
+      1313,
+      1334,
+      1367,
+      1368,
+      1391,
+      1392,
+      1393,
+      1397,
+      1426,
+      1427,
+      1428,
+      1441,
+      1443,
+      1444,
+      1448
+    ],
+    "foot_min_height": 5.960464477539063e-08
+  },
+  "11": {
+    "body_intersecting_faces": 22,
+    "face_indices": [
+      1058,
+      1059,
+      1060,
+      1134,
+      1306,
+      1307,
+      1312,
+      1313,
+      1334,
+      1367,
+      1368,
+      1391,
+      1392,
+      1393,
+      1397,
+      1426,
+      1427,
+      1428,
+      1441,
+      1443,
+      1444,
+      1448
+    ],
+    "foot_min_height": -5.960464477539063e-08
+  },
+  "12": {
+    "body_intersecting_faces": 18,
+    "face_indices": [
+      1058,
+      1059,
+      1060,
+      1134,
+      1306,
+      1307,
+      1312,
+      1313,
+      1334,
+      1397,
+      1425,
+      1426,
+      1427,
+      1428,
+      1441,
+      1442,
+      1443,
+      1444
+    ],
+    "foot_min_height": 1.1920928955078125e-07
+  },
+  "13": {
+    "body_intersecting_faces": 4,
+    "face_indices": [
+      1058,
+      1059,
+      1060,
+      1134
+    ],
+    "foot_min_height": 1.1920928955078125e-07
+  },
+  "14": {
+    "body_intersecting_faces": 4,
+    "face_indices": [
+      1058,
+      1059,
+      1060,
+      1134
+    ],
+    "foot_min_height": 0.0
+  },
+  "15": {
+    "body_intersecting_faces": 4,
+    "face_indices": [
+      1058,
+      1059,
+      1060,
+      1134
+    ],
+    "foot_min_height": 0.0
+  },
+  "16": {
+    "body_intersecting_faces": 0,
+    "face_indices": [],
+    "foot_min_height": 0.0
+  },
+  "17": {
+    "body_intersecting_faces": 0,
+    "face_indices": [],
+    "foot_min_height": 0.0
+  },
+  "18": {
+    "body_intersecting_faces": 0,
+    "face_indices": [],
+    "foot_min_height": 0.0
+  },
+  "19": {
+    "body_intersecting_faces": 0,
+    "face_indices": [],
+    "foot_min_height": 1.1920928955078125e-07
+  },
+  "20": {
+    "body_intersecting_faces": 0,
+    "face_indices": [],
+    "foot_min_height": -1.1920928955078125e-07
+  },
+  "21": {
+    "body_intersecting_faces": 0,
+    "face_indices": [],
+    "foot_min_height": -1.1920928955078125e-07
+  },
+  "22": {
+    "body_intersecting_faces": 0,
+    "face_indices": [],
+    "foot_min_height": 0.0
+  },
+  "23": {
+    "body_intersecting_faces": 0,
+    "face_indices": [],
+    "foot_min_height": 1.1920928955078125e-07
+  },
+  "24": {
+    "body_intersecting_faces": 0,
+    "face_indices": [],
+    "foot_min_height": 1.1920928955078125e-07
+  },
+  "25": {
+    "body_intersecting_faces": 0,
+    "face_indices": [],
+    "foot_min_height": 0.0
+  },
+  "26": {
+    "body_intersecting_faces": 0,
+    "face_indices": [],
+    "foot_min_height": 0.0
+  },
+  "27": {
+    "body_intersecting_faces": 0,
+    "face_indices": [],
+    "foot_min_height": 0.0
+  },
+  "28": {
+    "body_intersecting_faces": 0,
+    "face_indices": [],
+    "foot_min_height": 5.960464477539063e-08
+  },
+  "29": {
+    "body_intersecting_faces": 4,
+    "face_indices": [
+      731,
+      732,
+      735,
+      736
+    ],
+    "foot_min_height": 5.960464477539063e-08
+  },
+  "30": {
+    "body_intersecting_faces": 20,
+    "face_indices": [
+      731,
+      732,
+      735,
+      736,
+      989,
+      990,
+      1037,
+      1038,
+      1039,
+      1041,
+      1042,
+      1068,
+      1069,
+      1070,
+      1071,
+      1072,
+      1077,
+      1078,
+      1083,
+      1084
+    ],
+    "foot_min_height": -5.960464477539063e-08
+  },
+  "31": {
+    "body_intersecting_faces": 34,
+    "face_indices": [
+      731,
+      732,
+      735,
+      736,
+      989,
+      990,
+      998,
+      999,
+      1037,
+      1038,
+      1039,
+      1041,
+      1042,
+      1068,
+      1069,
+      1070,
+      1071,
+      1072,
+      1077,
+      1079,
+      1080,
+      1081,
+      1082,
+      1083,
+      1084,
+      1118,
+      1168,
+      1169,
+      1201,
+      1631,
+      1632,
+      1688,
+      1689,
+      1690
+    ],
+    "foot_min_height": 5.960464477539063e-08
+  },
+  "32": {
+    "body_intersecting_faces": 36,
+    "face_indices": [
+      731,
+      732,
+      735,
+      736,
+      989,
+      990,
+      998,
+      999,
+      1037,
+      1038,
+      1039,
+      1041,
+      1042,
+      1043,
+      1068,
+      1069,
+      1073,
+      1074,
+      1077,
+      1078,
+      1079,
+      1080,
+      1081,
+      1082,
+      1083,
+      1118,
+      1119,
+      1120,
+      1121,
+      1168,
+      1169,
+      1201,
+      1631,
+      1632,
+      1688,
+      1689
+    ],
+    "foot_min_height": -5.960464477539063e-08
+  },
+  "33": {
+    "body_intersecting_faces": 28,
+    "face_indices": [
+      731,
+      732,
+      735,
+      736,
+      989,
+      990,
+      998,
+      999,
+      1037,
+      1038,
+      1039,
+      1041,
+      1042,
+      1043,
+      1068,
+      1069,
+      1073,
+      1074,
+      1077,
+      1078,
+      1079,
+      1080,
+      1081,
+      1083,
+      1118,
+      1119,
+      1120,
+      1121
+    ],
+    "foot_min_height": 0.0
+  },
+  "34": {
+    "body_intersecting_faces": 18,
+    "face_indices": [
+      989,
+      990,
+      1038,
+      1039,
+      1041,
+      1042,
+      1071,
+      1072,
+      1078,
+      1079,
+      1080,
+      1081,
+      1310,
+      1424,
+      1425,
+      1426,
+      1427,
+      1428
+    ],
+    "foot_min_height": 0.0
+  },
+  "35": {
+    "body_intersecting_faces": 31,
+    "face_indices": [
+      1218,
+      1219,
+      1225,
+      1226,
+      1227,
+      1228,
+      1229,
+      1256,
+      1257,
+      1258,
+      1259,
+      1260,
+      1267,
+      1289,
+      1299,
+      1310,
+      1311,
+      1312,
+      1367,
+      1368,
+      1391,
+      1392,
+      1424,
+      1425,
+      1426,
+      1427,
+      1428,
+      1441,
+      1442,
+      1443,
+      1444
+    ],
+    "foot_min_height": 0.0
+  },
+  "36": {
+    "body_intersecting_faces": 38,
+    "face_indices": [
+      1218,
+      1219,
+      1226,
+      1227,
+      1228,
+      1229,
+      1251,
+      1252,
+      1253,
+      1267,
+      1268,
+      1295,
+      1299,
+      1303,
+      1304,
+      1310,
+      1311,
+      1312,
+      1313,
+      1366,
+      1367,
+      1368,
+      1378,
+      1379,
+      1391,
+      1392,
+      1407,
+      1424,
+      1425,
+      1426,
+      1427,
+      1441,
+      1442,
+      1443,
+      1444,
+      1445,
+      1446,
+      1469
+    ],
+    "foot_min_height": 1.1920928955078125e-07
+  },
+  "37": {
+    "body_intersecting_faces": 28,
+    "face_indices": [
+      1218,
+      1219,
+      1267,
+      1268,
+      1295,
+      1303,
+      1310,
+      1311,
+      1312,
+      1313,
+      1366,
+      1367,
+      1368,
+      1391,
+      1392,
+      1393,
+      1407,
+      1424,
+      1425,
+      1428,
+      1441,
+      1442,
+      1443,
+      1444,
+      1445,
+      1446,
+      1448,
+      1469
+    ],
+    "foot_min_height": 0.0
+  },
+  "38": {
+    "body_intersecting_faces": 19,
+    "face_indices": [
+      1267,
+      1268,
+      1310,
+      1311,
+      1312,
+      1313,
+      1367,
+      1368,
+      1391,
+      1392,
+      1393,
+      1424,
+      1425,
+      1428,
+      1441,
+      1442,
+      1443,
+      1444,
+      1448
+    ],
+    "foot_min_height": -1.1920928955078125e-07
+  },
+  "39": {
+    "body_intersecting_faces": 15,
+    "face_indices": [
+      1267,
+      1268,
+      1310,
+      1311,
+      1312,
+      1313,
+      1367,
+      1368,
+      1391,
+      1392,
+      1424,
+      1425,
+      1426,
+      1427,
+      1428
+    ],
+    "foot_min_height": 0.0
+  },
+  "40": {
+    "body_intersecting_faces": 0,
+    "face_indices": [],
+    "foot_min_height": -1.1920928955078125e-07
+  },
+  "41": {
+    "body_intersecting_faces": 0,
+    "face_indices": [],
+    "foot_min_height": 1.1920928955078125e-07
+  },
+  "42": {
+    "body_intersecting_faces": 0,
+    "face_indices": [],
+    "foot_min_height": 1.1920928955078125e-07
+  },
+  "43": {
+    "body_intersecting_faces": 0,
+    "face_indices": [],
+    "foot_min_height": 0.0
+  },
+  "44": {
+    "body_intersecting_faces": 0,
+    "face_indices": [],
+    "foot_min_height": -1.1920928955078125e-07
+  },
+  "45": {
+    "body_intersecting_faces": 4,
+    "face_indices": [
+      1058,
+      1059,
+      1060,
+      1134
+    ],
+    "foot_min_height": 0.0
+  },
+  "46": {
+    "body_intersecting_faces": 4,
+    "face_indices": [
+      1058,
+      1059,
+      1060,
+      1134
+    ],
+    "foot_min_height": 0.0
+  },
+  "47": {
+    "body_intersecting_faces": 4,
+    "face_indices": [
+      1058,
+      1059,
+      1060,
+      1134
+    ],
+    "foot_min_height": 1.1920928955078125e-07
+  },
+  "48": {
+    "body_intersecting_faces": 4,
+    "face_indices": [
+      1058,
+      1059,
+      1060,
+      1134
+    ],
+    "foot_min_height": -5.960464477539063e-08
+  },
+  "49": {
+    "body_intersecting_faces": 4,
+    "face_indices": [
+      1058,
+      1059,
+      1060,
+      1134
+    ],
+    "foot_min_height": 1.1920928955078125e-07
+  },
+  "50": {
+    "body_intersecting_faces": 4,
+    "face_indices": [
+      1058,
+      1059,
+      1060,
+      1134
+    ],
+    "foot_min_height": 0.0
+  },
+  "51": {
+    "body_intersecting_faces": 4,
+    "face_indices": [
+      1058,
+      1059,
+      1060,
+      1134
+    ],
+    "foot_min_height": -1.1920928955078125e-07
+  },
+  "52": {
+    "body_intersecting_faces": 4,
+    "face_indices": [
+      1058,
+      1059,
+      1060,
+      1134
+    ],
+    "foot_min_height": 0.0
+  },
+  "53": {
+    "body_intersecting_faces": 4,
+    "face_indices": [
+      1058,
+      1059,
+      1060,
+      1134
+    ],
+    "foot_min_height": 1.1920928955078125e-07
+  },
+  "54": {
+    "body_intersecting_faces": 4,
+    "face_indices": [
+      1058,
+      1059,
+      1060,
+      1134
+    ],
+    "foot_min_height": 1.1920928955078125e-07
+  },
+  "55": {
+    "body_intersecting_faces": 0,
+    "face_indices": [],
+    "foot_min_height": 0.0
+  },
+  "56": {
+    "body_intersecting_faces": 8,
+    "face_indices": [
+      1633,
+      1687,
+      1688,
+      1689,
+      1690,
+      1691,
+      1692,
+      1716
+    ],
+    "foot_min_height": 0.0
+  },
+  "57": {
+    "body_intersecting_faces": 4,
+    "face_indices": [
+      1633,
+      1688,
+      1689,
+      1716
+    ],
+    "foot_min_height": 1.1920928955078125e-07
+  },
+  "58": {
+    "body_intersecting_faces": 0,
+    "face_indices": [],
+    "foot_min_height": 1.1920928955078125e-07
+  },
+  "59": {
+    "body_intersecting_faces": 8,
+    "face_indices": [
+      1218,
+      1226,
+      1227,
+      1252,
+      1253,
+      1295,
+      1303,
+      1304
+    ],
+    "foot_min_height": 0.0
+  },
+  "60": {
+    "body_intersecting_faces": 9,
+    "face_indices": [
+      1218,
+      1219,
+      1227,
+      1228,
+      1229,
+      1299,
+      1302,
+      1303,
+      1304
+    ],
+    "foot_min_height": -2.384185791015625e-07
+  },
+  "61": {
+    "body_intersecting_faces": 0,
+    "face_indices": [],
+    "foot_min_height": 0.0
+  },
+  "62": {
+    "body_intersecting_faces": 0,
+    "face_indices": [],
+    "foot_min_height": 0.0
+  },
+  "63": {
+    "body_intersecting_faces": 0,
+    "face_indices": [],
+    "foot_min_height": -1.1920928955078125e-07
+  },
+  "64": {
+    "body_intersecting_faces": 0,
+    "face_indices": [],
+    "foot_min_height": 0.0
+  },
+  "65": {
+    "body_intersecting_faces": 0,
+    "face_indices": [],
+    "foot_min_height": 0.0
+  },
+  "66": {
+    "body_intersecting_faces": 0,
+    "face_indices": [],
+    "foot_min_height": 0.0
+  },
+  "67": {
+    "body_intersecting_faces": 4,
+    "face_indices": [
+      731,
+      732,
+      735,
+      736
+    ],
+    "foot_min_height": 0.0
+  },
+  "68": {
+    "body_intersecting_faces": 4,
+    "face_indices": [
+      731,
+      732,
+      735,
+      736
+    ],
+    "foot_min_height": 1.1920928955078125e-07
+  },
+  "69": {
+    "body_intersecting_faces": 4,
+    "face_indices": [
+      731,
+      732,
+      735,
+      736
+    ],
+    "foot_min_height": -5.960464477539063e-08
+  },
+  "70": {
+    "body_intersecting_faces": 4,
+    "face_indices": [
+      731,
+      732,
+      735,
+      736
+    ],
+    "foot_min_height": 0.0
+  },
+  "71": {
+    "body_intersecting_faces": 4,
+    "face_indices": [
+      731,
+      732,
+      735,
+      736
+    ],
+    "foot_min_height": -1.1920928955078125e-07
+  },
+  "72": {
+    "body_intersecting_faces": 4,
+    "face_indices": [
+      731,
+      732,
+      735,
+      736
+    ],
+    "foot_min_height": 0.0
+  },
+  "73": {
+    "body_intersecting_faces": 13,
+    "face_indices": [
+      1310,
+      1311,
+      1407,
+      1424,
+      1425,
+      1426,
+      1427,
+      1428,
+      1441,
+      1444,
+      1445,
+      1446,
+      1469
+    ],
+    "foot_min_height": 0.0
+  },
+  "74": {
+    "body_intersecting_faces": 22,
+    "face_indices": [
+      1266,
+      1267,
+      1310,
+      1311,
+      1367,
+      1368,
+      1391,
+      1392,
+      1403,
+      1407,
+      1424,
+      1425,
+      1426,
+      1427,
+      1428,
+      1441,
+      1442,
+      1443,
+      1444,
+      1445,
+      1446,
+      1469
+    ],
+    "foot_min_height": 0.0
+  },
+  "75": {
+    "body_intersecting_faces": 40,
+    "face_indices": [
+      1218,
+      1219,
+      1225,
+      1226,
+      1227,
+      1228,
+      1229,
+      1256,
+      1257,
+      1258,
+      1259,
+      1260,
+      1266,
+      1267,
+      1268,
+      1289,
+      1299,
+      1310,
+      1311,
+      1312,
+      1366,
+      1367,
+      1368,
+      1378,
+      1379,
+      1391,
+      1392,
+      1403,
+      1407,
+      1424,
+      1425,
+      1426,
+      1427,
+      1441,
+      1442,
+      1443,
+      1444,
+      1445,
+      1446,
+      1469
+    ],
+    "foot_min_height": -1.1920928955078125e-07
+  },
+  "76": {
+    "body_intersecting_faces": 47,
+    "face_indices": [
+      853,
+      854,
+      1218,
+      1219,
+      1223,
+      1225,
+      1226,
+      1228,
+      1229,
+      1251,
+      1252,
+      1253,
+      1257,
+      1258,
+      1259,
+      1267,
+      1268,
+      1289,
+      1295,
+      1299,
+      1303,
+      1304,
+      1310,
+      1311,
+      1312,
+      1313,
+      1364,
+      1365,
+      1366,
+      1368,
+      1369,
+      1378,
+      1379,
+      1391,
+      1392,
+      1393,
+      1407,
+      1424,
+      1425,
+      1441,
+      1442,
+      1443,
+      1444,
+      1445,
+      1446,
+      1448,
+      1469
+    ],
+    "foot_min_height": -5.960464477539063e-08
+  },
+  "77": {
+    "body_intersecting_faces": 35,
+    "face_indices": [
+      1218,
+      1219,
+      1267,
+      1268,
+      1295,
+      1296,
+      1302,
+      1303,
+      1310,
+      1311,
+      1312,
+      1313,
+      1324,
+      1329,
+      1364,
+      1365,
+      1366,
+      1367,
+      1368,
+      1369,
+      1391,
+      1392,
+      1393,
+      1407,
+      1424,
+      1425,
+      1428,
+      1441,
+      1442,
+      1443,
+      1444,
+      1445,
+      1446,
+      1448,
+      1469
+    ],
+    "foot_min_height": -1.1920928955078125e-07
+  },
+  "78": {
+    "body_intersecting_faces": 23,
+    "face_indices": [
+      1267,
+      1268,
+      1310,
+      1311,
+      1312,
+      1313,
+      1367,
+      1368,
+      1391,
+      1392,
+      1393,
+      1407,
+      1424,
+      1425,
+      1428,
+      1441,
+      1442,
+      1443,
+      1444,
+      1445,
+      1446,
+      1448,
+      1469
+    ],
+    "foot_min_height": -5.960464477539063e-08
+  },
+  "79": {
+    "body_intersecting_faces": 8,
+    "face_indices": [
+      1268,
+      1313,
+      1367,
+      1368,
+      1391,
+      1392,
+      1427,
+      1428
+    ],
+    "foot_min_height": -5.960464477539063e-08
+  },
+  "80": {
+    "body_intersecting_faces": 0,
+    "face_indices": [],
+    "foot_min_height": 0.0
+  },
+  "81": {
+    "body_intersecting_faces": 0,
+    "face_indices": [],
+    "foot_min_height": 0.0
+  },
+  "82": {
+    "body_intersecting_faces": 0,
+    "face_indices": [],
+    "foot_min_height": 1.1920928955078125e-07
+  },
+  "83": {
+    "body_intersecting_faces": 4,
+    "face_indices": [
+      1058,
+      1059,
+      1060,
+      1134
+    ],
+    "foot_min_height": 0.0
+  },
+  "84": {
+    "body_intersecting_faces": 4,
+    "face_indices": [
+      1058,
+      1059,
+      1060,
+      1134
+    ],
+    "foot_min_height": 1.1920928955078125e-07
+  },
+  "85": {
+    "body_intersecting_faces": 4,
+    "face_indices": [
+      1058,
+      1059,
+      1060,
+      1134
+    ],
+    "foot_min_height": 2.384185791015625e-07
+  },
+  "86": {
+    "body_intersecting_faces": 8,
+    "face_indices": [
+      1058,
+      1059,
+      1060,
+      1134,
+      1334,
+      1397,
+      1441,
+      1444
+    ],
+    "foot_min_height": 1.1920928955078125e-07
+  },
+  "87": {
+    "body_intersecting_faces": 8,
+    "face_indices": [
+      1058,
+      1059,
+      1060,
+      1134,
+      1334,
+      1397,
+      1441,
+      1444
+    ],
+    "foot_min_height": 5.960464477539063e-08
+  },
+  "88": {
+    "body_intersecting_faces": 13,
+    "face_indices": [
+      1058,
+      1059,
+      1060,
+      1134,
+      1306,
+      1307,
+      1334,
+      1391,
+      1392,
+      1393,
+      1397,
+      1441,
+      1444
+    ],
+    "foot_min_height": 0.0
+  },
+  "89": {
+    "body_intersecting_faces": 14,
+    "face_indices": [
+      1058,
+      1059,
+      1060,
+      1134,
+      1306,
+      1307,
+      1313,
+      1334,
+      1391,
+      1392,
+      1393,
+      1397,
+      1441,
+      1444
+    ],
+    "foot_min_height": 1.7881393432617188e-07
+  },
+  "90": {
+    "body_intersecting_faces": 12,
+    "face_indices": [
+      1058,
+      1059,
+      1060,
+      1134,
+      1306,
+      1307,
+      1334,
+      1391,
+      1392,
+      1397,
+      1441,
+      1444
+    ],
+    "foot_min_height": 1.7881393432617188e-07
+  },
+  "91": {
+    "body_intersecting_faces": 8,
+    "face_indices": [
+      1058,
+      1059,
+      1060,
+      1134,
+      1334,
+      1397,
+      1441,
+      1444
+    ],
+    "foot_min_height": 1.1920928955078125e-07
+  },
+  "92": {
+    "body_intersecting_faces": 4,
+    "face_indices": [
+      1058,
+      1059,
+      1060,
+      1134
+    ],
+    "foot_min_height": -1.1920928955078125e-07
+  },
+  "93": {
+    "body_intersecting_faces": 4,
+    "face_indices": [
+      1058,
+      1059,
+      1060,
+      1134
+    ],
+    "foot_min_height": 1.1920928955078125e-07
+  },
+  "94": {
+    "body_intersecting_faces": 12,
+    "face_indices": [
+      1633,
+      1687,
+      1688,
+      1689,
+      1690,
+      1691,
+      1692,
+      1715,
+      1716,
+      1730,
+      1731,
+      1748
+    ],
+    "foot_min_height": 2.384185791015625e-07
+  },
+  "95": {
+    "body_intersecting_faces": 15,
+    "face_indices": [
+      1597,
+      1598,
+      1633,
+      1634,
+      1687,
+      1688,
+      1689,
+      1690,
+      1691,
+      1692,
+      1715,
+      1716,
+      1730,
+      1731,
+      1748
+    ],
+    "foot_min_height": 0.0
+  },
+  "96": {
+    "body_intersecting_faces": 12,
+    "face_indices": [
+      1597,
+      1598,
+      1633,
+      1634,
+      1687,
+      1688,
+      1689,
+      1690,
+      1691,
+      1692,
+      1715,
+      1716
+    ],
+    "foot_min_height": 1.1920928955078125e-07
+  },
+  "97": {
+    "body_intersecting_faces": 4,
+    "face_indices": [
+      1633,
+      1688,
+      1689,
+      1716
+    ],
+    "foot_min_height": 1.1920928955078125e-07
+  },
+  "98": {
+    "body_intersecting_faces": 0,
+    "face_indices": [],
+    "foot_min_height": 0.0
+  },
+  "99": {
+    "body_intersecting_faces": 0,
+    "face_indices": [],
+    "foot_min_height": 1.1920928955078125e-07
+  },
+  "100": {
+    "body_intersecting_faces": 0,
+    "face_indices": [],
+    "foot_min_height": -2.384185791015625e-07
+  },
+  "101": {
+    "body_intersecting_faces": 0,
+    "face_indices": [],
+    "foot_min_height": 2.384185791015625e-07
+  },
+  "102": {
+    "body_intersecting_faces": 0,
+    "face_indices": [],
+    "foot_min_height": -1.1920928955078125e-07
+  },
+  "103": {
+    "body_intersecting_faces": 0,
+    "face_indices": [],
+    "foot_min_height": 0.0
+  },
+  "104": {
+    "body_intersecting_faces": 0,
+    "face_indices": [],
+    "foot_min_height": 0.0
+  },
+  "105": {
+    "body_intersecting_faces": 0,
+    "face_indices": [],
+    "foot_min_height": 0.0
+  },
+  "106": {
+    "body_intersecting_faces": 4,
+    "face_indices": [
+      731,
+      732,
+      735,
+      736
+    ],
+    "foot_min_height": 0.0
+  },
+  "107": {
+    "body_intersecting_faces": 4,
+    "face_indices": [
+      731,
+      732,
+      735,
+      736
+    ],
+    "foot_min_height": -1.1920928955078125e-07
+  },
+  "108": {
+    "body_intersecting_faces": 4,
+    "face_indices": [
+      731,
+      732,
+      735,
+      736
+    ],
+    "foot_min_height": -5.960464477539063e-08
+  },
+  "109": {
+    "body_intersecting_faces": 4,
+    "face_indices": [
+      731,
+      732,
+      735,
+      736
+    ],
+    "foot_min_height": 5.960464477539063e-08
+  },
+  "110": {
+    "body_intersecting_faces": 4,
+    "face_indices": [
+      731,
+      732,
+      735,
+      736
+    ],
+    "foot_min_height": 0.0
+  },
+  "111": {
+    "body_intersecting_faces": 4,
+    "face_indices": [
+      731,
+      732,
+      735,
+      736
+    ],
+    "foot_min_height": 0.0
+  },
+  "112": {
+    "body_intersecting_faces": 14,
+    "face_indices": [
+      1310,
+      1311,
+      1403,
+      1407,
+      1424,
+      1425,
+      1426,
+      1427,
+      1428,
+      1441,
+      1444,
+      1445,
+      1446,
+      1469
+    ],
+    "foot_min_height": 1.1920928955078125e-07
+  },
+  "113": {
+    "body_intersecting_faces": 22,
+    "face_indices": [
+      1266,
+      1267,
+      1310,
+      1311,
+      1367,
+      1368,
+      1391,
+      1392,
+      1403,
+      1407,
+      1424,
+      1425,
+      1426,
+      1427,
+      1428,
+      1441,
+      1442,
+      1443,
+      1444,
+      1445,
+      1446,
+      1469
+    ],
+    "foot_min_height": 1.1920928955078125e-07
+  },
+  "114": {
+    "body_intersecting_faces": 34,
+    "face_indices": [
+      1218,
+      1219,
+      1225,
+      1226,
+      1227,
+      1228,
+      1229,
+      1256,
+      1257,
+      1266,
+      1267,
+      1289,
+      1310,
+      1311,
+      1366,
+      1367,
+      1368,
+      1378,
+      1379,
+      1391,
+      1392,
+      1403,
+      1407,
+      1424,
+      1425,
+      1426,
+      1427,
+      1441,
+      1442,
+      1443,
+      1444,
+      1445,
+      1446,
+      1469
+    ],
+    "foot_min_height": 0.0
+  },
+  "115": {
+    "body_intersecting_faces": 49,
+    "face_indices": [
+      853,
+      854,
+      1218,
+      1219,
+      1223,
+      1225,
+      1226,
+      1228,
+      1229,
+      1251,
+      1252,
+      1256,
+      1257,
+      1258,
+      1259,
+      1260,
+      1266,
+      1267,
+      1268,
+      1289,
+      1299,
+      1303,
+      1304,
+      1310,
+      1311,
+      1312,
+      1313,
+      1364,
+      1365,
+      1366,
+      1368,
+      1369,
+      1378,
+      1379,
+      1391,
+      1392,
+      1393,
+      1403,
+      1407,
+      1424,
+      1425,
+      1441,
+      1442,
+      1443,
+      1444,
+      1445,
+      1446,
+      1448,
+      1469
+    ],
+    "foot_min_height": -5.960464477539063e-08
+  },
+  "116": {
+    "body_intersecting_faces": 51,
+    "face_indices": [
+      853,
+      854,
+      1218,
+      1219,
+      1223,
+      1226,
+      1227,
+      1228,
+      1229,
+      1251,
+      1252,
+      1253,
+      1266,
+      1267,
+      1268,
+      1295,
+      1296,
+      1299,
+      1300,
+      1302,
+      1303,
+      1304,
+      1310,
+      1311,
+      1312,
+      1313,
+      1324,
+      1329,
+      1364,
+      1365,
+      1366,
+      1368,
+      1369,
+      1378,
+      1379,
+      1391,
+      1393,
+      1394,
+      1395,
+      1396,
+      1407,
+      1424,
+      1425,
+      1441,
+      1442,
+      1443,
+      1444,
+      1445,
+      1446,
+      1448,
+      1469
+    ],
+    "foot_min_height": 5.960464477539063e-08
+  },
+  "117": {
+    "body_intersecting_faces": 36,
+    "face_indices": [
+      1218,
+      1219,
+      1223,
+      1267,
+      1268,
+      1295,
+      1296,
+      1302,
+      1303,
+      1310,
+      1311,
+      1312,
+      1313,
+      1324,
+      1329,
+      1364,
+      1365,
+      1366,
+      1367,
+      1368,
+      1369,
+      1391,
+      1392,
+      1393,
+      1407,
+      1424,
+      1425,
+      1428,
+      1441,
+      1442,
+      1443,
+      1444,
+      1445,
+      1446,
+      1448,
+      1469
+    ],
+    "foot_min_height": -1.1920928955078125e-07
+  },
+  "118": {
+    "body_intersecting_faces": 21,
+    "face_indices": [
+      1267,
+      1268,
+      1310,
+      1311,
+      1312,
+      1313,
+      1367,
+      1368,
+      1391,
+      1392,
+      1393,
+      1407,
+      1424,
+      1425,
+      1426,
+      1428,
+      1443,
+      1445,
+      1446,
+      1448,
+      1469
+    ],
+    "foot_min_height": -1.7881393432617188e-07
+  },
+  "119": {
+    "body_intersecting_faces": 12,
+    "face_indices": [
+      1267,
+      1268,
+      1310,
+      1311,
+      1312,
+      1313,
+      1367,
+      1368,
+      1391,
+      1392,
+      1427,
+      1428
+    ],
+    "foot_min_height": 0.0
+  },
+  "120": {
+    "body_intersecting_faces": 0,
+    "face_indices": [],
+    "foot_min_height": 5.960464477539063e-08
+  }
+}

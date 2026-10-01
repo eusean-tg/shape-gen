@@ -1,0 +1,86 @@
+{
+  "source": "/home/sean/workspace/shape-gen/assets/teal-peasant/collar-fix/final/peasant-walk.blend",
+  "source_sha256": "2f5e7f8429c2495f2c2cd21a38e6d3ceea2266f6122f4bd34806a4ace6a15efb",
+  "fps": 60,
+  "clips": {
+    "Idle_Breathe": {
+      "duration": 4,
+      "frames": 241,
+      "source": "/home/sean/workspace/shape-gen/assets/teal-peasant/idle-set/generated/breathe/motion.npz",
+      "endpoint_vertex_error": 0.0,
+      "sole_drift": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    "Idle_LookAround": {
+      "duration": 4,
+      "frames": 241,
+      "source": "/home/sean/workspace/shape-gen/assets/teal-peasant/idle-set/generated/look-around/motion.npz",
+      "endpoint_vertex_error": 0.0,
+      "sole_drift": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    },
+    "Idle_WeightShift": {
+      "duration": 4,
+      "frames": 241,
+      "source": "/home/sean/workspace/shape-gen/assets/teal-peasant/idle-set/generated/weight-shift/motion.npz",
+      "endpoint_vertex_error": 0.0,
+      "sole_drift": {
+        "L": 0.00031347799091622423,
+        "R": 0.0002996759614523534
+      }
+    },
+    "Idle_HandCheck": {
+      "duration": 4,
+      "frames": 241,
+      "source": "/home/sean/workspace/shape-gen/assets/teal-peasant/idle-set/generated/adjust-sleeve/motion.npz",
+      "endpoint_vertex_error": 0.0,
+      "sole_drift": {
+        "L": 0.0,
+        "R": 0.0
+      }
+    }
+  },
+  "walk_preserved": true,
+  "geometry_weights_uvs_textures_changed": false,
+  "neutral_arm_joints": {
+    "L": {
+      "upper_arm": [
+        0.17616483569145203,
+        0.06932825595140457,
+        1.5340138673782349
+      ],
+      "forearm": [
+        0.25472375750541687,
+        0.049688488245010376,
+        1.2649494409561157
+      ],
+      "hand": [
+        0.2948569059371948,
+        -0.025561191141605377,
+        0.9559242725372314
+      ]
+    },
+    "R": {
+      "upper_arm": [
+        -0.16280198097229004,
+        0.07374276965856552,
+        1.537453293800354
+      ],
+      "forearm": [
+        -0.24198059737682343,
+        0.053947992622852325,
+        1.2662665843963623
+      ],
+      "hand": [
+        -0.2821137011051178,
+        -0.02130161225795746,
+        0.9572414755821228
+      ]
+    }
+  },
+  "cleanup": "Periodic breathing fit; relaxed forward arm stance with gentle elbow bend, stable leg IK, .75/.85s accent entry/exit envelopes; weight-shift pelvis sway authored."
+}

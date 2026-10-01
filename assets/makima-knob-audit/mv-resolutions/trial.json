@@ -1,0 +1,147 @@
+{
+  "args": {
+    "label": "mv-resolutions",
+    "model": "mv",
+    "source": "processed",
+    "steps": 50,
+    "guidance": 5,
+    "seed": 12345,
+    "resolutions": [
+      192,
+      384,
+      512
+    ],
+    "decoder": "hierarchical",
+    "chunks": 4096,
+    "views": [
+      "front",
+      "left",
+      "back",
+      "right"
+    ],
+    "latent_from": "assets/makima-knob-audit/mv-baseline/latent.pt",
+    "levels": [
+      0.0,
+      -0.02,
+      0.02
+    ]
+  },
+  "status": "complete",
+  "outputs": [
+    {
+      "file": "r192-iso0.glb",
+      "vertices": 31322,
+      "triangles": 62648,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "28075299399c4d26fc539b6af615d542e9dead0392559da81cdb8c85dd8fc0f6"
+    },
+    {
+      "file": "r192-iso-0.02.glb",
+      "vertices": 31410,
+      "triangles": 62824,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "426eb8083f5da05ca1cffe067c7aed06f65c78989ad5deeb65c59d03fd26bacf"
+    },
+    {
+      "file": "r192-iso0.02.glb",
+      "vertices": 31266,
+      "triangles": 62536,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "d81e5a13131ce48024a8256bdb2d06e649f36bf41f87b3a2c7eef71003cf1a55"
+    },
+    {
+      "file": "r384-iso0.glb",
+      "vertices": 125465,
+      "triangles": 250938,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "83102aae6909b7d7292a6d25ba796ad4e607659618ce9951954ff76bfa0cc2c3"
+    },
+    {
+      "file": "r384-iso-0.02.glb",
+      "vertices": 125734,
+      "triangles": 251476,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "ccff184f59527e13236532ba163448ec3bdd15cb649e9c6afc3178d96311cf97"
+    },
+    {
+      "file": "r384-iso0.02.glb",
+      "vertices": 125222,
+      "triangles": 250448,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "a99c37af2baf01270f6b3cb326f13eb38d6c664712ac8ab057efd2e0e61aa717"
+    },
+    {
+      "file": "r512-iso0.glb",
+      "vertices": 223061,
+      "triangles": 446130,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "bd7be8ddc7ca6a757f8ccb3d10ddf6490cdd1fbc163085d8e52f6de3fdf3476a"
+    },
+    {
+      "file": "r512-iso-0.02.glb",
+      "vertices": 223596,
+      "triangles": 447200,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "8d57d1fcf820b3d256511c81c42db5e6554b471eef48050a0d952fa0c93f1f5e"
+    },
+    {
+      "file": "r512-iso0.02.glb",
+      "vertices": 222566,
+      "triangles": 445136,
+      "watertight": true,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "sha256": "78c11985fe17ae433fe5f85e316306151dbae2cac7f37752197830b88aa2a029"
+    }
+  ],
+  "model_info": {
+    "repo_id": "tencent/Hunyuan3D-2mv",
+    "revision": "3a761b539b29fe4ff64714813aa9560fd66f5de0",
+    "subfolder": "hunyuan3d-dit-v2-mv",
+    "sha256": "d36f5881bcdc56726b73e517cd444c13c60732431622da7268145355c8d38e9c",
+    "file": {
+      "rfilename": "hunyuan3d-dit-v2-mv/model.fp16.safetensors",
+      "size": 4928151562,
+      "lfs": {
+        "sha256": "d36f5881bcdc56726b73e517cd444c13c60732431622da7268145355c8d38e9c",
+        "size": 4928151562
+      }
+    },
+    "config_url": "https://huggingface.co/tencent/Hunyuan3D-2mv/resolve/3a761b539b29fe4ff64714813aa9560fd66f5de0/hunyuan3d-dit-v2-mv/config.yaml",
+    "config_sha256": "315fd5bf601d1d103130b9fda202f1bd28eda495e68ed1621bc823d5519c5e5b"
+  },
+  "input_hashes": {
+    "front": "d79527af60556b014ddd8ee4be51c40b24836e972d0febfb7733524a22bd47be",
+    "left": "2164e2afa6439f91f56c2da84abb554e4d8257310aa0db101049ae7ed970864f",
+    "back": "04574d55e0b67d79ec6fe567ac17b3a13245b0a2220071cc21af3da3f27be56b",
+    "right": "398e4c440deb2bb24b407639d308f863f0113784e45a07329715663ae9113802"
+  },
+  "elapsed_seconds": 33.44219214003533,
+  "peak_allocated_mib": 2294.42529296875,
+  "peak_reserved_mib": 2578.0
+}

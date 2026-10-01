@@ -1,0 +1,37 @@
+[project]
+name = "shape-gen"
+version = "0.1.0"
+description = "Local image-to-mesh environment for Hunyuan3D-2"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "hy3dgen",
+    "torch==2.7.1",
+    "torchvision==0.22.1",
+    "diffusers==0.33.1",
+    "transformers==4.51.3",
+    "accelerate>=1.6,<2",
+    "huggingface-hub<1",
+    "gradio>=5,<6",
+    "numpy>=1.26,<3",
+    "scikit-image>=0.24,<1",
+    "custom-rasterizer",
+    "mesh-processor",
+    "setuptools<81",
+]
+
+[tool.uv]
+package = false
+environments = ["sys_platform == 'linux' and platform_machine == 'x86_64'"]
+no-build-isolation-package = ["custom-rasterizer", "mesh-processor"]
+
+[tool.uv.sources]
+hy3dgen = { path = "third_party/Hunyuan3D-2", editable = true }
+torch = { index = "pytorch-cu126" }
+torchvision = { index = "pytorch-cu126" }
+custom-rasterizer = { path = "third_party/Hunyuan3D-2/hy3dgen/texgen/custom_rasterizer" }
+mesh-processor = { path = "third_party/Hunyuan3D-2/hy3dgen/texgen/differentiable_renderer" }
+
+[[tool.uv.index]]
+name = "pytorch-cu126"
+url = "https://download.pytorch.org/whl/cu126"
+explicit = true

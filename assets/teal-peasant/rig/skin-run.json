@@ -1,0 +1,10 @@
+{
+  "stage": "skin",
+  "seed": 12345,
+  "status": "complete",
+  "output": "/home/sean/workspace/shape-gen/assets/teal-peasant/rig/data/peasant/predict_skin.npz",
+  "seconds": 14.958511193050072,
+  "peak_cuda_allocated_mib": 4170.275390625,
+  "peak_cuda_reserved_mib": 4588.0,
+  "peak_process_rss_mib": 6928.65234375
+}

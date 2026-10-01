@@ -1,0 +1,30 @@
+import assert from 'node:assert/strict';
+import {chromium} from '../.toolchain/motion-review/node_modules/playwright/index.mjs';
+const browser=await chromium.launch({headless:true,args:['--no-sandbox','--use-angle=swiftshader','--enable-webgl']});
+try {
+ const page=await browser.newPage({viewport:{width:1280,height:1080}}),errors=[];
+ page.on('pageerror',e=>errors.push(e.message));
+ await page.goto('http://localhost:5173/preview/');
+ const ready=()=>page.waitForFunction(()=>window.motionViewerReady && !window.modelPreview.state.loading);
+ const seek=t=>page.locator('#time').evaluate((e,t)=>{e.value=t;e.dispatchEvent(new Event('input'))},t);
+ await ready();await page.locator('#version').selectOption('walk-cycle');await ready();
+ const duration=await page.evaluate(()=>window.modelPreview.state.duration);assert(Math.abs(duration-1.3)<1e-5);
+ await seek(0);
+ const transforms=()=>page.evaluate(()=>{const all=[];window.modelPreview.scene.traverse(o=>{if(o.isBone)all.push(...o.matrixWorld.elements)});return all});
+ const start=await transforms();await seek(duration);const end=await transforms();
+ assert(Math.max(...start.map((x,i)=>Math.abs(x-end[i])))<1e-5);
+ await page.locator('#loop').check();await page.locator('#restart').click();
+ await page.waitForFunction(()=>window.modelPreview.state.loopCount>=2);
+ assert(await page.evaluate(()=>window.modelPreview.state.playing));
+ await seek(.3);await page.screenshot({path:'/tmp/walk-cycle-final-preview.png'});
+ await page.locator('#version').selectOption('walk-before-lock');await ready();
+ assert.equal(await page.locator('#time').inputValue(),'0.3');
+ await page.locator('#version').selectOption('walk-contact');await ready();
+ const foot=()=>page.evaluate(()=>{const v=window.modelPreview,p=v.controls.target.clone();v.scene.getObjectByName('footL').getWorldPosition(p);return [p.x,p.z]});
+ await seek(.025);const a=await foot();await seek(.1);const b=await foot();
+ assert(Math.hypot(a[0]-b[0],a[1]-b[1])<.001,'Planted foot should stay on the same floor location');
+ await seek(1.3);await page.screenshot({path:'/tmp/walk-contact-preview.png'});
+ const source=await page.locator('#asset-source').getAttribute('href');assert((await page.request.get(source)).ok());
+ assert.deepEqual(errors,[]);
+ console.log('PASS: seamless exported poses, repeated playback, time-preserving comparison, visible asset notes/Blender link, stationary planted foot during forward travel.');
+} finally {await browser.close()}

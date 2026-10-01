@@ -1,0 +1,24 @@
+{
+  "teal": {
+    "status": "complete",
+    "output_triangles": 4606,
+    "output_vertices": 2228,
+    "boundary_edges": 158,
+    "nonmanifold_edges": 189,
+    "winding_consistent": true,
+    "elapsed_seconds": 499.67,
+    "peak_allocated_mib": 3739.7,
+    "output_sha256": "732cc74c7346cad06a1813e071861c54790248fcc616e6ca3312cd3c86372b49"
+  },
+  "makima": {
+    "status": "complete",
+    "output_triangles": 5845,
+    "output_vertices": 2943,
+    "boundary_edges": 19,
+    "nonmanifold_edges": 0,
+    "winding_consistent": true,
+    "elapsed_seconds": 526.49,
+    "peak_allocated_mib": 3739.7,
+    "output_sha256": "c37af00f4ea4fbadb7365533713674fded6bfbb46587ad9d32bb186e1eef50e4"
+  }
+}

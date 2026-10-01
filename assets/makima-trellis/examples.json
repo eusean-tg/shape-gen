@@ -1,0 +1,86 @@
+[
+  {
+    "id": "trellis2-repaired",
+    "label": "TRELLIS.2 \u00b7 1024 \u00b7 extra cleanup",
+    "src": "./trellis2/front1024/01-dense-remesh-clean.glb",
+    "note": "189,699 triangles. Removed non-manifold edges after demo remeshing; still has 977 boundary edges. Source for the second reduction trial."
+  },
+  {
+    "id": "trellis2-bpt-exterior",
+    "label": "TRELLIS.2 \u2192 exterior sampling \u2192 BPT \u00b7 1,789 tris",
+    "src": "./bpt-exterior1024/02-bpt.glb",
+    "note": "Experimental visibility-filtered sampling. More coherent than the first BPT trial, but 145 boundary edges and an oversimplified face remain. Can omit deep recesses; not rig-ready."
+  },
+  {
+    "id": "trellis2-decimated-clean",
+    "label": "Cleaned TRELLIS.2 \u2192 decimation \u00b7 2,353 tris",
+    "src": "./decimated-clean.glb",
+    "note": "Blender collapse decimation, targeting the original HY/BPT budget of 2,409 triangles. No extra repair after reduction."
+  },
+  {
+    "id": "trellis2-remesh",
+    "label": "TRELLIS.2 \u00b7 1024 \u00b7 demo remesh",
+    "src": "./trellis2/front1024/01-dense-remesh.glb",
+    "note": "Single front image. Defined collar, tie and hair layers; topology still needs repair. Remesh target 500k."
+  },
+  {
+    "id": "trellis2-bpt",
+    "label": "First BPT trial \u00b7 fragmented",
+    "src": "./bpt-front1024/02-bpt.glb",
+    "note": "1,676 triangles, 48 components. Standard 4,096-point BPT, seed 12345, temperature 0.5. Not a usable replacement."
+  },
+  {
+    "id": "trellis2-decimated",
+    "label": "First decimation \u00b7 target missed",
+    "src": "./decimated-front.glb",
+    "note": "Requested 1,676 triangles; stalled at 72,237 Blender polygons before export. Not a matched-budget comparison."
+  },
+  {
+    "id": "hy-bpt",
+    "label": "Original HY 2mv \u2192 BPT",
+    "src": "./hy-bpt.glb",
+    "note": "Original four-view baseline, 2,409 triangles. This model saw the rear braid reference."
+  },
+  {
+    "id": "hy-dense",
+    "label": "Original HY 2mv \u00b7 dense",
+    "src": "./hy-dense.glb",
+    "note": "Original four-view baseline, 62,648 triangles. More view information than TRELLIS.2."
+  },
+  {
+    "id": "hy-full",
+    "label": "HY full \u00b7 single front \u00b7 dense",
+    "src": "./hy-full.glb",
+    "note": "Prior single-front comparison, extraction resolution 384. Same source cutout, model-specific preprocessing."
+  },
+  {
+    "id": "trellis2-remesh512",
+    "label": "TRELLIS.2 \u00b7 512 \u00b7 demo remesh",
+    "src": "./trellis2/front/01-dense-remesh.glb",
+    "note": "Lower-resolution run, same seed and front reference. Same remesh recipe as 1024."
+  },
+  {
+    "id": "trellis-front",
+    "label": "Original TRELLIS \u00b7 single front",
+    "src": "./front/01-dense-raw.glb",
+    "note": "Older DINOv2-based model; no clear visual advantage in this example."
+  },
+  {
+    "id": "trellis-multi",
+    "label": "Original TRELLIS \u00b7 four views",
+    "src": "./multiview/01-dense-raw.glb",
+    "note": "Official stochastic multi-image inference. Not a separately trained multiview model; upper braid remains joined."
+  },
+  {
+    "id": "trellis2-front",
+    "label": "TRELLIS.2 \u00b7 512 \u00b7 raw decoder",
+    "src": "./trellis2/front/01-dense-raw.glb",
+    "note": "Diagnostic only: raw extraction with many tiny holes and non-manifold edges, before demo cleanup."
+  },
+  {
+    "id": "trellis2-1024",
+    "label": "TRELLIS.2 \u00b7 1024 \u00b7 raw decoder",
+    "src": "./trellis2/front1024/01-dense-raw.glb",
+    "note": "Diagnostic only: 3.13 million triangles. Before the official demo geometry export stages."
+  }
+]

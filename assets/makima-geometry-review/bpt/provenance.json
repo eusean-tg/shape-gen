@@ -1,0 +1,43 @@
+{
+  "operation_version": 1,
+  "created_at": "2026-09-18T11:52:18.675777+00:00",
+  "request": {
+    "request_id": "tpose-test-bpt-9a535506bb664373a05cc83c9954eb96",
+    "operation": "bpt-retopology",
+    "inputs": {
+      "mesh": "edd2455717fb9638c3f1c880cda9e7ba43612e92e164223b527ab46430e3821e"
+    },
+    "parameters": {
+      "seed": 12345,
+      "temperature": 0.5,
+      "max_tokens": 10000,
+      "encoder_device": "cuda"
+    }
+  },
+  "inputs": {
+    "mesh": {
+      "id": "edd2455717fb9638c3f1c880cda9e7ba43612e92e164223b527ab46430e3821e",
+      "sha256": "edd2455717fb9638c3f1c880cda9e7ba43612e92e164223b527ab46430e3821e",
+      "bytes": 1128424,
+      "created_at": "2026-09-18T11:45:19.844522+00:00",
+      "source_job": "a1faf1d3c76a48e093344a8875d7445c",
+      "kind": "mesh",
+      "extension": ".glb",
+      "coordinate_system": "glTF Y-up",
+      "has_uv": false
+    }
+  },
+  "script_sha256": {
+    "scripts/api_model_io.py": "b0d00ad7793bed964b99d60bf4aa0d37bc00bcef501b52b28e1c00aea772aadf",
+    "scripts/api_stage_exec.py": "6306967e55b9ec295900096bdfaec18085fbd23f3bd2d72dabde20d31aa6dedb",
+    "scripts/retopo_bpt.py": "3801ef67823a5ae3970b3e72eb590d8e1a453cd928e1dd0a6d08ae753f9ff8cd",
+    "shape_api/assets.py": "7bf8a14ff2eea1695957c68b40cced8c261f025bb1f1a0df25d0fa9c9c9c39ce",
+    "shape_api/model_jobs.py": "1b88558a1f2a472284f77afd8b814294ca6a87c0adfb38814bb50e9d085d8af3",
+    "shape_api/operations.py": "a805e609a0353bca62f13c2b40c13d378aac085563b7f8793e5aaf91c5f151c3",
+    "shape_api/server.py": "b17d102cb14ca6a28061047903f606b16c1b9b8a060999d16601349676962af6",
+    "shape_api/worker.py": "f4dae2cb87c6f79a6243f6ac9dc10bd336129c219f5273ce5b3ae40a33853c4e"
+  },
+  "runs_blender": false,
+  "visual_acceptance": "pending",
+  "model_provenance": "Pinned local models; see runner reports/download manifests. Not rehashed in full per job."
+}

@@ -1,0 +1,494 @@
+{
+  "blend_reopened": true,
+  "source_sha256": "9d53cdb7a5b3935e1fe6b4f58401e8bcd2be72238d6cca24cedc0c26741a899e",
+  "rest_vertices_faces_uvs_weights_bones_unchanged": true,
+  "packed_texture_bytes_unchanged": true,
+  "glb_reimported": true,
+  "bones": 28,
+  "frames_checked": 120,
+  "fps": 30,
+  "glb_time_zero_matches_blender_frame": 1,
+  "max_world_vertex_error": 3.5060504615103127e-06,
+  "per_frame_world_vertex_error": {
+    "1": {
+      "Peasant body": 9.315311899626977e-07,
+      "Original BPT pouch": 1.3546181776291633e-07
+    },
+    "2": {
+      "Peasant body": 9.666321147960844e-07,
+      "Original BPT pouch": 2.430305983125436e-07
+    },
+    "3": {
+      "Peasant body": 9.083599366022099e-07,
+      "Original BPT pouch": 2.426877188099752e-07
+    },
+    "4": {
+      "Peasant body": 8.806825917417882e-07,
+      "Original BPT pouch": 3.6164107086733566e-07
+    },
+    "5": {
+      "Peasant body": 1.0037290394393494e-06,
+      "Original BPT pouch": 1.2377833513710357e-07
+    },
+    "6": {
+      "Peasant body": 7.372687491624674e-07,
+      "Original BPT pouch": 8.56006536764653e-08
+    },
+    "7": {
+      "Peasant body": 8.980345000964007e-07,
+      "Original BPT pouch": 1.2731557319511921e-07
+    },
+    "8": {
+      "Peasant body": 1.160091528618068e-06,
+      "Original BPT pouch": 1.8431718729061686e-07
+    },
+    "9": {
+      "Peasant body": 8.281882628580206e-07,
+      "Original BPT pouch": 2.4027400513659813e-07
+    },
+    "10": {
+      "Peasant body": 1.2359208767520613e-06,
+      "Original BPT pouch": 1.6049041562382627e-07
+    },
+    "11": {
+      "Peasant body": 9.736058927956037e-07,
+      "Original BPT pouch": 1.4057727071303816e-07
+    },
+    "12": {
+      "Peasant body": 1.1366470289431163e-06,
+      "Original BPT pouch": 1.519626238177807e-07
+    },
+    "13": {
+      "Peasant body": 1.0541452866164036e-06,
+      "Original BPT pouch": 2.6151431598009367e-07
+    },
+    "14": {
+      "Peasant body": 1.2534702591437963e-06,
+      "Original BPT pouch": 1.0745380052412656e-07
+    },
+    "15": {
+      "Peasant body": 9.86463646768243e-07,
+      "Original BPT pouch": 1.2731557319511921e-07
+    },
+    "16": {
+      "Peasant body": 1.0587430097075412e-06,
+      "Original BPT pouch": 1.7881393432617188e-07
+    },
+    "17": {
+      "Peasant body": 1.2540015177364694e-06,
+      "Original BPT pouch": 1.7881393432617188e-07
+    },
+    "18": {
+      "Peasant body": 1.1690112842188682e-06,
+      "Original BPT pouch": 2.682209014892578e-07
+    },
+    "19": {
+      "Peasant body": 8.329002412210684e-07,
+      "Original BPT pouch": 1.4057727071303816e-07
+    },
+    "20": {
+      "Peasant body": 7.897615432739258e-07,
+      "Original BPT pouch": 2.4755667027420714e-07
+    },
+    "21": {
+      "Peasant body": 6.664001830358757e-07,
+      "Original BPT pouch": 1.9768624781590916e-07
+    },
+    "22": {
+      "Peasant body": 7.477725603166618e-07,
+      "Original BPT pouch": 1.5840151945667458e-07
+    },
+    "23": {
+      "Peasant body": 8.98528924153652e-07,
+      "Original BPT pouch": 2.6151431598009367e-07
+    },
+    "24": {
+      "Peasant body": 9.19535693810758e-07,
+      "Original BPT pouch": 2.767767739442206e-07
+    },
+    "25": {
+      "Peasant body": 1.145064743468538e-06,
+      "Original BPT pouch": 4.995779363525799e-07
+    },
+    "26": {
+      "Peasant body": 1.0187698080699192e-06,
+      "Original BPT pouch": 2.5211161869265197e-07
+    },
+    "27": {
+      "Peasant body": 1.0547506690272712e-06,
+      "Original BPT pouch": 3.828902492841735e-07
+    },
+    "28": {
+      "Peasant body": 1.0754674804047681e-06,
+      "Original BPT pouch": 1.8143349223009864e-07
+    },
+    "29": {
+      "Peasant body": 1.3916640000388725e-06,
+      "Original BPT pouch": 3.8743019104003906e-07
+    },
+    "30": {
+      "Peasant body": 1.0613351832944318e-06,
+      "Original BPT pouch": 3.2098083124765253e-07
+    },
+    "31": {
+      "Peasant body": 1.0880909258048632e-06,
+      "Original BPT pouch": 1.5840151945667458e-07
+    },
+    "32": {
+      "Peasant body": 1.3435030723485397e-06,
+      "Original BPT pouch": 4.995779363525799e-07
+    },
+    "33": {
+      "Peasant body": 1.2661603250307962e-06,
+      "Original BPT pouch": 2.767767739442206e-07
+    },
+    "34": {
+      "Peasant body": 1.6093254089355469e-06,
+      "Original BPT pouch": 2.602375843707705e-07
+    },
+    "35": {
+      "Peasant body": 1.6742434354455327e-06,
+      "Original BPT pouch": 5.230286319601873e-07
+    },
+    "36": {
+      "Peasant body": 1.492498427069222e-06,
+      "Original BPT pouch": 3.725290298461914e-07
+    },
+    "37": {
+      "Peasant body": 1.7921705648404895e-06,
+      "Original BPT pouch": 1.9082797564351495e-07
+    },
+    "38": {
+      "Peasant body": 1.2069020840499434e-06,
+      "Original BPT pouch": 1.9824705077553517e-07
+    },
+    "39": {
+      "Peasant body": 1.115996496992011e-06,
+      "Original BPT pouch": 2.602375843707705e-07
+    },
+    "40": {
+      "Peasant body": 1.5907295392025844e-06,
+      "Original BPT pouch": 3.529405319113721e-07
+    },
+    "41": {
+      "Peasant body": 1.3773703813058091e-06,
+      "Original BPT pouch": 4.0011767055148084e-07
+    },
+    "42": {
+      "Peasant body": 1.3922023072154843e-06,
+      "Original BPT pouch": 3.911377461918164e-07
+    },
+    "43": {
+      "Peasant body": 1.5888439293121337e-06,
+      "Original BPT pouch": 5.057621592641226e-07
+    },
+    "44": {
+      "Peasant body": 1.3237734037829796e-06,
+      "Original BPT pouch": 2.6656007889869215e-07
+    },
+    "45": {
+      "Peasant body": 1.00093222954456e-06,
+      "Original BPT pouch": 1.9082797564351495e-07
+    },
+    "46": {
+      "Peasant body": 9.559997806718457e-07,
+      "Original BPT pouch": 3.953724956318183e-07
+    },
+    "47": {
+      "Peasant body": 1.2039547527820105e-06,
+      "Original BPT pouch": 2.6656007889869215e-07
+    },
+    "48": {
+      "Peasant body": 1.326872848039784e-06,
+      "Original BPT pouch": 3.5762786865234375e-07
+    },
+    "49": {
+      "Peasant body": 1.3384527619564324e-06,
+      "Original BPT pouch": 4.995779363525799e-07
+    },
+    "50": {
+      "Peasant body": 1.2884120224043727e-06,
+      "Original BPT pouch": 3.686343745812337e-07
+    },
+    "51": {
+      "Peasant body": 1.2911665407955297e-06,
+      "Original BPT pouch": 3.769728778024728e-07
+    },
+    "52": {
+      "Peasant body": 1.1998904483334627e-06,
+      "Original BPT pouch": 5.462856051963172e-07
+    },
+    "53": {
+      "Peasant body": 1.797057848307304e-06,
+      "Original BPT pouch": 5.136039362696465e-07
+    },
+    "54": {
+      "Peasant body": 1.7260279037145665e-06,
+      "Original BPT pouch": 7.372687491624674e-07
+    },
+    "55": {
+      "Peasant body": 1.2672121556533966e-06,
+      "Original BPT pouch": 3.0538294026882795e-07
+    },
+    "56": {
+      "Peasant body": 1.2929709782838472e-06,
+      "Original BPT pouch": 3.2098083124765253e-07
+    },
+    "57": {
+      "Peasant body": 8.560065225537983e-07,
+      "Original BPT pouch": 5.057621592641226e-07
+    },
+    "58": {
+      "Peasant body": 1.2532044593172031e-06,
+      "Original BPT pouch": 3.2098083124765253e-07
+    },
+    "59": {
+      "Peasant body": 1.0362468856328633e-06,
+      "Original BPT pouch": 5.136039362696465e-07
+    },
+    "60": {
+      "Peasant body": 1.0561969929767656e-06,
+      "Original BPT pouch": 5.623090828521526e-07
+    },
+    "61": {
+      "Peasant body": 1.2160662663518451e-06,
+      "Original BPT pouch": 3.2098083124765253e-07
+    },
+    "62": {
+      "Peasant body": 1.3605013009510003e-06,
+      "Original BPT pouch": 4.915124804938387e-07
+    },
+    "63": {
+      "Peasant body": 1.33354990339285e-06,
+      "Original BPT pouch": 5.230286319601873e-07
+    },
+    "64": {
+      "Peasant body": 1.1473894119262695e-06,
+      "Original BPT pouch": 5.462856051963172e-07
+    },
+    "65": {
+      "Peasant body": 1.0477540399733698e-06,
+      "Original BPT pouch": 3.2098083124765253e-07
+    },
+    "66": {
+      "Peasant body": 1.426781295776891e-06,
+      "Original BPT pouch": 6.583547929039923e-07
+    },
+    "67": {
+      "Peasant body": 1.2909084716739017e-06,
+      "Original BPT pouch": 5.230286319601873e-07
+    },
+    "68": {
+      "Peasant body": 1.5196262665995164e-06,
+      "Original BPT pouch": 7.468440799129894e-07
+    },
+    "69": {
+      "Peasant body": 1.797057848307304e-06,
+      "Original BPT pouch": 5.535535478884412e-07
+    },
+    "70": {
+      "Peasant body": 1.579312197463878e-06,
+      "Original BPT pouch": 5.623090828521526e-07
+    },
+    "71": {
+      "Peasant body": 2.034649696724955e-06,
+      "Original BPT pouch": 5.840038852511498e-07
+    },
+    "72": {
+      "Peasant body": 1.3690429341295385e-06,
+      "Original BPT pouch": 3.424026147058612e-07
+    },
+    "73": {
+      "Peasant body": 1.4465642834693426e-06,
+      "Original BPT pouch": 4.777675712830387e-07
+    },
+    "74": {
+      "Peasant body": 1.3930792874816689e-06,
+      "Original BPT pouch": 4.655271652609372e-07
+    },
+    "75": {
+      "Peasant body": 1.7940899397217436e-06,
+      "Original BPT pouch": 5.654592882819998e-07
+    },
+    "76": {
+      "Peasant body": 2.2309980067802826e-06,
+      "Original BPT pouch": 8.724499593881774e-07
+    },
+    "77": {
+      "Peasant body": 1.234909859704203e-06,
+      "Original BPT pouch": 3.5762786865234375e-07
+    },
+    "78": {
+      "Peasant body": 1.26861311855464e-06,
+      "Original BPT pouch": 3.5762786865234375e-07
+    },
+    "79": {
+      "Peasant body": 1.2502775916800601e-06,
+      "Original BPT pouch": 5.057621592641226e-07
+    },
+    "80": {
+      "Peasant body": 1.2703621905529872e-06,
+      "Original BPT pouch": 4.915124804938387e-07
+    },
+    "81": {
+      "Peasant body": 1.7226154795935145e-06,
+      "Original BPT pouch": 5.623090828521526e-07
+    },
+    "82": {
+      "Peasant body": 1.4793483842368005e-06,
+      "Original BPT pouch": 5.339525159797631e-07
+    },
+    "83": {
+      "Peasant body": 1.4660804481536616e-06,
+      "Original BPT pouch": 3.5762786865234375e-07
+    },
+    "84": {
+      "Peasant body": 1.5738900174255832e-06,
+      "Original BPT pouch": 5.462856051963172e-07
+    },
+    "85": {
+      "Peasant body": 1.5196262665995164e-06,
+      "Original BPT pouch": 6.22290770024847e-07
+    },
+    "86": {
+      "Peasant body": 1.494876869401196e-06,
+      "Original BPT pouch": 6.419616624953051e-07
+    },
+    "87": {
+      "Peasant body": 1.4805486898694653e-06,
+      "Original BPT pouch": 5.623090828521526e-07
+    },
+    "88": {
+      "Peasant body": 1.8176973526351503e-06,
+      "Original BPT pouch": 5.462856051963172e-07
+    },
+    "89": {
+      "Peasant body": 1.7367365217069164e-06,
+      "Original BPT pouch": 4.951133405484143e-07
+    },
+    "90": {
+      "Peasant body": 1.5184568837867118e-06,
+      "Original BPT pouch": 3.769728778024728e-07
+    },
+    "91": {
+      "Peasant body": 1.451467937840789e-06,
+      "Original BPT pouch": 5.623090828521526e-07
+    },
+    "92": {
+      "Peasant body": 2.508534180378774e-06,
+      "Original BPT pouch": 6.419616624953051e-07
+    },
+    "93": {
+      "Peasant body": 1.948807494045468e-06,
+      "Original BPT pouch": 9.902266810968285e-07
+    },
+    "94": {
+      "Peasant body": 1.9741648884519236e-06,
+      "Original BPT pouch": 6.107658805376559e-07
+    },
+    "95": {
+      "Peasant body": 1.8313278360437835e-06,
+      "Original BPT pouch": 1.0115243185282452e-06
+    },
+    "96": {
+      "Peasant body": 1.6963779216894181e-06,
+      "Original BPT pouch": 6.664001830358757e-07
+    },
+    "97": {
+      "Peasant body": 1.4820476508248248e-06,
+      "Original BPT pouch": 5.623090828521526e-07
+    },
+    "98": {
+      "Peasant body": 1.2728069123113528e-06,
+      "Original BPT pouch": 6.336060778266983e-07
+    },
+    "99": {
+      "Peasant body": 1.925885044329334e-06,
+      "Original BPT pouch": 1.0341019560655695e-06
+    },
+    "100": {
+      "Peasant body": 1.4805486898694653e-06,
+      "Original BPT pouch": 5.840038852511498e-07
+    },
+    "101": {
+      "Peasant body": 1.5043532357594813e-06,
+      "Original BPT pouch": 5.623090828521526e-07
+    },
+    "102": {
+      "Peasant body": 2.006296199397184e-06,
+      "Original BPT pouch": 7.152557373046875e-07
+    },
+    "103": {
+      "Peasant body": 1.2054293847540976e-06,
+      "Original BPT pouch": 5.462856051963172e-07
+    },
+    "104": {
+      "Peasant body": 2.0302798020566115e-06,
+      "Original BPT pouch": 5.462856051963172e-07
+    },
+    "105": {
+      "Peasant body": 1.19840910883795e-06,
+      "Original BPT pouch": 6.107658805376559e-07
+    },
+    "106": {
+      "Peasant body": 1.9626588709797943e-06,
+      "Original BPT pouch": 6.107658805376559e-07
+    },
+    "107": {
+      "Peasant body": 1.980453362193657e-06,
+      "Original BPT pouch": 4.805480102731963e-07
+    },
+    "108": {
+      "Peasant body": 1.9741648884519236e-06,
+      "Original BPT pouch": 3.2098083124765253e-07
+    },
+    "109": {
+      "Peasant body": 1.6827099216243369e-06,
+      "Original BPT pouch": 8.194284077944758e-07
+    },
+    "110": {
+      "Peasant body": 2.524592673580628e-06,
+      "Original BPT pouch": 1.1246181657043053e-06
+    },
+    "111": {
+      "Peasant body": 1.8019934486801503e-06,
+      "Original BPT pouch": 7.152557373046875e-07
+    },
+    "112": {
+      "Peasant body": 2.0379211491672322e-06,
+      "Original BPT pouch": 3.998401041371835e-07
+    },
+    "113": {
+      "Peasant body": 2.0379211491672322e-06,
+      "Original BPT pouch": 6.447228315664688e-07
+    },
+    "114": {
+      "Peasant body": 2.4386970380874118e-06,
+      "Original BPT pouch": 5.127385520609096e-07
+    },
+    "115": {
+      "Peasant body": 1.9965332285210025e-06,
+      "Original BPT pouch": 3.3717478231665154e-07
+    },
+    "116": {
+      "Peasant body": 2.3968182176759e-06,
+      "Original BPT pouch": 3.3717478231665154e-07
+    },
+    "117": {
+      "Peasant body": 1.9849330783472396e-06,
+      "Original BPT pouch": 6.951036084501538e-07
+    },
+    "118": {
+      "Peasant body": 2.910269586209324e-06,
+      "Original BPT pouch": 6.22290770024847e-07
+    },
+    "119": {
+      "Peasant body": 2.9066050046822056e-06,
+      "Original BPT pouch": 7.633119025740598e-07
+    },
+    "120": {
+      "Peasant body": 3.5060504615103127e-06,
+      "Original BPT pouch": 8.194284077944758e-07
+    }
+  }
+}

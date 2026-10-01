@@ -1,0 +1,22 @@
+[
+  {
+    "view": 0,
+    "silhouette_iou": 0.9743,
+    "unpainted_inside_original_percent": 0.38
+  },
+  {
+    "view": 1,
+    "silhouette_iou": 0.9792,
+    "unpainted_inside_original_percent": 0.12
+  },
+  {
+    "view": 2,
+    "silhouette_iou": 0.9803,
+    "unpainted_inside_original_percent": 0.11
+  },
+  {
+    "view": 3,
+    "silhouette_iou": 0.982,
+    "unpainted_inside_original_percent": 0.1
+  }
+]

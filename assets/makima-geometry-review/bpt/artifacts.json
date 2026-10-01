@@ -1,0 +1,63 @@
+{
+  "state": "succeeded",
+  "visual_acceptance": "pending",
+  "artifacts": [
+    {
+      "id": "3fd71d263c3c401286076f56ee6337ed-0",
+      "name": "provenance.json",
+      "bytes": 1869,
+      "sha256": "65a735f14e74aa2845165e49ac8e1e915d62ef33cd1f1fdb90081f6f19b6e6d8",
+      "download_url": "/artifacts/3fd71d263c3c401286076f56ee6337ed-0"
+    },
+    {
+      "id": "3fd71d263c3c401286076f56ee6337ed-1",
+      "name": "validation.json",
+      "bytes": 190,
+      "sha256": "dbeea038878075aa9dc7e679f779760ea6b4aa2ce38ed940dcf5b3caf8b95ce2",
+      "download_url": "/artifacts/3fd71d263c3c401286076f56ee6337ed-1"
+    },
+    {
+      "id": "3fd71d263c3c401286076f56ee6337ed-2",
+      "name": "api-environment.txt",
+      "bytes": 389,
+      "sha256": "d13b670849b748b8c7112dbd878d458bc4f59562c9557623e5eedacccc06240f",
+      "download_url": "/artifacts/3fd71d263c3c401286076f56ee6337ed-2"
+    },
+    {
+      "id": "3fd71d263c3c401286076f56ee6337ed-3",
+      "name": "bpt-lock.txt",
+      "bytes": 1277,
+      "sha256": "b58e5e85545da49323d2de2141f16c880a677be49d72631a840f5dc180bc0dda",
+      "download_url": "/artifacts/3fd71d263c3c401286076f56ee6337ed-3"
+    },
+    {
+      "id": "3fd71d263c3c401286076f56ee6337ed-4",
+      "name": "animation-downloads.json",
+      "bytes": 8411,
+      "sha256": "0bf226734d2ce3a2453b3f987d8f428c746ef094f70d27b3806a41bad96c9f3f",
+      "download_url": "/artifacts/3fd71d263c3c401286076f56ee6337ed-4"
+    },
+    {
+      "id": "3fd71d263c3c401286076f56ee6337ed-5",
+      "name": "result/02-bpt.glb",
+      "bytes": 49248,
+      "sha256": "9b150563c8a33748560b648a7295d37ee310c946f0e3ecfbc3019964303d34bd",
+      "download_url": "/artifacts/3fd71d263c3c401286076f56ee6337ed-5",
+      "asset_id": "9b150563c8a33748560b648a7295d37ee310c946f0e3ecfbc3019964303d34bd"
+    },
+    {
+      "id": "3fd71d263c3c401286076f56ee6337ed-6",
+      "name": "result/02-bpt.obj",
+      "bytes": 118315,
+      "sha256": "15f2827cd9887258c615239377f3be751c82e7007852a6b18792bbdd0dbf6bfd",
+      "download_url": "/artifacts/3fd71d263c3c401286076f56ee6337ed-6"
+    },
+    {
+      "id": "3fd71d263c3c401286076f56ee6337ed-7",
+      "name": "result/bpt.json",
+      "bytes": 1321,
+      "sha256": "30d9d913f077fe8787f9f03bd508d6b3cc917c00482eb6b0245ba716f95d3140",
+      "download_url": "/artifacts/3fd71d263c3c401286076f56ee6337ed-7"
+    }
+  ]
+}

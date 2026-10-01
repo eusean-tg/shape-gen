@@ -1,0 +1,25 @@
+{
+  "duration": 4.0,
+  "clips": [
+    {
+      "id": "breathe",
+      "prompt": "A person stands still in a relaxed neutral pose, feet planted shoulder width apart, arms resting loosely at their sides, breathing gently. Calm subtle idle motion.",
+      "seed": 24101
+    },
+    {
+      "id": "look-around",
+      "prompt": "A person stands in place with feet planted and arms relaxed at their sides. They slowly turn their head to look to the left, then to the right, then face forward again.",
+      "seed": 24102
+    },
+    {
+      "id": "weight-shift",
+      "prompt": "A person stands waiting with both feet planted on the ground and arms relaxed. They gently shift their weight from one hip to the other, then settle back to a neutral standing pose.",
+      "seed": 24103
+    },
+    {
+      "id": "adjust-sleeve",
+      "prompt": "A person stands still, briefly raises their right hand to straighten the cuff of their left sleeve, then lowers both arms to a relaxed position at their sides. Feet stay planted.",
+      "seed": 24104
+    }
+  ]
+}

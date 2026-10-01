@@ -1,0 +1,166 @@
+{
+  "status": "complete",
+  "args": {
+    "image": "/home/sean/workspace/shape-gen/assets/makima-geometry-review/dense/result/views/front.png",
+    "output_dir": "assets/makima-trellis2/front1024",
+    "seed": 12345,
+    "steps": 12,
+    "resolution": 1024,
+    "encoder_path": "/home/sean/workspace/shape-gen/models/trellis2/dinov3-vitl16",
+    "resume_shape": null
+  },
+  "upstream_commit": "75fbf0183001ed9876c8dbb35de6b68552ee08bd",
+  "resolution": 1024,
+  "stages": [
+    {
+      "name": "image_features",
+      "seconds": 0.96,
+      "peak_allocated_mib": 1212.2,
+      "peak_reserved_mib": 1244.0
+    },
+    {
+      "name": "image_features_1024",
+      "seconds": 1.81,
+      "peak_allocated_mib": 1362.8,
+      "peak_reserved_mib": 1426.0
+    },
+    {
+      "name": "sparse_structure",
+      "seconds": 24.39,
+      "peak_allocated_mib": 2717.2,
+      "peak_reserved_mib": 2768.0
+    },
+    {
+      "name": "shape_latent_cascade",
+      "seconds": 32.56,
+      "peak_allocated_mib": 2730.3,
+      "peak_reserved_mib": 2802.0
+    },
+    {
+      "name": "shape_decode",
+      "seconds": 36.69,
+      "peak_allocated_mib": 2308.0,
+      "peak_reserved_mib": 2502.0
+    }
+  ],
+  "input_sha256": "d79527af60556b014ddd8ee4be51c40b24836e972d0febfb7733524a22bd47be",
+  "image_conditioning": "single-view; native crop/black composite using existing Hunyuan RGBA cutout",
+  "texture_generation": false,
+  "postprocessing": "Z-up to glTF Y-up axis rotation only; no smoothing, hole filling or wrapping",
+  "checkpoint_manifest": {
+    "microsoft/TRELLIS.2-4B": {
+      "revision": "af44b45f2e35a493886929c6d786e563ec68364d",
+      "files": {
+        "ckpts/shape_dec_next_dc_f16c32_fp16.json": {
+          "sha256": "5f1b856dffce79466fb18f5f0eefc08f08c673b24b3c05b20359c0b6d318a209",
+          "bytes": 678,
+          "path": "/home/sean/workspace/shape-gen/models/trellis2/TRELLIS.2-4B/ckpts/shape_dec_next_dc_f16c32_fp16.json"
+        },
+        "ckpts/shape_dec_next_dc_f16c32_fp16.safetensors": {
+          "sha256": "e3b718d3e43e4f8780e9a24ac6fff231811a67e3b058e336e10fe654c911d581",
+          "bytes": 948490494,
+          "path": "/home/sean/workspace/shape-gen/models/trellis2/TRELLIS.2-4B/ckpts/shape_dec_next_dc_f16c32_fp16.safetensors"
+        },
+        "ckpts/slat_flow_img2shape_dit_1_3B_512_bf16.json": {
+          "sha256": "ddbd7a1d34ce9a8e7af2f6ef9ae686d9ab49f69e62dacb98d8409b511cdbd5e2",
+          "bytes": 458,
+          "path": "/home/sean/workspace/shape-gen/models/trellis2/TRELLIS.2-4B/ckpts/slat_flow_img2shape_dit_1_3B_512_bf16.json"
+        },
+        "ckpts/slat_flow_img2shape_dit_1_3B_512_bf16.safetensors": {
+          "sha256": "ec5e0917ef9b7e25ad51dffc7d19687a42019871f94239f2fa7f86264c55b70f",
+          "bytes": 2584574424,
+          "path": "/home/sean/workspace/shape-gen/models/trellis2/TRELLIS.2-4B/ckpts/slat_flow_img2shape_dit_1_3B_512_bf16.safetensors"
+        },
+        "ckpts/ss_flow_img_dit_1_3B_64_bf16.json": {
+          "sha256": "6cdfb636854f60ffcadd8c49244169cd449f34c5ccdb55b5ff7c04678f9c399e",
+          "bytes": 467,
+          "path": "/home/sean/workspace/shape-gen/models/trellis2/TRELLIS.2-4B/ckpts/ss_flow_img_dit_1_3B_64_bf16.json"
+        },
+        "ckpts/ss_flow_img_dit_1_3B_64_bf16.safetensors": {
+          "sha256": "ca01377c485bec418076d38ee80166d32dc776d744f2553b835cba1e97a7abf6",
+          "bytes": 2584426920,
+          "path": "/home/sean/workspace/shape-gen/models/trellis2/TRELLIS.2-4B/ckpts/ss_flow_img_dit_1_3B_64_bf16.safetensors"
+        },
+        "pipeline.json": {
+          "sha256": "222c359ab1ed9bc6735a640a34f95d47f8681b9bc4aaa101bfb80274676253c6",
+          "bytes": 4186,
+          "path": "/home/sean/workspace/shape-gen/models/trellis2/TRELLIS.2-4B/pipeline.json"
+        },
+        "ckpts/slat_flow_img2shape_dit_1_3B_1024_bf16.json": {
+          "sha256": "7ebd6d367393f52fee9e92c2b3d727a9026a338549c6a6fa84c7ea122140ffdd",
+          "bytes": 458,
+          "path": "/home/sean/workspace/shape-gen/models/trellis2/TRELLIS.2-4B/ckpts/slat_flow_img2shape_dit_1_3B_1024_bf16.json"
+        },
+        "ckpts/slat_flow_img2shape_dit_1_3B_1024_bf16.safetensors": {
+          "sha256": "07cd0596f634c5adc1890023d16023afc5eed02fb84b22bb23aff5bf0030fbbd",
+          "bytes": 2584574424,
+          "path": "/home/sean/workspace/shape-gen/models/trellis2/TRELLIS.2-4B/ckpts/slat_flow_img2shape_dit_1_3B_1024_bf16.safetensors"
+        }
+      }
+    },
+    "microsoft/TRELLIS-image-large": {
+      "revision": "25e0d31ffbebe4b5a97464dd851910efc3002d96",
+      "files": {
+        "ckpts/ss_dec_conv3d_16l8_fp16.json": {
+          "sha256": "646781293f1cda74720de85d1cef50a957fb4aebd9a4bd014e454e32f2330ac5",
+          "bytes": 245,
+          "path": "/home/sean/workspace/shape-gen/models/trellis2/TRELLIS-image-large/ckpts/ss_dec_conv3d_16l8_fp16.json"
+        },
+        "ckpts/ss_dec_conv3d_16l8_fp16.safetensors": {
+          "sha256": "1c76d4a40519aa2d711cc263a8404105231ac26db31d946bed48b84fee79009a",
+          "bytes": 147591972,
+          "path": "/home/sean/workspace/shape-gen/models/trellis2/TRELLIS-image-large/ckpts/ss_dec_conv3d_16l8_fp16.safetensors"
+        }
+      }
+    }
+  },
+  "gpu": "NVIDIA GeForce RTX 3050",
+  "torch": "2.6.0+cu124",
+  "load_checks": {
+    "sparse_structure_flow_model": {
+      "missing_derived_buffers": [
+        "rope_phases"
+      ],
+      "unexpected_keys": []
+    },
+    "sparse_structure_decoder": {
+      "missing_derived_buffers": [],
+      "unexpected_keys": []
+    },
+    "shape_slat_flow_model_512": {
+      "missing_derived_buffers": [],
+      "unexpected_keys": []
+    },
+    "shape_slat_decoder": {
+      "missing_derived_buffers": [],
+      "unexpected_keys": []
+    },
+    "shape_slat_flow_model_1024": {
+      "missing_derived_buffers": [],
+      "unexpected_keys": []
+    }
+  },
+  "sparse_tokens": 828,
+  "mesh": {
+    "vertices": 1549138,
+    "triangles": 3132280,
+    "bounds": [
+      [
+        -0.46136412024497986,
+        -0.4996641278266907,
+        -0.09332579374313354
+      ],
+      [
+        0.46112060546875,
+        0.49957555532455444,
+        0.09264278411865234
+      ]
+    ],
+    "watertight": false,
+    "winding_consistent": false,
+    "boundary_edges": 55905,
+    "nonmanifold_edges": 67600,
+    "sha256": "ba60e9ff511a37e203cf802fe84c88f5939d06fcb10943f999068a51fa4f8ff7"
+  },
+  "elapsed_seconds": 131.71
+}

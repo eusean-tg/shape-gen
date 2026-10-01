@@ -1,0 +1,15 @@
+[Unit]
+Description=Shape-gen model API
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/ABSOLUTE/SHAPE_GEN
+Environment=SHAPE_API_LEGACY_PROFILE=0
+ExecStart=/ABSOLUTE/SHAPE_GEN/.venv-api/bin/python -m uvicorn shape_api.server:app --host 127.0.0.1 --port 8765 --workers 1 --no-access-log
+Restart=on-failure
+RestartSec=5
+UMask=0077
+
+[Install]
+WantedBy=default.target

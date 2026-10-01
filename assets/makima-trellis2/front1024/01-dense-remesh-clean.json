@@ -1,0 +1,15 @@
+{
+  "input": "assets/makima-trellis2/front1024/01-dense-remesh.glb",
+  "output": "assets/makima-trellis2/front1024/01-dense-remesh-clean.glb",
+  "recipe": "official o_voxel non-remesh geometry cleanup, no UV or texturing stages",
+  "target": 200000,
+  "triangles": 189699,
+  "vertices": 95237,
+  "watertight": false,
+  "winding_consistent": true,
+  "boundary_edges": 977,
+  "nonmanifold_edges": 0,
+  "seconds": 0.3759141389746219,
+  "peak_allocated_mib": 8.36865234375,
+  "sha256": "9fbe1e5b81407202fc4c166d98d2f69a42a1ecdf066cf4ba95f1d58ad072e1ba"
+}

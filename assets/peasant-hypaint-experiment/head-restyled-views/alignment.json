@@ -1,0 +1,35 @@
+{
+  "sheet": "/home/sean/workspace/shape-gen/assets/peasant-hypaint-experiment/head-restyled.png",
+  "sheet_sha256": "2307522bd8513fa3dc876f29c0a0ab4adc79f622e31356eb094f0d6162042b18",
+  "sheet_size": [
+    1254,
+    1254
+  ],
+  "views": [
+    {
+      "view": 0,
+      "silhouette_iou": 0.9890871364886923,
+      "source_coverage": 0.9999606225926085,
+      "generated_pixels_outside_source": 3071
+    },
+    {
+      "view": 1,
+      "silhouette_iou": 0.9902024380474352,
+      "source_coverage": 0.9999964202356917,
+      "generated_pixels_outside_source": 2763
+    },
+    {
+      "view": 2,
+      "silhouette_iou": 0.9899006702080861,
+      "source_coverage": 0.9996826771594752,
+      "generated_pixels_outside_source": 2647
+    },
+    {
+      "view": 3,
+      "silhouette_iou": 0.989635352172547,
+      "source_coverage": 0.999496016665049,
+      "generated_pixels_outside_source": 2669
+    }
+  ],
+  "limitation": "Silhouette correspondence does not verify internal facial feature placement."
+}

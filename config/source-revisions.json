@@ -1,0 +1,46 @@
+{
+  "Hunyuan3D-2": {
+    "url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2.git",
+    "commit": "f8db63096c8282cb27354314d896feba5ba6ff8a"
+  },
+  "bpt": {
+    "url": "https://github.com/Tencent-Hunyuan/bpt.git",
+    "commit": "4e6510e7ebaac6d21f558252ad7eb573aed0234a"
+  },
+  "UniRig": {
+    "url": "https://github.com/VAST-AI-Research/UniRig.git",
+    "commit": "6793c6640ff01c8fb389f3993434124bb43d2933"
+  },
+  "HY-Motion-1.0": {
+    "url": "https://github.com/Tencent-Hunyuan/HY-Motion-1.0.git",
+    "commit": "4e426f5a1021cbcf7f375458c37b840ee7225229"
+  },
+  "DeepMesh": {
+    "url": "https://github.com/zhaorw02/DeepMesh.git",
+    "commit": "940d23ee2b5e4e94c565c800b49d6563c575c26d"
+  },
+  "LATO.2": {
+    "url": "https://github.com/LoHhhha/LATO.2.git",
+    "commit": "fbb1f5a5755e6db8700cf6922fd506830b7cdccd"
+  },
+  "TRELLIS": {
+    "url": "https://github.com/microsoft/TRELLIS.git",
+    "commit": "442aa1e1afb9014e80681d3bf604e8d728a86ee7"
+  },
+  "TRELLIS.2": {
+    "url": "https://github.com/microsoft/TRELLIS.2.git",
+    "commit": "75fbf0183001ed9876c8dbb35de6b68552ee08bd"
+  },
+  "lato2-trellis": {
+    "url": "https://github.com/microsoft/TRELLIS.2.git",
+    "commit": "75fbf0183001ed9876c8dbb35de6b68552ee08bd"
+  },
+  "CuMesh": {
+    "url": "https://github.com/JeffreyXiang/CuMesh.git",
+    "commit": "12289e1062f0603f2f0d0771b02e1395d247f26f"
+  },
+  "FlexGEMM": {
+    "url": "https://github.com/JeffreyXiang/FlexGEMM.git",
+    "commit": "6dd94a859c26ee8246888502eada3dd8ad85532e"
+  }
+}

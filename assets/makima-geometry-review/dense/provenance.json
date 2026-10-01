@@ -1,0 +1,90 @@
+{
+  "operation_version": 1,
+  "created_at": "2026-09-18T11:41:40.418299+00:00",
+  "request": {
+    "request_id": "tpose-test-shape-04ba7c822617421cabd3f08257c65cdc",
+    "operation": "hunyuan-shape",
+    "inputs": {
+      "front": "cf4c92801a7f495a5685feefb2df1fa483cfbaf2087ccb12f447c195f110f484",
+      "back": "691a496ccddd452ace5e21ddc3f05e22e05ccae548eda0ac5b2a8481aa8aa7e1",
+      "left": "9871be0b959ade5658f77fde39f3d7d3913f7be40d8b26ce782ed0686543ff9a",
+      "right": "ffdfa6d05bb018959e1e21e4a75384a39b019646818fe4e479b0c089d094407a"
+    },
+    "parameters": {
+      "seed": 12345,
+      "model": "mv",
+      "steps": 50,
+      "resolution": 192,
+      "chunks": 1024,
+      "guidance": 5.0,
+      "keep_background": false
+    }
+  },
+  "inputs": {
+    "front": {
+      "id": "cf4c92801a7f495a5685feefb2df1fa483cfbaf2087ccb12f447c195f110f484",
+      "sha256": "cf4c92801a7f495a5685feefb2df1fa483cfbaf2087ccb12f447c195f110f484",
+      "bytes": 252049,
+      "created_at": "2026-09-18T11:41:40.227552+00:00",
+      "source_job": null,
+      "kind": "image",
+      "extension": ".png",
+      "dimensions": [
+        627,
+        627
+      ]
+    },
+    "back": {
+      "id": "691a496ccddd452ace5e21ddc3f05e22e05ccae548eda0ac5b2a8481aa8aa7e1",
+      "sha256": "691a496ccddd452ace5e21ddc3f05e22e05ccae548eda0ac5b2a8481aa8aa7e1",
+      "bytes": 248400,
+      "created_at": "2026-09-18T11:41:40.254891+00:00",
+      "source_job": null,
+      "kind": "image",
+      "extension": ".png",
+      "dimensions": [
+        627,
+        627
+      ]
+    },
+    "left": {
+      "id": "9871be0b959ade5658f77fde39f3d7d3913f7be40d8b26ce782ed0686543ff9a",
+      "sha256": "9871be0b959ade5658f77fde39f3d7d3913f7be40d8b26ce782ed0686543ff9a",
+      "bytes": 219947,
+      "created_at": "2026-09-18T11:41:40.270736+00:00",
+      "source_job": null,
+      "kind": "image",
+      "extension": ".png",
+      "dimensions": [
+        627,
+        627
+      ]
+    },
+    "right": {
+      "id": "ffdfa6d05bb018959e1e21e4a75384a39b019646818fe4e479b0c089d094407a",
+      "sha256": "ffdfa6d05bb018959e1e21e4a75384a39b019646818fe4e479b0c089d094407a",
+      "bytes": 222335,
+      "created_at": "2026-09-18T11:41:40.291301+00:00",
+      "source_job": null,
+      "kind": "image",
+      "extension": ".png",
+      "dimensions": [
+        627,
+        627
+      ]
+    }
+  },
+  "script_sha256": {
+    "scripts/api_model_io.py": "b0d00ad7793bed964b99d60bf4aa0d37bc00bcef501b52b28e1c00aea772aadf",
+    "scripts/api_stage_exec.py": "6306967e55b9ec295900096bdfaec18085fbd23f3bd2d72dabde20d31aa6dedb",
+    "scripts/generate.py": "af7e1aa6e24eb864622e4669d1ccb78a7d29c1dcc69a03fb9976ed2b2823ec7d",
+    "shape_api/assets.py": "7bf8a14ff2eea1695957c68b40cced8c261f025bb1f1a0df25d0fa9c9c9c39ce",
+    "shape_api/model_jobs.py": "1b88558a1f2a472284f77afd8b814294ca6a87c0adfb38814bb50e9d085d8af3",
+    "shape_api/operations.py": "a805e609a0353bca62f13c2b40c13d378aac085563b7f8793e5aaf91c5f151c3",
+    "shape_api/server.py": "b17d102cb14ca6a28061047903f606b16c1b9b8a060999d16601349676962af6",
+    "shape_api/worker.py": "f4dae2cb87c6f79a6243f6ac9dc10bd336129c219f5273ce5b3ae40a33853c4e"
+  },
+  "runs_blender": false,
+  "visual_acceptance": "pending",
+  "model_provenance": "Pinned local models; see runner reports/download manifests. Not rehashed in full per job."
+}

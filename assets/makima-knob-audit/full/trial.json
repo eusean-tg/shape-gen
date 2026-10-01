@@ -1,0 +1,62 @@
+{
+  "args": {
+    "label": "full",
+    "model": "full",
+    "source": "processed",
+    "steps": 50,
+    "guidance": 5,
+    "seed": 12345,
+    "resolutions": [
+      384
+    ],
+    "decoder": "hierarchical",
+    "chunks": 4096,
+    "views": [
+      "front",
+      "left",
+      "back",
+      "right"
+    ],
+    "latent_from": null,
+    "levels": [
+      0
+    ]
+  },
+  "status": "complete",
+  "outputs": [
+    {
+      "file": "r384-iso0.glb",
+      "vertices": 122755,
+      "triangles": 245520,
+      "watertight": false,
+      "winding_consistent": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 6,
+      "sha256": "4a59323c8d7b8ea551c038b7d8be65c158a086e4d39947cc631a47f60c09a60a"
+    }
+  ],
+  "model_info": {
+    "revision": "9cd649ba6913f7a852e3286bad86bfa9a2d83dcf",
+    "file": {
+      "rfilename": "hunyuan3d-dit-v2-0/model.fp16.safetensors",
+      "blobId": "ed321fb49e6d2e0310e48a547f4c29f1a9027c43",
+      "size": 4928151562,
+      "lfs": {
+        "sha256": "360bc281fc956d4acac0c3d36d5ec0ebf8cdddbf4b8892e894d12419388d479b",
+        "size": 4928151562,
+        "pointerSize": 135
+      }
+    },
+    "repo_id": "tencent/Hunyuan3D-2",
+    "subfolder": "hunyuan3d-dit-v2-0",
+    "sha256": "360bc281fc956d4acac0c3d36d5ec0ebf8cdddbf4b8892e894d12419388d479b",
+    "config_url": "https://huggingface.co/tencent/Hunyuan3D-2/resolve/9cd649ba6913f7a852e3286bad86bfa9a2d83dcf/hunyuan3d-dit-v2-0/config.yaml",
+    "config_sha256": "70bbfcdd18b9686ee56fe011c3a059b222eae1f5450f904577c50f0e107a8a53"
+  },
+  "input_hashes": {
+    "front": "d79527af60556b014ddd8ee4be51c40b24836e972d0febfb7733524a22bd47be"
+  },
+  "elapsed_seconds": 92.6499332820531,
+  "peak_allocated_mib": 2516.853515625,
+  "peak_reserved_mib": 2828.0
+}

@@ -1,0 +1,22 @@
+{
+  "source_mesh": "assets/peasant-bpt-staged/imagegen-paint/repair-original-v4/peasant-repaired.glb",
+  "reference": "assets/peasant-turnaround/front.png",
+  "workflow": [
+    "Hunyuan3D shape",
+    "BPT topology",
+    "repair original vertices and connectivity",
+    "controlled UV unwrap",
+    "Hunyuan3D Paint with fixed UVs",
+    "fixed-camera texture renders",
+    "imagegen constrained restyling",
+    "project edits onto same UVs; HY Paint fallback",
+    "Blender review"
+  ],
+  "hypaint_status": "complete",
+  "imagegen_status": "complete",
+  "imagegen_mode": "built-in tool",
+  "geometry_changes_in_experiment": false,
+  "imagegen_calls": 2,
+  "final_folder": "hypaint-imagegen",
+  "restyle_strength": 0.85
+}

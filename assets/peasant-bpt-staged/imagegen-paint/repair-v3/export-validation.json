@@ -1,0 +1,21 @@
+{
+  "geometry_0": {
+    "triangles": 2212,
+    "geometry_and_uv_match_authoring_export": true,
+    "embedded_texture_matches_png": true,
+    "watertight_after_welding": false,
+    "consistent_winding": true,
+    "volume": 0.15118679251315967,
+    "double_sided": false
+  },
+  "Pouch closed shell": {
+    "triangles": 44,
+    "geometry_and_uv_match_authoring_export": true,
+    "embedded_texture_matches_png": true,
+    "watertight_after_welding": true,
+    "consistent_winding": true,
+    "volume": 0.0021885857989978968,
+    "double_sided": false
+  },
+  "blender_sha256": "2c1a9938cfb2fb8f2f1e9b987bdb1271dab24542215e27c3fce48bab432ebf28"
+}

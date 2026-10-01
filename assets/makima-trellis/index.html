@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Makima · TRELLIS comparison</title>
+<link rel="stylesheet" href="../preview/style.css">
+<script type="importmap">{"imports":{"three":"../preview/vendor/three/build/three.module.js","three/addons/":"../preview/vendor/three/examples/jsm/"}}</script>
+</head>
+<body><main>
+<header><div><p class="eyebrow">SHAPE-GEN / ASSET REVIEW</p><h1>Makima · TRELLIS comparison</h1></div><label class="file-button">Open GLB<input id="file" type="file" accept=".glb"></label></header>
+<p>Compare Makima geometry from TRELLIS.2, the original TRELLIS, and Hunyuan. Use Saved models to switch; the gallery has matched clay renders and closeups.</p>
+<div class="library"><label>Saved models <select id="version" aria-label="Saved models"></select></label><a id="asset-source" hidden>Open Blender file</a><a href="./gallery.html">Comparison gallery</a><a href="./report.md">Experiment report</a></div>
+<p id="asset-note" class="hint" role="status"></p>
+<fieldset id="clothing-colors" hidden><legend>Clothing colors</legend><div id="clothing-inputs" class="controls"></div><button id="clothing-reset" type="button">Reset colors</button></fieldset>
+<div id="character-playback" class="library" hidden><label>Character state <select id="character-mode"><option value="idle">Idle · occasional accents</option><option value="walk">Walking</option><option value="inspect">Inspect individual clips</option></select></label><button id="idle-accent">Try an idle accent</button><span id="character-status" class="hint"></span></div>
+<section class="stage" aria-label="Model and animation preview">
+<div id="viewport" aria-label="Interactive 3D model; drag to orbit, scroll to zoom, right-drag to pan"></div>
+<span id="status" role="status">Loading viewer…</span>
+<div class="controls"><button id="play" disabled>Play</button><button id="restart" disabled>Restart</button><input id="time" class="timeline" aria-label="Animation time" type="range" min="0" max="1" step="0.001" value="0" disabled><output id="timestamp">0.00 s</output><label><input id="loop" type="checkbox" checked> Loop</label><label>Speed <select id="speed"><option value="0.25">¼×</option><option value="0.5">½×</option><option value="1" selected>1×</option><option value="2">2×</option></select></label></div>
+<div class="controls"><label>Animation <select id="clip" disabled></select></label><label><input id="follow" type="checkbox" checked> Follow</label><label><input id="skeleton" type="checkbox"> Skeleton</label><label><input id="wire" type="checkbox"> Wireframe</label><button id="reset">Frame model</button></div>
+</section>
+<p class="hint">Drag to orbit · Scroll toward the pointer to zoom · Right-drag to pan · Frame model to reset</p>
+<p class="hint">Static geometry experiments. <a href="./gallery.html">Compare matched clay renders and measurements</a>. No texture or rig changes.</p>
+</main><script type="module">
+import { createViewer } from '../preview/viewer.js';
+try {
+  const response = await fetch('./examples.json');
+  if (!response.ok) throw new Error('Could not read the saved model list.');
+  createViewer({ examples: await response.json() });
+} catch (error) { document.getElementById('status').textContent = error.message; }
+</script></body></html>

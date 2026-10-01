@@ -1,0 +1,29 @@
+{
+  "mesh": "/home/sean/workspace/shape-gen/assets/peasant-bpt-staged/imagegen-paint/repair-original-v4/peasant-repaired.glb",
+  "views": [
+    {
+      "image": "assets/peasant-hypaint-experiment/body-restyled-views/0.png",
+      "covered_texels": 805048
+    },
+    {
+      "image": "assets/peasant-hypaint-experiment/body-restyled-views/1.png",
+      "covered_texels": 847253
+    },
+    {
+      "image": "assets/peasant-hypaint-experiment/body-restyled-views/2.png",
+      "covered_texels": 602877
+    },
+    {
+      "image": "assets/peasant-hypaint-experiment/body-restyled-views/3.png",
+      "covered_texels": 592047
+    }
+  ],
+  "triangles": 2289,
+  "geometry_unchanged": true,
+  "uvs_unchanged": true,
+  "coverage": 0.872231205920852,
+  "unobserved_texels": 285315,
+  "fallback": "assets/peasant-hypaint-experiment/hypaint/basecolor.png",
+  "restyle_strength": 0.85,
+  "seconds": 2.2
+}

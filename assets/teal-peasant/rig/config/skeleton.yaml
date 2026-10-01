@@ -1,0 +1,30 @@
+mode: predict
+debug: false
+experiment_name: peasant_local_skeleton
+resume_from_checkpoint: /home/sean/workspace/shape-gen/models/unirig/skeleton/articulation-xl_quantization_256/model.ckpt
+components:
+  data: /home/sean/workspace/shape-gen/assets/teal-peasant/rig/config/data.yaml
+  tokenizer: tokenizer_parts_articulationxl_256
+  transform: /home/sean/workspace/shape-gen/assets/teal-peasant/rig/config/skeleton-transform.yaml
+  model: /home/sean/workspace/shape-gen/assets/teal-peasant/rig/config/skeleton-model.yaml
+  system: /home/sean/workspace/shape-gen/assets/teal-peasant/rig/config/skeleton-system.yaml
+  data_name: raw_data.npz
+writer:
+  __target__: ar
+  output_dir: null
+  add_num: false
+  repeat: 1
+  export_npz: predict_skeleton
+  export_obj: null
+  export_fbx: null
+trainer:
+  max_epochs: 1
+  num_nodes: 1
+  devices: 1
+  precision: bf16-mixed
+  accelerator: gpu
+  strategy: auto
+  enable_checkpointing: false
+  enable_model_summary: false
+  enable_progress_bar: false
+  default_root_dir: /home/sean/workspace/shape-gen/assets/teal-peasant/rig/logs

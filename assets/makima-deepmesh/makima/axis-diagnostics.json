@@ -1,0 +1,626 @@
+[
+  {
+    "permutation": [
+      2,
+      0,
+      1
+    ],
+    "signs": [
+      1,
+      1,
+      1
+    ],
+    "mean_distance": 0.010608176618782425
+  },
+  {
+    "permutation": [
+      2,
+      0,
+      1
+    ],
+    "signs": [
+      -1,
+      1,
+      1
+    ],
+    "mean_distance": 0.010794966374681612
+  },
+  {
+    "permutation": [
+      2,
+      0,
+      1
+    ],
+    "signs": [
+      1,
+      1,
+      -1
+    ],
+    "mean_distance": 0.0297958820015612
+  },
+  {
+    "permutation": [
+      2,
+      0,
+      1
+    ],
+    "signs": [
+      -1,
+      1,
+      -1
+    ],
+    "mean_distance": 0.029808223927191888
+  },
+  {
+    "permutation": [
+      2,
+      0,
+      1
+    ],
+    "signs": [
+      -1,
+      -1,
+      1
+    ],
+    "mean_distance": 0.0945033450922185
+  },
+  {
+    "permutation": [
+      2,
+      0,
+      1
+    ],
+    "signs": [
+      1,
+      -1,
+      1
+    ],
+    "mean_distance": 0.09450859097541095
+  },
+  {
+    "permutation": [
+      2,
+      0,
+      1
+    ],
+    "signs": [
+      -1,
+      -1,
+      -1
+    ],
+    "mean_distance": 0.0990364894432045
+  },
+  {
+    "permutation": [
+      2,
+      0,
+      1
+    ],
+    "signs": [
+      1,
+      -1,
+      -1
+    ],
+    "mean_distance": 0.09906739409776899
+  },
+  {
+    "permutation": [
+      1,
+      0,
+      2
+    ],
+    "signs": [
+      -1,
+      1,
+      1
+    ],
+    "mean_distance": 0.10386281302621228
+  },
+  {
+    "permutation": [
+      1,
+      0,
+      2
+    ],
+    "signs": [
+      1,
+      1,
+      1
+    ],
+    "mean_distance": 0.10387121084600745
+  },
+  {
+    "permutation": [
+      1,
+      0,
+      2
+    ],
+    "signs": [
+      -1,
+      1,
+      -1
+    ],
+    "mean_distance": 0.10423947823199997
+  },
+  {
+    "permutation": [
+      1,
+      0,
+      2
+    ],
+    "signs": [
+      1,
+      1,
+      -1
+    ],
+    "mean_distance": 0.10433144056706797
+  },
+  {
+    "permutation": [
+      1,
+      0,
+      2
+    ],
+    "signs": [
+      1,
+      -1,
+      1
+    ],
+    "mean_distance": 0.12005862231228494
+  },
+  {
+    "permutation": [
+      1,
+      0,
+      2
+    ],
+    "signs": [
+      -1,
+      -1,
+      1
+    ],
+    "mean_distance": 0.12029156750389047
+  },
+  {
+    "permutation": [
+      1,
+      0,
+      2
+    ],
+    "signs": [
+      1,
+      -1,
+      -1
+    ],
+    "mean_distance": 0.1207490302272555
+  },
+  {
+    "permutation": [
+      1,
+      0,
+      2
+    ],
+    "signs": [
+      -1,
+      -1,
+      -1
+    ],
+    "mean_distance": 0.1209772506840501
+  },
+  {
+    "permutation": [
+      0,
+      2,
+      1
+    ],
+    "signs": [
+      1,
+      -1,
+      1
+    ],
+    "mean_distance": 0.2995851883882551
+  },
+  {
+    "permutation": [
+      0,
+      2,
+      1
+    ],
+    "signs": [
+      -1,
+      -1,
+      1
+    ],
+    "mean_distance": 0.2999497238838229
+  },
+  {
+    "permutation": [
+      0,
+      2,
+      1
+    ],
+    "signs": [
+      1,
+      1,
+      1
+    ],
+    "mean_distance": 0.3004282947204554
+  },
+  {
+    "permutation": [
+      0,
+      2,
+      1
+    ],
+    "signs": [
+      -1,
+      1,
+      1
+    ],
+    "mean_distance": 0.3007494907467717
+  },
+  {
+    "permutation": [
+      0,
+      2,
+      1
+    ],
+    "signs": [
+      1,
+      -1,
+      -1
+    ],
+    "mean_distance": 0.30100346135562495
+  },
+  {
+    "permutation": [
+      0,
+      2,
+      1
+    ],
+    "signs": [
+      -1,
+      -1,
+      -1
+    ],
+    "mean_distance": 0.30141981851740735
+  },
+  {
+    "permutation": [
+      0,
+      2,
+      1
+    ],
+    "signs": [
+      1,
+      1,
+      -1
+    ],
+    "mean_distance": 0.30161102257933636
+  },
+  {
+    "permutation": [
+      0,
+      2,
+      1
+    ],
+    "signs": [
+      -1,
+      1,
+      -1
+    ],
+    "mean_distance": 0.30199098340597375
+  },
+  {
+    "permutation": [
+      1,
+      2,
+      0
+    ],
+    "signs": [
+      -1,
+      -1,
+      -1
+    ],
+    "mean_distance": 0.3900257262542497
+  },
+  {
+    "permutation": [
+      1,
+      2,
+      0
+    ],
+    "signs": [
+      1,
+      -1,
+      -1
+    ],
+    "mean_distance": 0.39003349921073494
+  },
+  {
+    "permutation": [
+      0,
+      1,
+      2
+    ],
+    "signs": [
+      1,
+      -1,
+      1
+    ],
+    "mean_distance": 0.39025613380918134
+  },
+  {
+    "permutation": [
+      1,
+      2,
+      0
+    ],
+    "signs": [
+      -1,
+      1,
+      -1
+    ],
+    "mean_distance": 0.39032260824994014
+  },
+  {
+    "permutation": [
+      1,
+      2,
+      0
+    ],
+    "signs": [
+      1,
+      1,
+      -1
+    ],
+    "mean_distance": 0.39032652845952587
+  },
+  {
+    "permutation": [
+      0,
+      1,
+      2
+    ],
+    "signs": [
+      -1,
+      -1,
+      1
+    ],
+    "mean_distance": 0.39039268558363255
+  },
+  {
+    "permutation": [
+      0,
+      1,
+      2
+    ],
+    "signs": [
+      1,
+      -1,
+      -1
+    ],
+    "mean_distance": 0.39042819063703615
+  },
+  {
+    "permutation": [
+      0,
+      1,
+      2
+    ],
+    "signs": [
+      -1,
+      -1,
+      -1
+    ],
+    "mean_distance": 0.39058309617903586
+  },
+  {
+    "permutation": [
+      0,
+      1,
+      2
+    ],
+    "signs": [
+      1,
+      1,
+      1
+    ],
+    "mean_distance": 0.3957544687019916
+  },
+  {
+    "permutation": [
+      0,
+      1,
+      2
+    ],
+    "signs": [
+      -1,
+      1,
+      1
+    ],
+    "mean_distance": 0.39580915061447675
+  },
+  {
+    "permutation": [
+      0,
+      1,
+      2
+    ],
+    "signs": [
+      1,
+      1,
+      -1
+    ],
+    "mean_distance": 0.3958599133220865
+  },
+  {
+    "permutation": [
+      1,
+      2,
+      0
+    ],
+    "signs": [
+      -1,
+      -1,
+      1
+    ],
+    "mean_distance": 0.39590257272781104
+  },
+  {
+    "permutation": [
+      1,
+      2,
+      0
+    ],
+    "signs": [
+      1,
+      -1,
+      1
+    ],
+    "mean_distance": 0.3959055239475922
+  },
+  {
+    "permutation": [
+      0,
+      1,
+      2
+    ],
+    "signs": [
+      -1,
+      1,
+      -1
+    ],
+    "mean_distance": 0.39593555736718544
+  },
+  {
+    "permutation": [
+      1,
+      2,
+      0
+    ],
+    "signs": [
+      -1,
+      1,
+      1
+    ],
+    "mean_distance": 0.3963438845473011
+  },
+  {
+    "permutation": [
+      1,
+      2,
+      0
+    ],
+    "signs": [
+      1,
+      1,
+      1
+    ],
+    "mean_distance": 0.3963529281843906
+  },
+  {
+    "permutation": [
+      2,
+      1,
+      0
+    ],
+    "signs": [
+      1,
+      -1,
+      -1
+    ],
+    "mean_distance": 0.4393773013482828
+  },
+  {
+    "permutation": [
+      2,
+      1,
+      0
+    ],
+    "signs": [
+      -1,
+      -1,
+      -1
+    ],
+    "mean_distance": 0.43940636805244515
+  },
+  {
+    "permutation": [
+      2,
+      1,
+      0
+    ],
+    "signs": [
+      1,
+      1,
+      -1
+    ],
+    "mean_distance": 0.4416015756099968
+  },
+  {
+    "permutation": [
+      2,
+      1,
+      0
+    ],
+    "signs": [
+      -1,
+      1,
+      -1
+    ],
+    "mean_distance": 0.4416092819467353
+  },
+  {
+    "permutation": [
+      2,
+      1,
+      0
+    ],
+    "signs": [
+      -1,
+      -1,
+      1
+    ],
+    "mean_distance": 0.4420610812862281
+  },
+  {
+    "permutation": [
+      2,
+      1,
+      0
+    ],
+    "signs": [
+      1,
+      -1,
+      1
+    ],
+    "mean_distance": 0.4420770049792594
+  },
+  {
+    "permutation": [
+      2,
+      1,
+      0
+    ],
+    "signs": [
+      -1,
+      1,
+      1
+    ],
+    "mean_distance": 0.44506767029401373
+  },
+  {
+    "permutation": [
+      2,
+      1,
+      0
+    ],
+    "signs": [
+      1,
+      1,
+      1
+    ],
+    "mean_distance": 0.4450829516352064
+  }
+]

@@ -1,0 +1,69 @@
+{
+  "texture_size": 2048,
+  "triangles": 2289,
+  "occupied_texels": 2233057,
+  "directly_projected_texels": 2094871,
+  "filled_texels": 138186,
+  "coverage": 0.9381180149006496,
+  "views": [
+    {
+      "view": [
+        0,
+        0
+      ],
+      "covered_texels": 777703
+    },
+    {
+      "view": [
+        0,
+        180
+      ],
+      "covered_texels": 818198
+    },
+    {
+      "view": [
+        0,
+        90
+      ],
+      "covered_texels": 583719
+    },
+    {
+      "view": [
+        0,
+        270
+      ],
+      "covered_texels": 570675
+    },
+    {
+      "view": [
+        45,
+        0
+      ],
+      "covered_texels": 791801
+    },
+    {
+      "view": [
+        45,
+        180
+      ],
+      "covered_texels": 888734
+    },
+    {
+      "view": [
+        -35,
+        0
+      ],
+      "covered_texels": 734624
+    },
+    {
+      "view": [
+        -35,
+        180
+      ],
+      "covered_texels": 762624
+    }
+  ],
+  "head_policy": "front view supplies central facial features, smooth transition to side coverage",
+  "pouch_policy": "local mapping to leather panel from original generated frontal view",
+  "seconds": 2.4
+}

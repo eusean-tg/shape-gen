@@ -1,0 +1,12 @@
+{
+  "source_triangles": 2279,
+  "textured_triangles": 2279,
+  "source_vertices": 1152,
+  "uv_split_vertices": 2092,
+  "max_triangle_coordinate_difference": 0.0,
+  "embedded_texture_size": [
+    2048,
+    2048
+  ],
+  "finite_uvs": true
+}

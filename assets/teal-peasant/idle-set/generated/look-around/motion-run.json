@@ -1,0 +1,69 @@
+{
+  "stage": "motion",
+  "prompt": "A person stands in place with feet planted and arms relaxed at their sides. They slowly turn their head to look to the left, then to the right, then face forward again.",
+  "seed": 24102,
+  "duration": 4.0,
+  "status": "complete",
+  "frames": 120,
+  "fps": 30,
+  "validation_steps": 50,
+  "learned_checkpoint_keys_exact": true,
+  "template_buffers_from_repo": [
+    "body_model.v_template",
+    "body_model.j_template",
+    "body_model.skin_weights",
+    "body_model.skin_indices",
+    "body_model.parents"
+  ],
+  "shapes": {
+    "latent_denorm": [
+      1,
+      120,
+      201
+    ],
+    "keypoints3d": [
+      1,
+      120,
+      52,
+      3
+    ],
+    "rot6d": [
+      1,
+      120,
+      22,
+      6
+    ],
+    "transl": [
+      1,
+      120,
+      3
+    ],
+    "root_rotations_mat": [
+      1,
+      120,
+      3,
+      3
+    ],
+    "rotations": [
+      1,
+      120,
+      22,
+      3,
+      3
+    ],
+    "rest_joints": [
+      52,
+      3
+    ],
+    "parents": [
+      52
+    ],
+    "joint_names": [
+      52
+    ]
+  },
+  "seconds": 11.043732273043133,
+  "peak_cuda_allocated_mib": 3388.2470703125,
+  "peak_cuda_reserved_mib": 3422.0,
+  "peak_process_rss_mib": 4111.59765625
+}

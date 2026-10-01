@@ -1,0 +1,18 @@
+{
+  "vertices": 730,
+  "triangles": 1460,
+  "bones": 34,
+  "original_bpt_vertex_positions_preserved_after_centering": true,
+  "max_vertex_error": 5.960464477539063e-08,
+  "boundary_edges": 0,
+  "overconnected_edges": 0,
+  "normal_recalculation_flips": 0,
+  "positive_signed_volume": 0.11140434052637663,
+  "hair_t_junction_splits": 2,
+  "ankle_edge_flips": 2,
+  "finite_in_range_uvs": true,
+  "final_uvs_rest_vertices_and_packed_texture_verified": true,
+  "normalized_weights_max_four_influences": true,
+  "animation_validation": "walk-cycle/validation.json",
+  "limitation": "Manifold connectivity does not guarantee absence of geometric self-intersections; see walk-cycle/intersections.json."
+}

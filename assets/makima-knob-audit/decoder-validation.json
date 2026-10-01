@@ -1,0 +1,8 @@
+{
+  "baseline_vertices": 31322,
+  "fast_vertices": 31322,
+  "baseline_faces": 62648,
+  "fast_faces": 62648,
+  "max_vertex_distance": 7.331371307373047e-06,
+  "mean_vertex_distance": 1.1309794788737364e-08
+}

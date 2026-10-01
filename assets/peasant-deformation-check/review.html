@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Peasant deformation review</title>
+<style>
+body{margin:0;background:#14191f;color:#e6eaf0;font:16px/1.55 system-ui,sans-serif}main{max-width:1120px;margin:auto;padding:32px 24px}h1{margin:0;font-size:32px}h2{margin-top:32px}p{max-width:85ch;color:#bec8d3}a{color:#9ed0ff}select{background:#273340;color:white;padding:10px;border:1px solid #607181;border-radius:6px;font:inherit;max-width:100%}.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}figure{margin:0;background:#202831;border-radius:8px;overflow:hidden}img{display:block;width:100%;height:auto}figcaption{padding:12px 16px}.note{padding:16px;background:#25333e;border-left:3px solid #e6b775}.muted{color:#94a5b5;font-size:14px}.links{display:flex;gap:20px;flex-wrap:wrap}label{display:block;margin-bottom:8px}button{font:inherit}@media(max-width:650px){.grid{grid-template-columns:1fr}main{padding:22px 14px}}
+</style>
+<main><p><a href="preview/">Open the reusable model and animation preview →</a></p>
+<p class="muted">17 September 2026 · 2,289 triangles · Original rest geometry and UVs preserved</p>
+<h1>Peasant deformation review</h1>
+<p><a href="materials/review.html">New: clothing material-mask experiment →</a></p>
+<p><a href="hymotion/review.html">New: play the generated walk in the interactive 3D viewer →</a></p>
+<p><a href="unirig/review.html">New: actual UniRig rig and bend review →</a></p>
+<p>Ready for a first rigging experiment. Moderate bends are promising; deep bends and the tunic/hip area need attention.</p>
+<div class="note">These are temporary one-joint bend probes with manually chosen pivots and weights. They are not UniRig results. A deformation problem here may improve with better weights; it does not automatically require rebuilding the mesh.</div>
+<h2>Bend probes</h2>
+<label for="pose">Choose a pose</label>
+<select id="pose"></select>
+<p id="finding"></p>
+<div class="grid">
+<figure><img id="texture" src="poses/shoulder-raise-60-texture.png" alt="Textured bend probe"><figcaption>Textured surface</figcaption></figure>
+<figure><img id="wire" src="poses/shoulder-raise-60-wire.png" alt="Wireframe bend probe"><figcaption>Topology in the same pose</figcaption></figure>
+</div>
+<p class="muted">Self-intersection counts describe selected faces, not collision pairs. Zero intersections alone does not establish good deformation. Each pose is tested independently.</p>
+<h2>Rest topology</h2>
+<p>The main character has two small openings. Two detached pieces under the front tunic contain the overconnected edges. Red marks open edges; orange marks edges shared by more than two faces.</p>
+<div class="grid">
+<figure><a href="shoulders-front.png"><img src="shoulders-front.png" alt="Shoulder topology with a small open edge at the neck junction" loading="lazy"></a><figcaption>Shoulders and neck junction</figcaption></figure>
+<figure><a href="hips-under.png"><img src="hips-under.png" alt="Tunic underside and two detached pieces" loading="lazy"></a><figcaption>Tunic underside: inspect before repairing</figcaption></figure>
+<figure><a href="elbow-side.png"><img src="elbow-side.png" alt="Elbow and cuff topology at rest" loading="lazy"></a><figcaption>Elbow and cuff at rest</figcaption></figure>
+<figure><a href="knees-front.png"><img src="knees-front.png" alt="Knee topology at rest" loading="lazy"></a><figcaption>Knees at rest</figcaption></figure>
+</div>
+<h2>Editable files and measurements</h2>
+<div class="links"><a href="poses/bend-probes.blend">Bend probes in Blender</a><a href="topology-review.blend">Topology review in Blender</a><a href="README.md">Full report</a><a href="pose-intersections.json">Intersection measurements</a></div>
+<p>In the bend-probe file, select Peasant body → Object Data Properties → Shape Keys. Set one named probe to 1, inspect it, then reset it to 0 before trying another. All probes start at 0.</p>
+</main>
+<script>
+const poses=[
+ ['shoulder-raise-60','Shoulder raise · 60° · screen-left','No detected self-intersections. The underarm remains angular; test the actual rig before deciding on topology changes.'],
+ ['shoulder-raise-60-opposite','Shoulder raise · 60° · opposite side','No detected self-intersections. The small neck/shoulder opening remains a separate geometry issue.'],
+ ['elbow-bend-60','Elbow bend · 60° · screen-left','No detected self-intersections in this probe. The elbow and sleeve cuff retain a usable low-poly silhouette.'],
+ ['elbow-bend-90','Elbow bend · 90° · screen-left','11 faces selected as self-intersecting. The joint/cuff needs further weight and pivot review for deep bends.'],
+ ['elbow-bend-90-opposite','Elbow bend · 90° · opposite side','11 faces selected as self-intersecting. Similar limitation on this side.'],
+ ['hip-lift-45','Leg lift · 45° · screen-left','8 faces selected as self-intersecting. Central tunic/crotch folds and compresses; this is the highest-priority deformation area.'],
+ ['hip-lift-45-opposite','Leg lift · 45° · opposite side','5 faces selected as self-intersecting. Garment weights and local topology need review with the actual rig.'],
+ ['knee-bend-60','Knee bend · 60° · screen-left','No detected self-intersections, but the inside of the knee compresses.'],
+ ['knee-bend-90','Knee bend · 90° · screen-left','17 faces selected as self-intersecting. Deep flexion requires further work.'],
+ ['knee-bend-90-opposite','Knee bend · 90° · opposite side','17 faces selected as self-intersecting. Deep flexion requires further work.']
+];
+const menu=document.querySelector('#pose');
+for(const [id,label] of poses){const o=document.createElement('option');o.value=id;o.textContent=label;menu.append(o)}
+function update(){const [id,label,note]=poses.find(p=>p[0]===menu.value);for(const mode of ['texture','wire']){const img=document.querySelector('#'+mode);img.src='poses/'+id+'-'+mode+'.png';img.alt=label+' — '+mode}document.querySelector('#finding').textContent=note}
+menu.addEventListener('change',update);update();
+</script>
+</html>

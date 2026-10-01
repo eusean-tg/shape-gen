@@ -1,0 +1,23 @@
+{
+  "argv": [
+    "/home/sean/workspace/shape-gen/third_party/LATO.2/scripts/e2e_inference.py",
+    "--mesh_dir",
+    "/home/sean/workspace/shape-gen/assets/makima-geometry-review/lato-input",
+    "--out_dir",
+    "/home/sean/workspace/shape-gen/assets/makima-geometry-review/lato-1200-noquad",
+    "--vert_num",
+    "1200",
+    "--batch_size",
+    "1",
+    "--num_workers",
+    "0",
+    "--seed",
+    "12345",
+    "--no-fill_quad_rings"
+  ],
+  "script": "/home/sean/workspace/shape-gen/third_party/LATO.2/scripts/e2e_inference.py",
+  "success": true,
+  "elapsed_seconds": 32.68816678610165,
+  "peak_allocated_mib": 5470.55810546875,
+  "peak_reserved_mib": 5544.0
+}

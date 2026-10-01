@@ -1,0 +1,156 @@
+{
+  "source_sha256": "07f0f685a406583cbbcbd86901a25de353ee08c5bef218f192dfa34770099ed4",
+  "bones": 28,
+  "body_vertices": 1121,
+  "total_triangles": 2289,
+  "tests": [
+    {
+      "name": "shoulder-raise-60",
+      "bone": "upper_arm.R",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "degrees": 60
+    },
+    {
+      "name": "elbow-bend-60",
+      "bone": "forearm.R",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "degrees": -60
+    },
+    {
+      "name": "elbow-bend-90",
+      "bone": "forearm.R",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "degrees": -90
+    },
+    {
+      "name": "hip-lift-45",
+      "bone": "thigh.R",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "degrees": -45
+    },
+    {
+      "name": "knee-bend-60",
+      "bone": "shin.R",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "degrees": 60
+    },
+    {
+      "name": "knee-bend-90",
+      "bone": "shin.R",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "degrees": 90
+    },
+    {
+      "name": "shoulder-raise-60-opposite",
+      "bone": "upper_arm.L",
+      "axis": [
+        0,
+        1,
+        0
+      ],
+      "degrees": -60
+    },
+    {
+      "name": "elbow-bend-90-opposite",
+      "bone": "forearm.L",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "degrees": -90
+    },
+    {
+      "name": "hip-lift-45-opposite",
+      "bone": "thigh.L",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "degrees": -45
+    },
+    {
+      "name": "knee-bend-90-opposite",
+      "bone": "shin.L",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "degrees": 90
+    },
+    {
+      "name": "hip-lift-20",
+      "bone": "thigh.R",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "degrees": -20
+    },
+    {
+      "name": "hip-lift-20-opposite",
+      "bone": "thigh.L",
+      "axis": [
+        1,
+        0,
+        0
+      ],
+      "degrees": -20
+    },
+    {
+      "name": "head-turn-30",
+      "bone": "head",
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "degrees": 30
+    },
+    {
+      "name": "chest-turn-20",
+      "bone": "upper_chest",
+      "axis": [
+        0,
+        0,
+        1
+      ],
+      "degrees": 20
+    }
+  ],
+  "rest_mesh_uvs_unchanged": true,
+  "action": "Deformation checks",
+  "action_frames": [
+    1,
+    337
+  ],
+  "weights_source": "assets/peasant-unirig/refined-rig-data.npz",
+  "pouch_binding": "rigid pelvis"
+}

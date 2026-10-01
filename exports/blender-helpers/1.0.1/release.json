@@ -1,0 +1,13 @@
+{
+  "bytes": 24872,
+  "download_url": "/helpers/blender-helpers/1.0.1/download",
+  "manifest_sha256": "dbe435125e2b1bbdacf13a4f2f48d002d70b9cca2538fde0769095431c3c0b4f",
+  "manifest_url": "/helpers/blender-helpers/1.0.1/manifest",
+  "name": "blender-helpers",
+  "rig_contract": {
+    "id": "peasant-humanoid",
+    "version": "1.0.0"
+  },
+  "sha256": "05af289b025d8bfc2750961b13fb4fb0cc32334e6a81f1bdc26373fcee2cb842",
+  "version": "1.0.1"
+}

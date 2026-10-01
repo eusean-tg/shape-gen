@@ -1,0 +1,121 @@
+{
+  "rest": {
+    "self_intersecting_faces": 0,
+    "face_indices": []
+  },
+  "hip-lift-45": {
+    "self_intersecting_faces": 8,
+    "face_indices": [
+      743,
+      744,
+      769,
+      770,
+      771,
+      780,
+      781,
+      782
+    ]
+  },
+  "knee-bend-90": {
+    "self_intersecting_faces": 17,
+    "face_indices": [
+      175,
+      176,
+      190,
+      191,
+      217,
+      218,
+      219,
+      220,
+      224,
+      226,
+      232,
+      234,
+      488,
+      489,
+      490,
+      492,
+      493
+    ]
+  },
+  "hip-lift-45-opposite": {
+    "self_intersecting_faces": 5,
+    "face_indices": [
+      810,
+      811,
+      1126,
+      1127,
+      1128
+    ]
+  },
+  "elbow-bend-60": {
+    "self_intersecting_faces": 0,
+    "face_indices": []
+  },
+  "knee-bend-90-opposite": {
+    "self_intersecting_faces": 17,
+    "face_indices": [
+      429,
+      430,
+      431,
+      432,
+      433,
+      434,
+      435,
+      436,
+      461,
+      463,
+      465,
+      467,
+      864,
+      865,
+      874,
+      875,
+      891
+    ]
+  },
+  "shoulder-raise-60": {
+    "self_intersecting_faces": 0,
+    "face_indices": []
+  },
+  "elbow-bend-90-opposite": {
+    "self_intersecting_faces": 11,
+    "face_indices": [
+      1616,
+      1656,
+      1661,
+      1662,
+      1664,
+      1665,
+      1666,
+      1720,
+      1721,
+      1722,
+      1725
+    ]
+  },
+  "knee-bend-60": {
+    "self_intersecting_faces": 0,
+    "face_indices": []
+  },
+  "elbow-bend-90": {
+    "self_intersecting_faces": 11,
+    "face_indices": [
+      1327,
+      1328,
+      1329,
+      1338,
+      1339,
+      1370,
+      1371,
+      1372,
+      1373,
+      1374,
+      1415
+    ]
+  },
+  "shoulder-raise-60-opposite": {
+    "self_intersecting_faces": 0,
+    "face_indices": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "size": 2048,
+  "occupied_texels": 2235062,
+  "region_texels": {
+    "0": 750790,
+    "1": 738210,
+    "2": 516052,
+    "3": 32024,
+    "4": 162496,
+    "5": 35490
+  },
+  "head_skin_and_buckle_texels_exact": true,
+  "preserved_buckle_texels": 996,
+  "swatches": "assets/peasant-material-masks/material-swatches.png",
+  "belt_height_range": [
+    0.085,
+    0.13
+  ]
+}

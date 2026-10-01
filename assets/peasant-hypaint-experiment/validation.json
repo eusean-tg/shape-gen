@@ -1,0 +1,36 @@
+{
+  "hypaint": {
+    "objects": {
+      "Original BPT pouch": {
+        "triangles": 76,
+        "triangle_coordinates_and_winding_unchanged": true,
+        "uvs_unchanged": true,
+        "embedded_texture_matches_png": true
+      },
+      "Peasant body": {
+        "triangles": 2213,
+        "triangle_coordinates_and_winding_unchanged": true,
+        "uvs_unchanged": true,
+        "embedded_texture_matches_png": true
+      }
+    },
+    "blend_sha256": "6f6f3ba08eaa352b7c5d311d022fa1d536ab840bf97632adf5814055ce130505"
+  },
+  "hypaint-imagegen": {
+    "objects": {
+      "Original BPT pouch": {
+        "triangles": 76,
+        "triangle_coordinates_and_winding_unchanged": true,
+        "uvs_unchanged": true,
+        "embedded_texture_matches_png": true
+      },
+      "Peasant body": {
+        "triangles": 2213,
+        "triangle_coordinates_and_winding_unchanged": true,
+        "uvs_unchanged": true,
+        "embedded_texture_matches_png": true
+      }
+    },
+    "blend_sha256": "07f0f685a406583cbbcbd86901a25de353ee08c5bef218f192dfa34770099ed4"
+  }
+}

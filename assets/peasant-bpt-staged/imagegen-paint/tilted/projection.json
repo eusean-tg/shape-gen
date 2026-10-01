@@ -1,0 +1,27 @@
+{
+  "source": "/home/sean/workspace/shape-gen/assets/peasant-bpt-staged/02-bpt.glb",
+  "source_sha256": "2604782c9a682b2b4100cecfb7b118e2204a747634d962be636fdcafdc16dcb3",
+  "triangles": 2279,
+  "texture_size": 2048,
+  "tile_size": 768,
+  "views": [
+    {
+      "elevation": 45,
+      "azimuth": 0
+    },
+    {
+      "elevation": 45,
+      "azimuth": 180
+    },
+    {
+      "elevation": -35,
+      "azimuth": 0
+    },
+    {
+      "elevation": -35,
+      "azimuth": 180
+    }
+  ],
+  "sheet_layout": "2x2 row-major",
+  "unwrapped_sha256": "4415c6b8eda470abd4984c94bbf66c9be3787748c09b46159c894669160061c0"
+}

@@ -1,0 +1,12 @@
+{
+  "method": "quadric_edge_collapse",
+  "target_triangles": 2000,
+  "input_triangles": 74448,
+  "output_triangles": 2000,
+  "vertices": 998,
+  "watertight": true,
+  "preserve_topology": true,
+  "elapsed_seconds": 0.637,
+  "source": "/home/sean/workspace/shape-gen/assets/setup-demo-mini/01-dense.glb",
+  "source_sha256": "430ea3b1930667c0886093c326e64e04ce52b935329fa5583c3b904992723659"
+}

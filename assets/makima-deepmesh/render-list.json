@@ -1,0 +1,8 @@
+{
+  "teal-dense": "../teal-peasant/dense/01-dense.glb",
+  "teal-bpt": "../teal-peasant/bpt/02-bpt.glb",
+  "teal-deepmesh": "teal/02-deepmesh.glb",
+  "makima-dense": "../makima-geometry-review/dense/result/01-dense.glb",
+  "makima-bpt": "../makima-geometry-review/bpt/result/02-bpt.glb",
+  "makima-deepmesh": "makima/02-deepmesh.glb"
+}

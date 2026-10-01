@@ -1,0 +1,122 @@
+{
+  "files": [
+    {
+      "bytes": 3597,
+      "name": "README.md",
+      "sha256": "8376fb4ba20cff3e2c08d4cc5b813b9f71486ece8fa3318fa2f24fd41279e7a8"
+    },
+    {
+      "bytes": 1737,
+      "name": "contracts/peasant-humanoid-v1.json",
+      "sha256": "c0f14a80ce83144e37e1552177a2e67a1acbdf5f5602977446a8522d4627ec33"
+    },
+    {
+      "bytes": 10605,
+      "name": "docs/blender-handoff.md",
+      "sha256": "49aa68bcc0c1d9a1f9c744724bbe3a1acafa75bcdfa7342ca7212d6b07089d30"
+    },
+    {
+      "bytes": 5915,
+      "name": "docs/motion-diagnostics.md",
+      "sha256": "daf26012503054043c9b93b23f7c3f78f877f5ce1c909b5ef93f9f9f4780c82a"
+    },
+    {
+      "bytes": 3260,
+      "name": "scripts/check_blender_rig_contract.py",
+      "sha256": "6657c43788e496142c9eb8e9430b5d6d85df41619e9c2813c395098777d475cd"
+    },
+    {
+      "bytes": 12836,
+      "name": "scripts/motion_diagnostics.py",
+      "sha256": "0cadc9a6e8d2d9b7a5f4ef52f05cab476163ac4b5d6ae8c62f253a985220ec64"
+    },
+    {
+      "bytes": 10712,
+      "name": "scripts/retarget_hymotion_peasant.py",
+      "sha256": "867dafca950545290ad9fb9ff9a47c76d031477c50445511ae8b820efac4f8e7"
+    },
+    {
+      "bytes": 5065,
+      "name": "scripts/review_api_motion.py",
+      "sha256": "9f33c00aa02c3005109939310b9921f43ec7427924864ab18e328e12e5bc3e43"
+    }
+  ],
+  "name": "blender-helpers",
+  "rig_contract": {
+    "bone_contract": "Reviewed semantic names; parent-before-child order; one pelvis root. Additional finger bones inherit parent motion.",
+    "fps": 30,
+    "id": "peasant-humanoid",
+    "motion_arrays": {
+      "joint_names": "J strings",
+      "parents": "J, root -1",
+      "rest_joints": "J x 3",
+      "rotations": [
+        1,
+        120,
+        22,
+        3,
+        3
+      ],
+      "transl": [
+        1,
+        120,
+        3
+      ]
+    },
+    "motion_coordinates": "HY-Motion Y-up, forward +Z",
+    "objects": {
+      "armature": "Peasant rig",
+      "body": "Peasant body",
+      "optional_legacy_pouch": "Original BPT pouch"
+    },
+    "python_dependencies": {
+      "blender": [
+        "bpy",
+        "mathutils",
+        "numpy"
+      ],
+      "standalone_diagnostics": [
+        "numpy"
+      ]
+    },
+    "required_support_files": [
+      "Caller-provided source .blend with camera, triangulated body, active UVs and packed node textures",
+      "Downloaded HY-Motion motion.npz"
+    ],
+    "scope": "Reference retargeter and preservation review for this rig contract, not automatic arbitrary-rig mapping or cleanup",
+    "speed_and_loop_constraints": false,
+    "target_coordinates": "Blender Z-up, forward -Y; identity armature world transform",
+    "target_to_source_joint": {
+      "chest": 6,
+      "clavicle.L": 13,
+      "clavicle.R": 14,
+      "foot.L": 7,
+      "foot.R": 8,
+      "forearm.L": 18,
+      "forearm.R": 19,
+      "hand.L": 20,
+      "hand.R": 21,
+      "head": 15,
+      "neck": 12,
+      "pelvis": 0,
+      "shin.L": 4,
+      "shin.R": 5,
+      "spine": 3,
+      "thigh.L": 1,
+      "thigh.R": 2,
+      "toe.L": 10,
+      "toe.R": 11,
+      "upper_arm.L": 16,
+      "upper_arm.R": 17,
+      "upper_chest": 9
+    },
+    "tested_blender_versions": [
+      "5.2.1"
+    ],
+    "version": "1.0.0",
+    "visual_acceptance": "pending"
+  },
+  "runs_on": "consumer",
+  "schema_version": 1,
+  "version": "1.0.0"
+}

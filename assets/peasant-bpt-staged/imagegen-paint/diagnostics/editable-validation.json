@@ -1,0 +1,11 @@
+{
+  "geometry_0": {
+    "vertices_before": 2092,
+    "vertices_after": 1152,
+    "faces": 2279,
+    "faces_flipped_by_recalculate": 0,
+    "boundary_edges": 37,
+    "overconnected_edges": 9,
+    "face_coordinates_winding_uvs_materials_unchanged": true
+  }
+}

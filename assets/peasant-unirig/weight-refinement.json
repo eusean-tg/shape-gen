@@ -1,0 +1,10 @@
+{
+  "method": "Copy left weights to matching right vertices, swapping L/R bone names.",
+  "symmetry_plane_x": -0.022240787744522095,
+  "match_tolerance": 0.002,
+  "matched_right_vertices": 528,
+  "changed_vertices": 480,
+  "max_matching_distance": 1.4901161193847656e-08,
+  "geometry_uvs_and_joint_positions_changed": false,
+  "limitation": "High hip lifts still fold the central tunic. No geometry repair or cloth simulation."
+}

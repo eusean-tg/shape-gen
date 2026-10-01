@@ -1,0 +1,15 @@
+input_dataset_dir: ./dataset_inference
+output_dataset_dir: ./dataset_inference_clean
+predict_dataset_config:
+  shuffle: false
+  batch_size: 1
+  num_workers: 0
+  pin_memory: false
+  persistent_workers: false
+  datapath_config:
+    input_dataset_dir: /home/sean/workspace/shape-gen/assets/teal-peasant/rig/data
+    use_prob: false
+    data_path:
+      inference:
+      - - /home/sean/workspace/shape-gen/assets/teal-peasant/rig/data/inference.txt
+        - 1.0

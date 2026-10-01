@@ -1,0 +1,26 @@
+{
+  "note": "Installed experimental checkpoint/source identities, 2026-09-22. No automatic downloads.",
+  "dinov3": {
+    "repo": "facebook/dinov3-vitl16-pretrain-lvd1689m",
+    "revision": "ea8dc2863c51be0a264bab82070e3e8836b02d51",
+    "sha256": "dcb2e45127cccbf1601e5f42fef165eea275c8e5213197e8dcf3f48822718179"
+  },
+  "upstream_commits": {
+    "DeepMesh": "940d23ee2b5e4e94c565c800b49d6563c575c26d",
+    "LATO.2": "fbb1f5a5755e6db8700cf6922fd506830b7cdccd",
+    "TRELLIS": "442aa1e1afb9014e80681d3bf604e8d728a86ee7",
+    "TRELLIS.2": "75fbf0183001ed9876c8dbb35de6b68552ee08bd",
+    "lato2-trellis": "75fbf0183001ed9876c8dbb35de6b68552ee08bd",
+    "CuMesh": "12289e1062f0603f2f0d0771b02e1395d247f26f",
+    "FlexGEMM": "6dd94a859c26ee8246888502eada3dd8ad85532e"
+  },
+  "lato2_checkpoints": {
+    "voxel_encoder.pt": "c304e36651f2a8c63d5b30d0716a4a8ab4ef505fe39311d060e04e5ab253d4ce",
+    "vdf_encoder.pt": "79c461652bc9307126ef02e5ada4a4e6c6434bc00b9d6c05043fe39a9f0819ce",
+    "vflow.pt": "a5c660601af9ce9909feb5157cfd456d81b0498835d7ba4129a7d4267a8927d3",
+    "offset_head.pt": "b9ab60321ffa1026813b4cb79eba7a9d224ccd77e01e6b2c84fd29cad301c9df",
+    "vvae.pt": "b1192e3e6301dee5ee3dac37d411f82141ee1a8764707f0ea5b7746052342d44",
+    "tflow.pt": "5ac0033544b813ec046f00d5f12d3b488a91a98c1bfef0560948fb4c6b52c6ad",
+    "tvae.pt": "b109bcf2bc42abea89a3563e3fefa9509f9cd523501d5c62d78108380a3db17c"
+  }
+}

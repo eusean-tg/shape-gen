@@ -1,0 +1,58 @@
+{
+  "status": "complete",
+  "started_at": "2026-09-17T06:27:01.871306+00:00",
+  "model": "tencent/Hunyuan3D-2mv",
+  "model_choice": "mv",
+  "subfolder": "hunyuan3d-dit-v2-mv",
+  "model_revision": "3a761b539b29fe4ff64714813aa9560fd66f5de0",
+  "checkpoint_sha256": "d36f5881bcdc56726b73e517cd444c13c60732431622da7268145355c8d38e9c",
+  "config_sha256": "315fd5bf601d1d103130b9fda202f1bd28eda495e68ed1621bc823d5519c5e5b",
+  "source_image": "/home/sean/workspace/shape-gen/assets/peasant-turnaround/front.png",
+  "source_image_sha256": "1d830a34899acc646ff140ef1d74eef9db6ccf5c65e8afca4c403f56f7cd75ce",
+  "processed_image_sha256": "da316a84d411538a0ce225dbbd38378cb76b79a340721fffda48de77878bf915",
+  "background_removed": false,
+  "steps": 50,
+  "resolution": 128,
+  "chunks": 1024,
+  "target_triangles": null,
+  "seed": 12345,
+  "guidance": 5.0,
+  "precision": "fp16",
+  "offload": "conditioner -> model -> vae, one component on GPU at a time",
+  "mesh_extractor": "mc",
+  "torch": "2.7.1+cu126",
+  "cuda": "12.6",
+  "gpu": "NVIDIA GeForce RTX 3050",
+  "dependency_lock_sha256": "617e09b8a31fa345e3d6f9bc74ac5560451b939f0e8974f2294d48db7dae1e37",
+  "source_commit": "f8db63096c8282cb27354314d896feba5ba6ff8a",
+  "views": {
+    "front": {
+      "source": "/home/sean/workspace/shape-gen/assets/peasant-turnaround/front.png",
+      "source_sha256": "1d830a34899acc646ff140ef1d74eef9db6ccf5c65e8afca4c403f56f7cd75ce",
+      "processed_image": "/home/sean/workspace/shape-gen/assets/peasant-mv-setup/views/front.png",
+      "processed_sha256": "da316a84d411538a0ce225dbbd38378cb76b79a340721fffda48de77878bf915",
+      "background_removed": false
+    },
+    "left": {
+      "source": "/home/sean/workspace/shape-gen/assets/peasant-turnaround/left.png",
+      "source_sha256": "ff8c37a222981f6c13427949a5c579571bbb48a44947d870d0b90f88a775d75e",
+      "processed_image": "/home/sean/workspace/shape-gen/assets/peasant-mv-setup/views/left.png",
+      "processed_sha256": "b099e130977179666890a7ddd47ab31521be06180b0a621dddc0c0613f7f1490",
+      "background_removed": false
+    },
+    "back": {
+      "source": "/home/sean/workspace/shape-gen/assets/peasant-turnaround/back.png",
+      "source_sha256": "f80ebb04c91813e046bef3bcc157580a3e914669eaf549b46c2b2fc47aaae666",
+      "processed_image": "/home/sean/workspace/shape-gen/assets/peasant-mv-setup/views/back.png",
+      "processed_sha256": "498824730b150e229604ddd6037d41f7ae456462ce24824519f1e625ae2d0bf0",
+      "background_removed": false
+    }
+  },
+  "dense_mesh_saved": true,
+  "vertices": 19077,
+  "faces": 38162,
+  "watertight": true,
+  "elapsed_seconds": 160.32,
+  "peak_allocated_vram_mib": 2764.0,
+  "peak_reserved_vram_mib": 3278.0
+}

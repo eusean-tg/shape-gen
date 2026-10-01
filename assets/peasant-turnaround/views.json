@@ -1,0 +1,64 @@
+{
+  "generator": "built-in image_gen",
+  "intended_model": "tencent/Hunyuan3D-2mv",
+  "views": {
+    "front": {
+      "file": "front.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "foreground_bounds": [
+        354,
+        88,
+        900,
+        1174
+      ],
+      "sha256": "1d830a34899acc646ff140ef1d74eef9db6ccf5c65e8afca4c403f56f7cd75ce"
+    },
+    "left": {
+      "file": "left.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "foreground_bounds": [
+        532,
+        92,
+        727,
+        1177
+      ],
+      "sha256": "ff8c37a222981f6c13427949a5c579571bbb48a44947d870d0b90f88a775d75e"
+    },
+    "back": {
+      "file": "back.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "foreground_bounds": [
+        351,
+        86,
+        903,
+        1176
+      ],
+      "sha256": "f80ebb04c91813e046bef3bcc157580a3e914669eaf549b46c2b2fc47aaae666"
+    }
+  },
+  "validation": "Visually checked; independently generated views, not exact renders of one shared 3D mesh. Reconstruction has not been tested."
+}

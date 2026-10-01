@@ -1,0 +1,15 @@
+{
+  "id": "teal-v1",
+  "description": "Accepted 34-bone teal peasant. Raw 4-second motion candidates; no automatic loop/contact cleanup.",
+  "source_blend": "assets/teal-peasant/idle-set/final/teal-character.blend",
+  "rig_asset_id": "05fb2b89af9ba842cfc1e9717fbe5fd4918f9bf93e1131edac510d438da5cb9c",
+  "bones": 34,
+  "body_object": "Peasant body",
+  "armature_object": "Peasant rig",
+  "texture_directory": "assets/teal-peasant/collar-fix/textures",
+  "sidecars": {
+    "clothing-mask.png": "fb76034d78713b27818bc53878e81e2d01daed75865311cf27be4169e9aabfc7",
+    "clothing-palette.json": "89b0a6c7d33256ab7498eeaa4e9fb301b050d9bb5d6eff51e12dc67ae81a6185"
+  },
+  "coordinate_system": "Blender Z-up / -Y forward; GLB Y-up / +Z forward"
+}

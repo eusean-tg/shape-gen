@@ -1,0 +1,9 @@
+{
+  "checkpoint_verified": true,
+  "strict_state_dict_load": true,
+  "full_cuda_inference_eos": true,
+  "blender_import_and_four_renders": true,
+  "cpu_encoder_token_limit_handling": true,
+  "existing_output_preserved": true,
+  "dependency_check_passed": true
+}

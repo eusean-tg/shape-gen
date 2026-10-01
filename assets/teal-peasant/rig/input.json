@@ -1,0 +1,14 @@
+{
+  "source": "/home/sean/workspace/shape-gen/assets/teal-peasant/bpt/02-bpt.glb",
+  "source_sha256": "1c0bae58772d0f3f4e69833dd8eb1df8fa70b46e0c945ec09a552c08d3ad465b",
+  "object": "Peasant body",
+  "vertices": 730,
+  "triangles": 1460,
+  "normalization_center": [
+    0.0,
+    7.450580596923828e-09,
+    0.9876930713653564
+  ],
+  "normalization_half_extent": 0.9876930713653564,
+  "coordinate_system": "Blender Z-up, forward -Y, soles at Z=0"
+}

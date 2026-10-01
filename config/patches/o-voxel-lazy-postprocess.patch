@@ -1,0 +1,24 @@
+diff --git a/o-voxel/o_voxel/__init__.py b/o-voxel/o_voxel/__init__.py
+index 263b753..7e5f296 100644
+--- a/o-voxel/o_voxel/__init__.py
++++ b/o-voxel/o_voxel/__init__.py
+@@ -1,7 +1,16 @@
+ from . import (
+     convert,
+     io,
+-    postprocess,
+     rasterize,
+     serialize
+-)
+\ No newline at end of file
++)
++
++# Local inference-only setup: postprocess requires texture/mesh packages that
++# LATO.2's mesh-to-voxel path never uses. Keep it available on explicit access.
++def __getattr__(name):
++    if name == 'postprocess':
++        import importlib
++        module = importlib.import_module('.postprocess', __name__)
++        globals()[name] = module
++        return module
++    raise AttributeError(name)

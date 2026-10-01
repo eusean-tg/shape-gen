@@ -1,0 +1,64 @@
+{
+  "teal": {
+    "output_bounds": [
+      [
+        -0.34504076838493347,
+        -1.0022536516189575,
+        -0.26666274666786194
+      ],
+      [
+        0.3447118103504181,
+        0.9853765964508057,
+        0.08025425672531128
+      ]
+    ],
+    "source_bounds": [
+      [
+        -0.34539827704429626,
+        -1.0010292530059814,
+        -0.26808950304985046
+      ],
+      [
+        0.3450693190097809,
+        0.9841522574424744,
+        0.0816810131072998
+      ]
+    ],
+    "source_extent": 1.9851815104484558,
+    "symmetric_mean_sample_distance": 0.00843071674213617,
+    "purpose": "Check source-coordinate convention only; surface-sample distances are not a semantic quality score",
+    "finite": true,
+    "decoder_output_axes": "XYZ; normalization undone without rotation"
+  },
+  "makima": {
+    "output_bounds": [
+      [
+        -0.8999747037887573,
+        -1.0025584697723389,
+        -0.19539141654968262
+      ],
+      [
+        0.8893758058547974,
+        0.9915230870246887,
+        0.18131393194198608
+      ]
+    ],
+    "source_bounds": [
+      [
+        -0.9003674387931824,
+        -1.0013301372528076,
+        -0.19910629093647003
+      ],
+      [
+        0.8897686004638672,
+        0.9902946949005127,
+        0.18093419075012207
+      ]
+    ],
+    "source_extent": 1.9916248321533203,
+    "symmetric_mean_sample_distance": 0.007920703443254653,
+    "purpose": "Check source-coordinate convention only; surface-sample distances are not a semantic quality score",
+    "finite": true,
+    "decoder_output_axes": "XYZ; normalization undone without rotation"
+  }
+}

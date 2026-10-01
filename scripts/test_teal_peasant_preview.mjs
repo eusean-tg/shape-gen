@@ -1,0 +1,30 @@
+import assert from 'node:assert/strict';
+import {chromium} from '../.toolchain/motion-review/node_modules/playwright/index.mjs';
+const browser=await chromium.launch({headless:true,args:['--no-sandbox','--use-angle=swiftshader','--enable-webgl']});
+try{
+ const page=await browser.newPage({viewport:{width:1280,height:1080}}),errors=[];page.on('pageerror',e=>errors.push(e.message));
+ const ready=()=>page.waitForFunction(()=>window.motionViewerReady && !window.modelPreview.state.loading);
+ const seek=t=>page.locator('#time').evaluate((e,t)=>{e.value=t;e.dispatchEvent(new Event('input'))},t);
+ await page.goto('http://localhost:5173/preview/');await ready();
+ assert.equal(await page.locator('#version').inputValue(),'teal-character');
+ await page.locator('#version').selectOption('teal-walk');await ready();
+ const matrices=()=>page.evaluate(()=>{let values=[];window.modelPreview.scene.traverse(o=>{if(o.isBone)values.push(...o.matrixWorld.elements)});return values});
+ await seek(0);const first=await matrices();assert.equal(first.length,34*16);
+ await seek(await page.evaluate(()=>window.modelPreview.state.duration));const last=await matrices();
+ assert(Math.max(...first.map((x,i)=>Math.abs(x-last[i])))<1e-5);
+ await page.locator('#loop').check();await page.locator('#restart').click();
+ await page.waitForFunction(()=>window.modelPreview.state.loopCount>=2);
+ assert(await page.evaluate(()=>window.modelPreview.state.playing));
+ await seek(.3);await page.screenshot({path:'/tmp/teal-final-preview.png'});
+ await page.locator('#version').selectOption('teal-rest');await ready();
+ assert(await page.locator('#play').isDisabled());assert(!(await page.locator('#skeleton').isDisabled()));
+ await page.screenshot({path:'/tmp/teal-rest-preview.png'});
+ await page.locator('#version').selectOption('teal-contact');await ready();
+ const foot=()=>page.evaluate(()=>{const v=window.modelPreview,p=v.controls.target.clone();v.scene.getObjectByName('footL').getWorldPosition(p);return [p.x,p.z]});
+ await seek(.025);const a=await foot();await seek(.1);const b=await foot();assert(Math.hypot(a[0]-b[0],a[1]-b[1])<.001);
+ const link=await page.locator('#asset-source').getAttribute('href');assert((await page.request.get(link)).ok());
+ await page.locator('#version').selectOption('walk-cycle');await ready();
+ assert.equal((await matrices()).length,28*16,'Old character remains available');
+ assert.deepEqual(errors,[]);
+ console.log('PASS: new default, 34 bones, matching loop endpoints, repeated playback, static rig inspection, contact check, Blender download and preserved old character.');
+}finally{await browser.close()}
